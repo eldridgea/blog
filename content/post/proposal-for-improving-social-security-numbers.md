@@ -3,7 +3,7 @@ author = "Eldridge Alexander"
 date = 2017-10-10T02:00:00Z
 description = ""
 draft = false
-image = "/images/2017/10/intro.jpg"
+image = "/img/proposal.jpg"
 slug = "proposal-for-improving-social-security-numbers"
 title = "Proposal For Improving Social Security Numbers"
 

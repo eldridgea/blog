@@ -3,7 +3,7 @@ author = "Eldridge Alexander"
 date = 2015-08-24T04:22:47Z
 description = ""
 draft = false
-image = "/images/2015/08/6978815038_6d41a935f9_k.jpg"
+image = "img/6978815038_6d41a935f9_k.jpg"
 slug = "project-transmute"
 title = "Project Transmute"
 

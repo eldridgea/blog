@@ -3,7 +3,7 @@ author = "Eldridge Alexander"
 date = 2015-03-22T04:20:50Z
 description = ""
 draft = false
-image = "/images/2015/03/800px-Golden_Gate_Bridge_Yang_Ming_Line.jpg"
+image = "img/800px-Golden_Gate_Bridge_Yang_Ming_Line.jpg"
 slug = "golden-gate-nginx-config-files"
 title = "Golden Gate Nginx Config Files"
 

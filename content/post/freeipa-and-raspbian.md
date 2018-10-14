@@ -3,7 +3,7 @@ author = "Eldridge Alexander"
 date = 2017-08-10T01:58:41Z
 description = ""
 draft = false
-image = "/images/2017/08/RaspberryPi.jpg"
+image = "/img/RaspberryPi.jpg"
 slug = "freeipa-and-raspbian"
 title = "FreeIPA and Raspbian"
 

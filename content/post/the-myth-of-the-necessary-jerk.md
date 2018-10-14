@@ -3,7 +3,7 @@ author = "Eldridge Alexander"
 date = 2017-04-11T14:31:11Z
 description = ""
 draft = false
-image = "/images/2017/03/4265771518_be7505810d_o.jpg"
+image = "/img/4265771518_be7505810d_o.jpg"
 slug = "the-myth-of-the-necessary-jerk"
 title = "The Myth of the Necessary Jerk"
 

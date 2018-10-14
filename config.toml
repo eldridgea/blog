@@ -20,9 +20,9 @@ paginate        = 6
   githubName = "eldridgea"
 
   #logo = "hugo-logo.png"
-  orgName = "EM"
+  #orgName = "EM"
   orgWebsite = "https://eldrid.ge"
-  orgDescription = "Here is a description placeholder for your org"
+  #orgDescription = "Here is a description placeholder for your org"
 
   author = "Eldridge"
   authorAvatar = "img/eldridge_alexander.jpg"
@@ -36,9 +36,14 @@ paginate        = 6
   singleViewStyle = "casper"
 
 [permalinks]
-  post = "/:slug/"
+  post = ":year/:month/:day/:slug/"
+
+[[menu.main]]
+  name = "Blog"
+  url = "/"
+  weight = 200
 
 [[menu.main]]
   name = "Home"
-  url = "/"
-  weight = 200
+  url = "https://eldrid.ge"
+  weight = 300

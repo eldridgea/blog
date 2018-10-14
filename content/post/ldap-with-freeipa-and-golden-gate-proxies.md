@@ -3,7 +3,7 @@ author = "Eldridge Alexander"
 date = 2017-06-20T06:54:05Z
 description = ""
 draft = false
-image = "/images/2017/06/800px-Golden_Gate_Bridge_Yang_Ming_Line.jpg"
+image = "/img/800px-Golden_Gate_Bridge_Yang_Ming_Line.jpg"
 slug = "ldap-with-freeipa-and-golden-gate-proxies"
 title = "LDAP With FreeIPA and Golden Gate Proxies"
 
