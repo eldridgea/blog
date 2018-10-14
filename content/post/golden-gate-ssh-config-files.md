@@ -1,0 +1,24 @@
++++
+author = "Eldridge Alexander"
+date = 2015-03-29T04:35:09Z
+description = ""
+draft = false
+image = "/images/2015/06/800px-Golden_Gate_Bridge_Yang_Ming_Line.jpg"
+slug = "golden-gate-ssh-config-files"
+title = "Golden Gate SSH Config Files"
+
++++
+
+In addition to my [Golden Gate proxy](https://blog.eldridgealexander.com/2014/12/23/goldengate/) providing security for web requests, I needed it to assist in securing SSH requests as well. SSH is already as secure as I need it, but I wanted to avoid exposing my servers directly to the Internet. 
+
+For my internal services I added this to the ~/.ssh/config file on my laptop (replace USERNAME and PROXY_IP as appropriate):
+
+    Host *.naphos.com
+        User USERNAME
+        ProxyCommand ssh -q -x USERNAME@PROXY_IP -W %h:%p
+        
+ This makes any SSH or SFTP request from my laptop to *internal.naphos.com* initiate a connection to *PROXY_IP*, and then automatically pass the request on to *internal.naphos.com*.
+ 
+I use certificate-based authentication for my SSH connections, so the same certificate that authenticates my laptop to *internal* also authenticates me to *PROXY_IP*.
+
+**EDIT:** I moved the config from using *netcat* to using the *ssh -W* to ensure that encryption is used all the way to the destination.

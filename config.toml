@@ -1,0 +1,44 @@
+baseurl         = "/"
+theme           = "casper-two"
+languageCode    = "en-US"
+disqusShortname = ""
+paginate        = 6
+#SectionPagesMenu = "main"
+
+[params]
+  title       = "Eldridge's Blog"
+  #subtitle    = "Port of Casper 2.x for Hugo"
+
+  cover       = "img/blog-background.jpg"
+  description = "Eldridge's Personal Blog"
+  metaDescription = ""
+  googleAnalytics = ""
+  customCSS = []
+  RSSLink = ""
+
+  twitterName = "magiceldridge"
+  githubName = "eldridgea"
+
+  #logo = "hugo-logo.png"
+  orgName = "EM"
+  orgWebsite = "https://eldrid.ge"
+  orgDescription = "Here is a description placeholder for your org"
+
+  author = "Eldridge"
+  authorAvatar = "img/eldridge_alexander.jpg"
+  authorLocation = "Ann Arbor, MI"
+  authorWebsite = "https://eldrid.ge"
+  authorDescription = "Manager of Duo Labs at Duo Security. Formerly employed at Cloudflare and at Google. Technologist, magician, designer, musician, videographer, blogger, and avid sweet tea drinker."
+
+  pageNotFoundTitle = "404 - Page not found"
+
+  #casper or caspertwo
+  singleViewStyle = "casper"
+
+[permalinks]
+  post = "/:slug/"
+
+[[menu.main]]
+  name = "Home"
+  url = "/"
+  weight = 200
