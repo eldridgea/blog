@@ -1,0 +1,276 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Categories on </title>
+    <link>/categories/</link>
+    <description>Recent content in Categories on </description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-US</language>
+    <lastBuildDate>Tue, 30 Dec 2014 04:57:58 +0000</lastBuildDate>
+    
+	<atom:link href="/categories/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>Authentication</title>
+      <link>/categories/authentication/</link>
+      <pubDate>Tue, 30 Dec 2014 04:57:58 +0000</pubDate>
+      
+      <guid>/categories/authentication/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Broswer</title>
+      <link>/categories/broswer/</link>
+      <pubDate>Tue, 19 May 2015 20:34:28 +0000</pubDate>
+      
+      <guid>/categories/broswer/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Chrome</title>
+      <link>/categories/chrome/</link>
+      <pubDate>Tue, 19 May 2015 20:34:28 +0000</pubDate>
+      
+      <guid>/categories/chrome/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Chromebook</title>
+      <link>/categories/chromebook/</link>
+      <pubDate>Sun, 28 Feb 2016 04:41:09 +0000</pubDate>
+      
+      <guid>/categories/chromebook/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Chromeos</title>
+      <link>/categories/chromeos/</link>
+      <pubDate>Sun, 28 Feb 2016 04:41:09 +0000</pubDate>
+      
+      <guid>/categories/chromeos/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Client Devices</title>
+      <link>/categories/client-devices/</link>
+      <pubDate>Tue, 30 Dec 2014 04:39:15 +0000</pubDate>
+      
+      <guid>/categories/client-devices/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Cloudflare</title>
+      <link>/categories/cloudflare/</link>
+      <pubDate>Wed, 26 Sep 2018 22:57:01 +0000</pubDate>
+      
+      <guid>/categories/cloudflare/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Data Storage</title>
+      <link>/categories/data-storage/</link>
+      <pubDate>Tue, 30 Dec 2014 04:54:15 +0000</pubDate>
+      
+      <guid>/categories/data-storage/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Dns</title>
+      <link>/categories/dns/</link>
+      <pubDate>Wed, 26 Sep 2018 22:57:01 +0000</pubDate>
+      
+      <guid>/categories/dns/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Dynamicdns</title>
+      <link>/categories/dynamicdns/</link>
+      <pubDate>Wed, 26 Sep 2018 22:57:01 +0000</pubDate>
+      
+      <guid>/categories/dynamicdns/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Edge</title>
+      <link>/categories/edge/</link>
+      <pubDate>Tue, 19 May 2015 20:34:28 +0000</pubDate>
+      
+      <guid>/categories/edge/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Encryption</title>
+      <link>/categories/encryption/</link>
+      <pubDate>Tue, 30 Dec 2014 04:39:15 +0000</pubDate>
+      
+      <guid>/categories/encryption/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Firefox</title>
+      <link>/categories/firefox/</link>
+      <pubDate>Tue, 19 May 2015 20:34:28 +0000</pubDate>
+      
+      <guid>/categories/firefox/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Goldengate</title>
+      <link>/categories/goldengate/</link>
+      <pubDate>Thu, 24 Nov 2016 23:25:13 +0000</pubDate>
+      
+      <guid>/categories/goldengate/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Hoemlab</title>
+      <link>/categories/hoemlab/</link>
+      <pubDate>Wed, 26 Sep 2018 22:57:01 +0000</pubDate>
+      
+      <guid>/categories/hoemlab/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Lastpass</title>
+      <link>/categories/lastpass/</link>
+      <pubDate>Tue, 30 Dec 2014 04:57:26 +0000</pubDate>
+      
+      <guid>/categories/lastpass/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Linuxadmin</title>
+      <link>/categories/linuxadmin/</link>
+      <pubDate>Sun, 28 Feb 2016 04:41:09 +0000</pubDate>
+      
+      <guid>/categories/linuxadmin/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Nas</title>
+      <link>/categories/nas/</link>
+      <pubDate>Tue, 30 Dec 2014 04:54:15 +0000</pubDate>
+      
+      <guid>/categories/nas/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Nginx</title>
+      <link>/categories/nginx/</link>
+      <pubDate>Thu, 24 Nov 2016 23:25:13 +0000</pubDate>
+      
+      <guid>/categories/nginx/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Opera</title>
+      <link>/categories/opera/</link>
+      <pubDate>Tue, 19 May 2015 20:34:28 +0000</pubDate>
+      
+      <guid>/categories/opera/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Password Management</title>
+      <link>/categories/password-management/</link>
+      <pubDate>Tue, 30 Dec 2014 04:57:26 +0000</pubDate>
+      
+      <guid>/categories/password-management/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Proxy</title>
+      <link>/categories/proxy/</link>
+      <pubDate>Thu, 24 Nov 2016 23:25:13 +0000</pubDate>
+      
+      <guid>/categories/proxy/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Reverse Proxy</title>
+      <link>/categories/reverse-proxy/</link>
+      <pubDate>Tue, 23 Dec 2014 21:23:44 +0000</pubDate>
+      
+      <guid>/categories/reverse-proxy/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Safari</title>
+      <link>/categories/safari/</link>
+      <pubDate>Tue, 19 May 2015 20:34:28 +0000</pubDate>
+      
+      <guid>/categories/safari/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Security</title>
+      <link>/categories/security/</link>
+      <pubDate>Thu, 24 Nov 2016 23:25:13 +0000</pubDate>
+      
+      <guid>/categories/security/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Servers</title>
+      <link>/categories/servers/</link>
+      <pubDate>Tue, 30 Dec 2014 04:54:15 +0000</pubDate>
+      
+      <guid>/categories/servers/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Ssh</title>
+      <link>/categories/ssh/</link>
+      <pubDate>Sun, 28 Feb 2016 04:41:09 +0000</pubDate>
+      
+      <guid>/categories/ssh/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Two Factor</title>
+      <link>/categories/two-factor/</link>
+      <pubDate>Tue, 30 Dec 2014 04:57:58 +0000</pubDate>
+      
+      <guid>/categories/two-factor/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Web</title>
+      <link>/categories/web/</link>
+      <pubDate>Tue, 19 May 2015 20:34:28 +0000</pubDate>
+      
+      <guid>/categories/web/</guid>
+      <description></description>
+    </item>
+    
+  </channel>
+</rss>

@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Data Storage on </title>
+    <link>/categories/data-storage/</link>
+    <description>Recent content in Data Storage on </description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-US</language>
+    <lastBuildDate>Tue, 30 Dec 2014 04:54:15 +0000</lastBuildDate>
+    
+	<atom:link href="/categories/data-storage/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>Security Measures: Servers and Data Storage</title>
+      <link>/2014/12/30/security-measure-servers-and-data-storage/</link>
+      <pubDate>Tue, 30 Dec 2014 04:54:15 +0000</pubDate>
+      
+      <guid>/2014/12/30/security-measure-servers-and-data-storage/</guid>
+      <description>This is a brief description of my security practices. I will make several posts and write updates as I make changes.
+Servers I keep my data on a server running NAS4Free with one drive of parity. I also have servers running as VMs on a server running KVM and WebVirtMgr.
+ On my NAS I only connect via encrypted methods such as AFP and SSH On my next upgrade, I will have my NAS encrypt on disk I only connect remotely to any of my servers/NAS via SSH or HTTPS  Photo Credit: https://www.</description>
+    </item>
+    
+  </channel>
+</rss>

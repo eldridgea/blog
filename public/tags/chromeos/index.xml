@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Chromeos on </title>
+    <link>/tags/chromeos/</link>
+    <description>Recent content in Chromeos on </description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-US</language>
+    <lastBuildDate>Sun, 28 Feb 2016 04:41:09 +0000</lastBuildDate>
+    
+	<atom:link href="/tags/chromeos/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>SSH Relay for ChromeOS</title>
+      <link>/2016/02/28/proxy-ssh-for-chromeos/</link>
+      <pubDate>Sun, 28 Feb 2016 04:41:09 +0000</pubDate>
+      
+      <guid>/2016/02/28/proxy-ssh-for-chromeos/</guid>
+      <description>I am a fairly heavy user of ChromeOS. Most of my &amp;ldquo;actual work&amp;rdquo; is done on my server so ChromeOS makes for a great laptop OS for me. However it is not compatible with my &amp;ldquo;Golden Gate&amp;rdquo; SSH setup as the Secure Shell extension for Chrome does not support ProxyCommand. There is a relay option that is used internally at Google that is unfortunately not open sourced.
+However, I was able to find a reverse engineered relay server.</description>
+    </item>
+    
+  </channel>
+</rss>

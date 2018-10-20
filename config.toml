@@ -14,7 +14,7 @@ paginate        = 6
   metaDescription = ""
   googleAnalytics = ""
   customCSS = []
-  RSSLink = ""
+  #RSSLink = "/post/index.xml"
 
   twitterName = "magiceldridge"
   githubName = "eldridgea"
@@ -47,3 +47,8 @@ paginate        = 6
   name = "Home"
   url = "https://eldrid.ge"
   weight = 300
+
+[[menu.main]]
+  name = "Subscribe"
+  url = "/post/index.xml"
+  weight = 100

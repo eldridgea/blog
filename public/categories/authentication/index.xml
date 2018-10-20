@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Authentication on </title>
+    <link>/categories/authentication/</link>
+    <description>Recent content in Authentication on </description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-US</language>
+    <lastBuildDate>Tue, 30 Dec 2014 04:57:58 +0000</lastBuildDate>
+    
+	<atom:link href="/categories/authentication/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>Security Measures: Two-Factor</title>
+      <link>/2014/12/30/security-measures/</link>
+      <pubDate>Tue, 30 Dec 2014 04:57:58 +0000</pubDate>
+      
+      <guid>/2014/12/30/security-measures/</guid>
+      <description>This is a brief description of my security practices. I will make several posts and write updates as I make changes.
+Two-Factor Authentication I enable two-factor authentication whenever possible. I use multiple apps to do this, but I usually use Google Authenticator&amp;rsquo;s TOTP. I have this enabled on:
+ Google LastPass Dreamhost Outlook.com Facebook Dropbox DigitalOcean  Facebook also can generate two-factor codes from within the app. It&amp;rsquo;s the same TOTP method though.</description>
+    </item>
+    
+  </channel>
+</rss>
