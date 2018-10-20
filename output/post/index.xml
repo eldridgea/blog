@@ -6,10 +6,19 @@
     <description>Recent content in Posts on </description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-US</language>
-    <lastBuildDate>Wed, 26 Sep 2018 22:57:01 +0000</lastBuildDate>
+    <lastBuildDate>Sat, 20 Oct 2018 20:50:01 +0000</lastBuildDate>
     
 	<atom:link href="/post/index.xml" rel="self" type="application/rss+xml" />
     
+    
+    <item>
+      <title>This is a Test Post</title>
+      <link>/2018/10/20/test-post/</link>
+      <pubDate>Sat, 20 Oct 2018 20:50:01 +0000</pubDate>
+      
+      <guid>/2018/10/20/test-post/</guid>
+      <description>This is a test post Lorem ipsum dolor sit amet, consectetur adipiscing elit. Mauris volutpat in erat eget rhoncus. Pellentesque vitae justo est. Sed quis ultricies orci. Mauris eros tellus, sodales ut maximus sed, convallis eu lorem. Pellentesque eu cursus mauris. Curabitur imperdiet fringilla cursus. Duis congue luctus risus quis dictum. Quisque pretium nulla elit, sed tristique turpis viverra et. Ut tincidunt, leo sed euismod blandit, eros odio tempor ligula, eu tincidunt orci justo sit amet purus.</description>
+    </item>
     
     <item>
       <title>Dynflare: Dynamic DNS for Cloudflare</title>
