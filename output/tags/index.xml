@@ -201,15 +201,6 @@
     </item>
     
     <item>
-      <title>Post</title>
-      <link>/tags/post/</link>
-      <pubDate>Sat, 20 Oct 2018 20:50:01 +0000</pubDate>
-      
-      <guid>/tags/post/</guid>
-      <description></description>
-    </item>
-    
-    <item>
       <title>Proxy</title>
       <link>/tags/proxy/</link>
       <pubDate>Thu, 24 Nov 2016 23:25:13 +0000</pubDate>
@@ -260,15 +251,6 @@
       <pubDate>Sun, 28 Feb 2016 04:41:09 +0000</pubDate>
       
       <guid>/tags/ssh/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>Test</title>
-      <link>/tags/test/</link>
-      <pubDate>Sat, 20 Oct 2018 20:50:01 +0000</pubDate>
-      
-      <guid>/tags/test/</guid>
       <description></description>
     </item>
     

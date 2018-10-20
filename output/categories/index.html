@@ -137,8 +137,6 @@
           
           <a href="/categories/password-management"> password-management </a> (1)&nbsp;&#x2F;&nbsp;
           
-          <a href="/categories/post"> post </a> (1)&nbsp;&#x2F;&nbsp;
-          
           <a href="/categories/proxy"> proxy </a> (2)&nbsp;&#x2F;&nbsp;
           
           <a href="/categories/reverse-proxy"> reverse-proxy </a> (1)&nbsp;&#x2F;&nbsp;
@@ -150,8 +148,6 @@
           <a href="/categories/servers"> servers </a> (1)&nbsp;&#x2F;&nbsp;
           
           <a href="/categories/ssh"> ssh </a> (1)&nbsp;&#x2F;&nbsp;
-          
-          <a href="/categories/test"> test </a> (1)&nbsp;&#x2F;&nbsp;
           
           <a href="/categories/two-factor"> two-factor </a> (1)&nbsp;&#x2F;&nbsp;
           
@@ -172,27 +168,58 @@
 
 <article class="post-card post"> 
     
-    <a class="post-card-image-link" href="/2018/09/26/dynflare-dynamic-dns-for-cloudflare/">
-      <div class="post-card-image" style="background-image: url(/img/lava-lamps.jpg)"></div>
+    <a class="post-card-image-link" href="/2017/06/20/ldap-with-freeipa-and-golden-gate-proxies/">
+      <div class="post-card-image" style="background-image: url(/img/800px-Golden_Gate_Bridge_Yang_Ming_Line.jpg)"></div>
     </a>
     
 
     <div class="post-card-content">
-      <a class="post-card-content-link" href="/2018/09/26/dynflare-dynamic-dns-for-cloudflare/">
+      <a class="post-card-content-link" href="/2017/06/20/ldap-with-freeipa-and-golden-gate-proxies/">
+          <header class="post-card-header">
+              
+              <h2 class="post-card-title">LDAP With FreeIPA and Golden Gate Proxies</h2>
+          </header>
+          <section class="post-card-excerpt">
+              
+                <p>I have a hypervisor to run my VMs at home and I decided to finally rollout LDAP and Kerberos using FreeIPA.
+I wanted to completely remove local login options, but this presented a minor problem - I wanted to make sure that if my LDAP server was down for any reason, I would still be able to access and troubleshoot priority systems. I login to systems via certificate but my sudo commands now require LDAP. ...  </p>
+              
+          </section>
+      </a>
+
+      <footer class="post-card-meta">
+          <img class="author-profile-image" src="/img/eldridge_alexander.jpg" alt="Author" />
+          <span class="post-card-author"><a href="/">Eldridge Alexander</a></span>
+      </footer>
+    </div>
+</article>
+ 
+
+<article class="post-card post"> 
+    
+    <a class="post-card-image-link" href="/2015/05/19/my-perfect-browser/">
+      <div class="post-card-image" style="background-image: url(/img/13792583873_832a262252_k.jpg)"></div>
+    </a>
+    
+
+    <div class="post-card-content">
+      <a class="post-card-content-link" href="/2015/05/19/my-perfect-browser/">
           <header class="post-card-header">
               <span class="post-card-tags">
-              #cloudflare 
-              #dns 
-              #dynamicdns 
-              #hoemlab  </span>
+              #security 
+              #chrome 
+              #firefox 
+              #opera 
+              #safari 
+              #edge 
+              #broswer 
+              #web  </span>
               
-              <h2 class="post-card-title">Dynflare: Dynamic DNS for Cloudflare</h2>
+              <h2 class="post-card-title">My Perfect Browser</h2>
           </header>
           <section class="post-card-excerpt">
-              
-                <p>Disclaimer: This is not a product of Cloudflare and is not supported or endorsed by them. 
- I currently use Cloudflare for all my DNS needs. No surprises there, it&rsquo;s awesome!
-I recently changed home ISPs and my new one doesn&rsquo;t offer a free static IP. I run several services out of my lab at home. I&rsquo;m the only person that really uses any of the services–definitely not a crucial setup with a 99. ...  </p>
+               
+                <p>An examination of how I selected my preferred browser</p>
               
           </section>
       </a>
@@ -207,51 +234,27 @@ I recently changed home ISPs and my new one doesn&rsquo;t offer a free static IP
 
 <article class="post-card post"> 
     
-    <a class="post-card-image-link" href="/2017/08/10/freeipa-and-raspbian/">
-      <div class="post-card-image" style="background-image: url(/img/RaspberryPi.jpg)"></div>
+    <a class="post-card-image-link" href="/2014/12/30/security-measure-servers-and-data-storage/">
+      <div class="post-card-image" style="background-image: url(/img/10597406823_e1e624c732_z-1.jpg)"></div>
     </a>
     
 
     <div class="post-card-content">
-      <a class="post-card-content-link" href="/2017/08/10/freeipa-and-raspbian/">
+      <a class="post-card-content-link" href="/2014/12/30/security-measure-servers-and-data-storage/">
           <header class="post-card-header">
+              <span class="post-card-tags">
+              #security 
+              #servers 
+              #nas 
+              #data storage  </span>
               
-              <h2 class="post-card-title">FreeIPA and Raspbian</h2>
+              <h2 class="post-card-title">Security Measures: Servers and Data Storage</h2>
           </header>
           <section class="post-card-excerpt">
               
-                <p>I&rsquo;ve gotten used to having freeipa-client available in dnf or apt repos, so I&rsquo;ve rarely setup clients manually. However, I did today in Raspbian on my Raspberry Pi. I wanted to document it here mainly for my own memory. It was extremely straightforward but there were a couple tweaks needed. (In this doc &ldquo;example.com&rdquo; replaces my domain).
-On the Pi install sssd, libnss-sss, libpam-sss, openssh-server krb5-user, and krb5-config.
-On the FreeIPA server: ...  </p>
-              
-          </section>
-      </a>
-
-      <footer class="post-card-meta">
-          <img class="author-profile-image" src="/img/eldridge_alexander.jpg" alt="Author" />
-          <span class="post-card-author"><a href="/">Eldridge Alexander</a></span>
-      </footer>
-    </div>
-</article>
- 
-
-<article class="post-card post"> 
-    
-    <a class="post-card-image-link" href="/2015/08/24/project-transmute/">
-      <div class="post-card-image" style="background-image: url(/img/6978815038_6d41a935f9_k.jpg)"></div>
-    </a>
-    
-
-    <div class="post-card-content">
-      <a class="post-card-content-link" href="/2015/08/24/project-transmute/">
-          <header class="post-card-header">
-              
-              <h2 class="post-card-title">Project Transmute</h2>
-          </header>
-          <section class="post-card-excerpt">
-              
-                <p>I would like my videos to be ready to be moved to mobile devices when I want to travel, and things like Plex take too long for my liking. However I also prefer retaining the original full quality videos.
-I wrote a Bash script (intended to be run as a cron job) that watches a directory for new files, and converts them to a ~3GB file with ffmpeg and dumps them in a destination directory. ...  </p>
+                <p>This is a brief description of my security practices. I will make several posts and write updates as I make changes.
+Servers I keep my data on a server running NAS4Free with one drive of parity. I also have servers running as VMs on a server running KVM and WebVirtMgr.
+ On my NAS I only connect via encrypted methods such as AFP and SSH On my next upgrade, I will have my NAS encrypt on disk I only connect remotely to any of my servers/NAS via SSH or HTTPS  Photo Credit: https://www. ...  </p>
               
           </section>
       </a>
