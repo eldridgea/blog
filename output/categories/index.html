@@ -176,25 +176,27 @@
 
 <article class="post-card post"> 
     
-    <a class="post-card-image-link" href="/2014/12/30/security-measures/">
+    <a class="post-card-image-link" href="/2014/12/30/security-measure-servers-and-data-storage/">
       <div class="post-card-image" style="background-image: url(/img/10597406823_e1e624c732_z-1.jpg)"></div>
     </a>
     
 
     <div class="post-card-content">
-      <a class="post-card-content-link" href="/2014/12/30/security-measures/">
+      <a class="post-card-content-link" href="/2014/12/30/security-measure-servers-and-data-storage/">
           <header class="post-card-header">
               <span class="post-card-tags">
-              #two-factor 
-              #authentication  </span>
+              #security 
+              #servers 
+              #nas 
+              #data storage  </span>
               
-              <h2 class="post-card-title">Security Measures: Two-Factor</h2>
+              <h2 class="post-card-title">Security Measures: Servers and Data Storage</h2>
           </header>
           <section class="post-card-excerpt">
               
                 <p>This is a brief description of my security practices. I will make several posts and write updates as I make changes.
-Two-Factor Authentication I enable two-factor authentication whenever possible. I use multiple apps to do this, but I usually use Google Authenticator&rsquo;s TOTP. I have this enabled on:
- Google LastPass Dreamhost Outlook.com Facebook Dropbox DigitalOcean  Facebook also can generate two-factor codes from within the app. It&rsquo;s the same TOTP method though. ...  </p>
+Servers I keep my data on a server running NAS4Free with one drive of parity. I also have servers running as VMs on a server running KVM and WebVirtMgr.
+ On my NAS I only connect via encrypted methods such as AFP and SSH On my next upgrade, I will have my NAS encrypt on disk I only connect remotely to any of my servers/NAS via SSH or HTTPS  Photo Credit: https://www. ...  </p>
               
           </section>
       </a>
@@ -209,22 +211,21 @@ Two-Factor Authentication I enable two-factor authentication whenever possible. 
 
 <article class="post-card post"> 
     
-    <a class="post-card-image-link" href="/2017/08/10/freeipa-and-raspbian/">
-      <div class="post-card-image" style="background-image: url(/img/RaspberryPi.jpg)"></div>
+    <a class="post-card-image-link" href="/2015/08/24/project-transmute/">
+      <div class="post-card-image" style="background-image: url(/img/6978815038_6d41a935f9_k.jpg)"></div>
     </a>
     
 
     <div class="post-card-content">
-      <a class="post-card-content-link" href="/2017/08/10/freeipa-and-raspbian/">
+      <a class="post-card-content-link" href="/2015/08/24/project-transmute/">
           <header class="post-card-header">
               
-              <h2 class="post-card-title">FreeIPA and Raspbian</h2>
+              <h2 class="post-card-title">Project Transmute</h2>
           </header>
           <section class="post-card-excerpt">
               
-                <p>I&rsquo;ve gotten used to having freeipa-client available in dnf or apt repos, so I&rsquo;ve rarely setup clients manually. However, I did today in Raspbian on my Raspberry Pi. I wanted to document it here mainly for my own memory. It was extremely straightforward but there were a couple tweaks needed. (In this doc &ldquo;example.com&rdquo; replaces my domain).
-On the Pi install sssd, libnss-sss, libpam-sss, openssh-server krb5-user, and krb5-config.
-On the FreeIPA server: ...  </p>
+                <p>I would like my videos to be ready to be moved to mobile devices when I want to travel, and things like Plex take too long for my liking. However I also prefer retaining the original full quality videos.
+I wrote a Bash script (intended to be run as a cron job) that watches a directory for new files, and converts them to a ~3GB file with ffmpeg and dumps them in a destination directory. ...  </p>
               
           </section>
       </a>
@@ -239,22 +240,22 @@ On the FreeIPA server: ...  </p>
 
 <article class="post-card post"> 
     
-    <a class="post-card-image-link" href="/2017/10/10/proposal-for-improving-social-security-numbers/">
-      <div class="post-card-image" style="background-image: url(/img/proposal.jpg)"></div>
+    <a class="post-card-image-link" href="/2015/03/29/golden-gate-ssh-config-files/">
+      <div class="post-card-image" style="background-image: url(/img/800px-Golden_Gate_Bridge_Yang_Ming_Line.jpg)"></div>
     </a>
     
 
     <div class="post-card-content">
-      <a class="post-card-content-link" href="/2017/10/10/proposal-for-improving-social-security-numbers/">
+      <a class="post-card-content-link" href="/2015/03/29/golden-gate-ssh-config-files/">
           <header class="post-card-header">
               
-              <h2 class="post-card-title">Proposal For Improving Social Security Numbers</h2>
+              <h2 class="post-card-title">Golden Gate SSH Config Files</h2>
           </header>
           <section class="post-card-excerpt">
               
-                <p>Update: Added diagrams for an example
-If you&rsquo;re unfamiliar with asymmetric or public key cryptography, a good introduction without the math is available here.
-In the wake of the Equifax breach, there&rsquo;s increasing discussion about making changes to Social Security Numbers. Any changes will need to be discussed and will take a long time to implement, but the discussion is overdue. I doubt that there will be any perfect solutions for a while, but the discussion is important. ...  </p>
+                <p>In addition to my Golden Gate proxy providing security for web requests, I needed it to assist in securing SSH requests as well. SSH is already as secure as I need it, but I wanted to avoid exposing my servers directly to the Internet.
+For my internal services I added this to the ~/.ssh/config file on my laptop (replace USERNAME and PROXY_IP as appropriate):
+Host *.naphos.com User USERNAME ProxyCommand ssh -q -x USERNAME@PROXY_IP -W %h:%p  This makes any SSH or SFTP request from my laptop to internal. ...  </p>
               
           </section>
       </a>
