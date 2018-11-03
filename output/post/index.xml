@@ -167,7 +167,8 @@ Two-Factor Authentication I enable two-factor authentication whenever possible. 
       <pubDate>Tue, 30 Dec 2014 04:57:26 +0000</pubDate>
       
       <guid>/2014/12/30/security-measures-password-management/</guid>
-      <description>UPDATE: Since the writing of this post I have switched to Bitwarden for a variety of reasons. Most notably due to their fully open source approach and support for U2F as a second factor.   This is a brief description of my security practices. I will make several posts and write updates as I make changes.
+      <description>UPDATE: Since the writing of this post I have switched to Bitwarden for a variety of reasons. Most notably due to their fully open source approach and support for U2F as a second factor.
+ This is a brief description of my security practices. I will make several posts and write updates as I make changes.
 Password Management For password mangement I use LastPass. LastPass has its issues, however it is, in my opinion, the best balance of convenice and security.</description>
     </item>
     

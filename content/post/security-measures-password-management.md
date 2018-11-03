@@ -11,8 +11,8 @@ title = "Security Measures: Password Management"
 
 +++
 
-> - UPDATE: Since the writing of this post I have switched to [Bitwarden](https://bitwarden.com/) for a variety of reasons.
-> - Most notably due to their fully open source approach and support for U2F as a second factor.
+> UPDATE: Since the writing of this post I have switched to [Bitwarden](https://bitwarden.com/) for a variety of reasons.
+> Most notably due to their fully open source approach and support for U2F as a second factor.
 
 *This is a brief description of my security practices. I will make several posts and write updates as I make changes.*
 #### Password Management
