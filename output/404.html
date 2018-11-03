@@ -81,22 +81,25 @@
 
 <article class="post-card post"> 
     
-    <a class="post-card-image-link" href="/2015/03/29/golden-gate-ssh-config-files/">
-      <div class="post-card-image" style="background-image: url(/img/800px-Golden_Gate_Bridge_Yang_Ming_Line.jpg)"></div>
+    <a class="post-card-image-link" href="/2018/11/03/universities-in-society/">
+      <div class="post-card-image" style="background-image: url(/img/university.jpg)"></div>
     </a>
     
 
     <div class="post-card-content">
-      <a class="post-card-content-link" href="/2015/03/29/golden-gate-ssh-config-files/">
+      <a class="post-card-content-link" href="/2018/11/03/universities-in-society/">
           <header class="post-card-header">
+              <span class="post-card-tags">
+              #universities 
+              #society 
+              #education 
+              #debt  </span>
               
-              <h2 class="post-card-title">Golden Gate SSH Config Files</h2>
+              <h2 class="post-card-title">Ignite Talk: Universities In Society</h2>
           </header>
           <section class="post-card-excerpt">
-              
-                <p>In addition to my Golden Gate proxy providing security for web requests, I needed it to assist in securing SSH requests as well. SSH is already as secure as I need it, but I wanted to avoid exposing my servers directly to the Internet.
-For my internal services I added this to the ~/.ssh/config file on my laptop (replace USERNAME and PROXY_IP as appropriate):
-Host *.naphos.com User USERNAME ProxyCommand ssh -q -x USERNAME@PROXY_IP -W %h:%p  This makes any SSH or SFTP request from my laptop to internal. ...  </p>
+               
+                <p>My talk about the effects of outside influences that are increasing how much they affect universites, and how that in turn is affecting students, professors, and administrators</p>
               
           </section>
       </a>
@@ -123,9 +126,8 @@ Host *.naphos.com User USERNAME ProxyCommand ssh -q -x USERNAME@PROXY_IP -W %h:%
               <h2 class="post-card-title">LDAP With FreeIPA and Golden Gate Proxies</h2>
           </header>
           <section class="post-card-excerpt">
-              
-                <p>I have a hypervisor to run my VMs at home and I decided to finally rollout LDAP and Kerberos using FreeIPA.
-I wanted to completely remove local login options, but this presented a minor problem - I wanted to make sure that if my LDAP server was down for any reason, I would still be able to access and troubleshoot priority systems. I login to systems via certificate but my sudo commands now require LDAP. ...  </p>
+               
+                <p>I wanted to have a complete centralized authentication at home, but also wanted as secure of a way as possible to overrid that of my LDAP server were to go down. This documents my &ldquo;war room&rdquo; configurations.</p>
               
           </section>
       </a>
@@ -140,25 +142,20 @@ I wanted to completely remove local login options, but this presented a minor pr
 
 <article class="post-card post"> 
     
-    <a class="post-card-image-link" href="/2018/11/03/universities-in-society/">
-      <div class="post-card-image" style="background-image: url(/img/university.jpg)"></div>
+    <a class="post-card-image-link" href="/2017/10/10/proposal-for-improving-social-security-numbers/">
+      <div class="post-card-image" style="background-image: url(/img/proposal.jpg)"></div>
     </a>
     
 
     <div class="post-card-content">
-      <a class="post-card-content-link" href="/2018/11/03/universities-in-society/">
+      <a class="post-card-content-link" href="/2017/10/10/proposal-for-improving-social-security-numbers/">
           <header class="post-card-header">
-              <span class="post-card-tags">
-              #universities 
-              #society 
-              #education 
-              #debt  </span>
               
-              <h2 class="post-card-title">Ignite Talk: Universities In Society</h2>
+              <h2 class="post-card-title">Proposal For Improving Social Security Numbers</h2>
           </header>
           <section class="post-card-excerpt">
                
-                <p>My talk about the effects of outside influences that are increasing how much they affect universites, and how that in turn is affecting students, professors, and administrators</p>
+                <p>In the wake of the Equifax breach, a proposal for how the US can transition to a new Federal identification system with security as a main component.</p>
               
           </section>
       </a>

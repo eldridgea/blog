@@ -2,7 +2,6 @@
 author = "Eldridge Alexander"
 date = 2017-04-11T14:31:11Z
 description = "There's a prevailing myth in popular culture and the tech industry of the \"Necessary Jerk\" - a jerk who is so singularly gifted in their field that they're completely irreplaceable. Here I argue why that's not only incorrect, but a stance that will actively harm groups and businesses."
-"
 draft = false
 image = "/img/4265771518_be7505810d_o.jpg"
 slug = "the-myth-of-the-necessary-jerk"

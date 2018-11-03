@@ -153,9 +153,8 @@
               <h2 class="post-card-title">SSH Relay for ChromeOS</h2>
           </header>
           <section class="post-card-excerpt">
-              
-                <p>I am a fairly heavy user of ChromeOS. Most of my &ldquo;actual work&rdquo; is done on my server so ChromeOS makes for a great laptop OS for me. However it is not compatible with my &ldquo;Golden Gate&rdquo; SSH setup as the Secure Shell extension for Chrome does not support ProxyCommand. There is a relay option that is used internally at Google that is unfortunately not open sourced.
-However, I was able to find a reverse engineered relay server. ...  </p>
+               
+                <p>What it took to get an SSH bastion host working with ChromeOS clients.</p>
               
           </section>
       </a>
@@ -182,9 +181,8 @@ However, I was able to find a reverse engineered relay server. ...  </p>
               <h2 class="post-card-title">Project Transmute</h2>
           </header>
           <section class="post-card-excerpt">
-              
-                <p>I would like my videos to be ready to be moved to mobile devices when I want to travel, and things like Plex take too long for my liking. However I also prefer retaining the original full quality videos.
-I wrote a Bash script (intended to be run as a cron job) that watches a directory for new files, and converts them to a ~3GB file with ffmpeg and dumps them in a destination directory. ...  </p>
+               
+                <p>A script I wrote to automatically detecct and convert video files to a travel optimized format.</p>
               
           </section>
       </a>
@@ -248,10 +246,8 @@ I wrote a Bash script (intended to be run as a cron job) that watches a director
               <h2 class="post-card-title">Golden Gate SSH Config Files</h2>
           </header>
           <section class="post-card-excerpt">
-              
-                <p>In addition to my Golden Gate proxy providing security for web requests, I needed it to assist in securing SSH requests as well. SSH is already as secure as I need it, but I wanted to avoid exposing my servers directly to the Internet.
-For my internal services I added this to the ~/.ssh/config file on my laptop (replace USERNAME and PROXY_IP as appropriate):
-Host *.naphos.com User USERNAME ProxyCommand ssh -q -x USERNAME@PROXY_IP -W %h:%p  This makes any SSH or SFTP request from my laptop to internal. ...  </p>
+               
+                <p>The SSH config files I used to get clients using my bastion host seamlessly.</p>
               
           </section>
       </a>
@@ -278,10 +274,8 @@ Host *.naphos.com User USERNAME ProxyCommand ssh -q -x USERNAME@PROXY_IP -W %h:%
               <h2 class="post-card-title">Golden Gate Nginx Config Files</h2>
           </header>
           <section class="post-card-excerpt">
-              
-                <p>I have a rudimenatry Golden Gate proxy up and running using nginx reverse proxies. I have included the configuration file (from /etc/nginx/sites-enabled) I used to protect my Sickbeard installation.
-The first server section forces a redirect from an http connection to an https one.
-The second server section listens for https connections using the certificates declared. I didn&rsquo;t use signed certificates as I am the only person that uses most of the services I host. ...  </p>
+               
+                <p>The nginx files I used to get my reverse proxy working.</p>
               
           </section>
       </a>

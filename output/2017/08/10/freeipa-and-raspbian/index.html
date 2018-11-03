@@ -12,7 +12,7 @@
     <link rel="shortcut icon" href="/favicon.ico" />
     <link rel="canonical" href="/2017/08/10/freeipa-and-raspbian/" />
 
-     <meta name="description" content="I&amp;rsquo;ve gotten used to having freeipa-client available in dnf or apt repos, so I&amp;rsquo;ve rarely setup clients manually. However, I did today in Raspbian on " /> 
+     <meta name="description" content="I use FreeIPA heavily to manage my lab at home however their client wasn&#39;t available on Raspbian, so I documented the stpes it took to get it working on my Pi." /> 
 
      
     
@@ -21,7 +21,7 @@
     
  
     <meta name="twitter:title" content="FreeIPA and Raspbian"/>
-    <meta name="twitter:description" content="I&amp;rsquo;ve gotten used to having freeipa-client available in dnf or apt repos, so I&amp;rsquo;ve rarely setup clients manually. However, I did today in Raspbian on "/>
+    <meta name="twitter:description" content="I use FreeIPA heavily to manage my lab at home however their client wasn&#39;t available on Raspbian, so I documented the stpes it took to get it working on my Pi."/>
     <meta name="twitter:url" content="/2017/08/10/freeipa-and-raspbian/" />
     <meta name="twitter:site" content="@magiceldridge"/>
 
@@ -31,7 +31,7 @@
     
 
     <meta property="og:type" content="article" />
-    <meta property="og:description" content="I&amp;rsquo;ve gotten used to having freeipa-client available in dnf or apt repos, so I&amp;rsquo;ve rarely setup clients manually. However, I did today in Raspbian on " />
+    <meta property="og:description" content="I use FreeIPA heavily to manage my lab at home however their client wasn&#39;t available on Raspbian, so I documented the stpes it took to get it working on my Pi." />
 
     <meta property="article:published_time" content="2017-08-10T01:58:41Z" />
     
@@ -207,15 +207,15 @@ homedir_substring = /home
     <div class="read-next-card-content">
       
         <ul>
-                      
+          <li><a href="/2014/12/30/security-measures-password-management/">Security Measures: Password Management</a></li>            
         
           <li><a href="/2015/05/19/my-perfect-browser/">My Perfect Browser</a></li>            
         
-          <li><a href="/2014/12/30/security-measure-servers-and-data-storage/">Security Measures: Servers and Data Storage</a></li>            
+                      
         
-          <li><a href="/2016/11/24/golden-gate-and-lets-encrypt/">Golden Gate and Let&#39;s Encrypt</a></li>            
+          <li><a href="/2015/02/09/my-rss-feeds/">My RSS Feeds</a></li>            
         
-          <li><a href="/2018/09/26/dynflare-dynamic-dns-for-cloudflare/">Dynflare: Dynamic DNS for Cloudflare</a></li>            
+          <li><a href="/2017/06/20/ldap-with-freeipa-and-golden-gate-proxies/">LDAP With FreeIPA and Golden Gate Proxies</a></li>            
         </ul>
     </div>
     <footer class="read-next-card-footer">
@@ -239,10 +239,8 @@ homedir_substring = /home
               <h2 class="post-card-title">Proposal For Improving Social Security Numbers</h2>
           </header>
           <section class="post-card-excerpt">
-              
-                <p>Update: Added diagrams for an example
-If you&rsquo;re unfamiliar with asymmetric or public key cryptography, a good introduction without the math is available here.
-In the wake of the Equifax breach, there&rsquo;s increasing discussion about making changes to Social Security Numbers. Any changes will need to be discussed and will take a long time to implement, but the discussion is overdue. I doubt that there will be any perfect solutions for a while, but the discussion is important. ...  </p>
+               
+                <p>In the wake of the Equifax breach, a proposal for how the US can transition to a new Federal identification system with security as a main component.</p>
               
           </section>
       </a>
@@ -269,9 +267,8 @@ In the wake of the Equifax breach, there&rsquo;s increasing discussion about mak
               <h2 class="post-card-title">LDAP With FreeIPA and Golden Gate Proxies</h2>
           </header>
           <section class="post-card-excerpt">
-              
-                <p>I have a hypervisor to run my VMs at home and I decided to finally rollout LDAP and Kerberos using FreeIPA.
-I wanted to completely remove local login options, but this presented a minor problem - I wanted to make sure that if my LDAP server was down for any reason, I would still be able to access and troubleshoot priority systems. I login to systems via certificate but my sudo commands now require LDAP. ...  </p>
+               
+                <p>I wanted to have a complete centralized authentication at home, but also wanted as secure of a way as possible to overrid that of my LDAP server were to go down. This documents my &ldquo;war room&rdquo; configurations.</p>
               
           </section>
       </a>

@@ -243,11 +243,11 @@
         <ul>
           <li><a href="/2014/12/30/security-measure-servers-and-data-storage/">Security Measures: Servers and Data Storage</a></li>            
         
-          <li><a href="/2017/08/10/freeipa-and-raspbian/">FreeIPA and Raspbian</a></li>            
+          <li><a href="/2015/08/24/project-transmute/">Project Transmute</a></li>            
+        
+          <li><a href="/2014/12/30/security-measures-client-devices/">Security Measures: Client Devices</a></li>            
         
           <li><a href="/2014/12/30/security-measures/">Security Measures: Two-Factor</a></li>            
-        
-          <li><a href="/2014/12/30/security-measures-password-management/">Security Measures: Password Management</a></li>            
         </ul>
     </div>
     <footer class="read-next-card-footer">
@@ -272,9 +272,8 @@
               <h2 class="post-card-title">Project Transmute</h2>
           </header>
           <section class="post-card-excerpt">
-              
-                <p>I would like my videos to be ready to be moved to mobile devices when I want to travel, and things like Plex take too long for my liking. However I also prefer retaining the original full quality videos.
-I wrote a Bash script (intended to be run as a cron job) that watches a directory for new files, and converts them to a ~3GB file with ffmpeg and dumps them in a destination directory. ...  </p>
+               
+                <p>A script I wrote to automatically detecct and convert video files to a travel optimized format.</p>
               
           </section>
       </a>
@@ -301,10 +300,8 @@ I wrote a Bash script (intended to be run as a cron job) that watches a director
               <h2 class="post-card-title">Golden Gate SSH Config Files</h2>
           </header>
           <section class="post-card-excerpt">
-              
-                <p>In addition to my Golden Gate proxy providing security for web requests, I needed it to assist in securing SSH requests as well. SSH is already as secure as I need it, but I wanted to avoid exposing my servers directly to the Internet.
-For my internal services I added this to the ~/.ssh/config file on my laptop (replace USERNAME and PROXY_IP as appropriate):
-Host *.naphos.com User USERNAME ProxyCommand ssh -q -x USERNAME@PROXY_IP -W %h:%p  This makes any SSH or SFTP request from my laptop to internal. ...  </p>
+               
+                <p>The SSH config files I used to get clients using my bastion host seamlessly.</p>
               
           </section>
       </a>
