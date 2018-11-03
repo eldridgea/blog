@@ -1,7 +1,7 @@
 +++
 author = "Eldridge Alexander"
 categories = ["universities", "society", "education", "debt"]
-date = 2018-11-03T22:57:01Z
+date = 2018-11-03T16:39:01Z
 description = "My talk about the effects of outside influences that are increasing how much they affect universites, and how that in turn is affecting students, professors, and administrators"
 draft = false
 image = "/img/university.jpg"
