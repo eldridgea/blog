@@ -3,6 +3,11 @@
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   
   <url>
+    <loc>/2018/11/03/universities-in-society/</loc>
+    <lastmod>2018-11-03T16:39:01+00:00</lastmod>
+  </url>
+  
+  <url>
     <loc>/2018/09/26/dynflare-dynamic-dns-for-cloudflare/</loc>
     <lastmod>2018-09-26T22:57:01+00:00</lastmod>
   </url>
@@ -94,7 +99,7 @@
   
   <url>
     <loc>/</loc>
-    <lastmod>2018-09-26T22:57:01+00:00</lastmod>
+    <lastmod>2018-11-03T16:39:01+00:00</lastmod>
     <priority>0</priority>
   </url>
   
@@ -201,6 +206,18 @@
   </url>
   
   <url>
+    <loc>/tags/debt/</loc>
+    <lastmod>2018-11-03T16:39:01+00:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>/categories/debt/</loc>
+    <lastmod>2018-11-03T16:39:01+00:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
     <loc>/tags/dns/</loc>
     <lastmod>2018-09-26T22:57:01+00:00</lastmod>
     <priority>0</priority>
@@ -233,6 +250,18 @@
   <url>
     <loc>/categories/edge/</loc>
     <lastmod>2015-05-19T20:34:28+00:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>/tags/education/</loc>
+    <lastmod>2018-11-03T16:39:01+00:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>/categories/education/</loc>
+    <lastmod>2018-11-03T16:39:01+00:00</lastmod>
     <priority>0</priority>
   </url>
   
@@ -358,7 +387,7 @@
   
   <url>
     <loc>/post/</loc>
-    <lastmod>2018-09-26T22:57:01+00:00</lastmod>
+    <lastmod>2018-11-03T16:39:01+00:00</lastmod>
     <priority>0</priority>
   </url>
   
@@ -423,6 +452,18 @@
   </url>
   
   <url>
+    <loc>/tags/society/</loc>
+    <lastmod>2018-11-03T16:39:01+00:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>/categories/society/</loc>
+    <lastmod>2018-11-03T16:39:01+00:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
     <loc>/tags/ssh/</loc>
     <lastmod>2016-02-28T04:41:09+00:00</lastmod>
     <priority>0</priority>
@@ -449,6 +490,18 @@
   <url>
     <loc>/categories/two-factor/</loc>
     <lastmod>2014-12-30T04:57:58+00:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>/tags/universities/</loc>
+    <lastmod>2018-11-03T16:39:01+00:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>/categories/universities/</loc>
+    <lastmod>2018-11-03T16:39:01+00:00</lastmod>
     <priority>0</priority>
   </url>
   

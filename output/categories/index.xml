@@ -84,6 +84,15 @@
     </item>
     
     <item>
+      <title>Debt</title>
+      <link>/categories/debt/</link>
+      <pubDate>Sat, 03 Nov 2018 16:39:01 +0000</pubDate>
+      
+      <guid>/categories/debt/</guid>
+      <description></description>
+    </item>
+    
+    <item>
       <title>Dns</title>
       <link>/categories/dns/</link>
       <pubDate>Wed, 26 Sep 2018 22:57:01 +0000</pubDate>
@@ -107,6 +116,15 @@
       <pubDate>Tue, 19 May 2015 20:34:28 +0000</pubDate>
       
       <guid>/categories/edge/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Education</title>
+      <link>/categories/education/</link>
+      <pubDate>Sat, 03 Nov 2018 16:39:01 +0000</pubDate>
+      
+      <guid>/categories/education/</guid>
       <description></description>
     </item>
     
@@ -246,6 +264,15 @@
     </item>
     
     <item>
+      <title>Society</title>
+      <link>/categories/society/</link>
+      <pubDate>Sat, 03 Nov 2018 16:39:01 +0000</pubDate>
+      
+      <guid>/categories/society/</guid>
+      <description></description>
+    </item>
+    
+    <item>
       <title>Ssh</title>
       <link>/categories/ssh/</link>
       <pubDate>Sun, 28 Feb 2016 04:41:09 +0000</pubDate>
@@ -260,6 +287,15 @@
       <pubDate>Tue, 30 Dec 2014 04:57:58 +0000</pubDate>
       
       <guid>/categories/two-factor/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Universities</title>
+      <link>/categories/universities/</link>
+      <pubDate>Sat, 03 Nov 2018 16:39:01 +0000</pubDate>
+      
+      <guid>/categories/universities/</guid>
       <description></description>
     </item>
     

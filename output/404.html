@@ -81,24 +81,22 @@
 
 <article class="post-card post"> 
     
-    <a class="post-card-image-link" href="/2014/12/30/security-measures-password-management/">
-      <div class="post-card-image" style="background-image: url(/img/10597406823_e1e624c732_z-1.jpg)"></div>
+    <a class="post-card-image-link" href="/2017/10/10/proposal-for-improving-social-security-numbers/">
+      <div class="post-card-image" style="background-image: url(/img/proposal.jpg)"></div>
     </a>
     
 
     <div class="post-card-content">
-      <a class="post-card-content-link" href="/2014/12/30/security-measures-password-management/">
+      <a class="post-card-content-link" href="/2017/10/10/proposal-for-improving-social-security-numbers/">
           <header class="post-card-header">
-              <span class="post-card-tags">
-              #password management 
-              #lastpass  </span>
               
-              <h2 class="post-card-title">Security Measures: Password Management</h2>
+              <h2 class="post-card-title">Proposal For Improving Social Security Numbers</h2>
           </header>
           <section class="post-card-excerpt">
               
-                <p>This is a brief description of my security practices. I will make several posts and write updates as I make changes.
-Password Management For password mangement I use LastPass. LastPass has its issues, however it is, in my opinion, the best balance of convenice and security. It encrypts all passwords and syncs the encrypred file to all computers and is only decrypted locally. It has only had two suspected breaches in its history and the company disclosed them and corrected them quickly. ...  </p>
+                <p>Update: Added diagrams for an example
+If you&rsquo;re unfamiliar with asymmetric or public key cryptography, a good introduction without the math is available here.
+In the wake of the Equifax breach, there&rsquo;s increasing discussion about making changes to Social Security Numbers. Any changes will need to be discussed and will take a long time to implement, but the discussion is overdue. I doubt that there will be any perfect solutions for a while, but the discussion is important. ...  </p>
               
           </section>
       </a>
@@ -113,24 +111,25 @@ Password Management For password mangement I use LastPass. LastPass has its issu
 
 <article class="post-card post"> 
     
-    <a class="post-card-image-link" href="/2014/12/23/goldengate/">
+    <a class="post-card-image-link" href="/2016/11/24/golden-gate-and-lets-encrypt/">
       <div class="post-card-image" style="background-image: url(/img/800px-Golden_Gate_Bridge_Yang_Ming_Line.jpg)"></div>
     </a>
     
 
     <div class="post-card-content">
-      <a class="post-card-content-link" href="/2014/12/23/goldengate/">
+      <a class="post-card-content-link" href="/2016/11/24/golden-gate-and-lets-encrypt/">
           <header class="post-card-header">
               <span class="post-card-tags">
               #security 
+              #goldengate 
               #proxy 
-              #reverse proxy  </span>
+              #nginx  </span>
               
-              <h2 class="post-card-title">Project Golden Gate</h2>
+              <h2 class="post-card-title">Golden Gate and Let&#39;s Encrypt</h2>
           </header>
           <section class="post-card-excerpt">
                
-                <p>Golden Gate aims to be a transparent reverse proxy that sits on the border of a network.</p>
+                <p>Utilizing Cerbot&rsquo;s &ldquo;webroot&rdquo; plugin with an nginx reverse proxy on a dedicated server or VM.</p>
               
           </section>
       </a>
@@ -145,27 +144,22 @@ Password Management For password mangement I use LastPass. LastPass has its issu
 
 <article class="post-card post"> 
     
-    <a class="post-card-image-link" href="/2018/09/26/dynflare-dynamic-dns-for-cloudflare/">
-      <div class="post-card-image" style="background-image: url(/img/lava-lamps.jpg)"></div>
+    <a class="post-card-image-link" href="/2017/08/10/freeipa-and-raspbian/">
+      <div class="post-card-image" style="background-image: url(/img/RaspberryPi.jpg)"></div>
     </a>
     
 
     <div class="post-card-content">
-      <a class="post-card-content-link" href="/2018/09/26/dynflare-dynamic-dns-for-cloudflare/">
+      <a class="post-card-content-link" href="/2017/08/10/freeipa-and-raspbian/">
           <header class="post-card-header">
-              <span class="post-card-tags">
-              #cloudflare 
-              #dns 
-              #dynamicdns 
-              #hoemlab  </span>
               
-              <h2 class="post-card-title">Dynflare: Dynamic DNS for Cloudflare</h2>
+              <h2 class="post-card-title">FreeIPA and Raspbian</h2>
           </header>
           <section class="post-card-excerpt">
               
-                <p>Disclaimer: This is not a product of Cloudflare and is not supported or endorsed by them. 
- I currently use Cloudflare for all my DNS needs. No surprises there, it&rsquo;s awesome!
-I recently changed home ISPs and my new one doesn&rsquo;t offer a free static IP. I run several services out of my lab at home. I&rsquo;m the only person that really uses any of the services–definitely not a crucial setup with a 99. ...  </p>
+                <p>I&rsquo;ve gotten used to having freeipa-client available in dnf or apt repos, so I&rsquo;ve rarely setup clients manually. However, I did today in Raspbian on my Raspberry Pi. I wanted to document it here mainly for my own memory. It was extremely straightforward but there were a couple tweaks needed. (In this doc &ldquo;example.com&rdquo; replaces my domain).
+On the Pi install sssd, libnss-sss, libpam-sss, openssh-server krb5-user, and krb5-config.
+On the FreeIPA server: ...  </p>
               
           </section>
       </a>
