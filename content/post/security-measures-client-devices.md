@@ -2,7 +2,7 @@
 author = "Eldridge Alexander"
 categories = ["security", "client devices", "encryption"]
 date = 2014-12-30T04:39:15Z
-description = ""
+description = "The security measures I take personally to secure my client devices."
 draft = false
 image = "img/10597406823_e1e624c732_z-1.jpg"
 slug = "security-measures-client-devices"

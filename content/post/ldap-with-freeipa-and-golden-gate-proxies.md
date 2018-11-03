@@ -1,7 +1,7 @@
 +++
 author = "Eldridge Alexander"
 date = 2017-06-20T06:54:05Z
-description = ""
+description = "I wanted to have a complete centralized authentication at home, but also wanted as secure of a way as possible to overrid that of my LDAP server were to go down. This documents my \"war room\" configurations."
 draft = false
 image = "/img/800px-Golden_Gate_Bridge_Yang_Ming_Line.jpg"
 slug = "ldap-with-freeipa-and-golden-gate-proxies"

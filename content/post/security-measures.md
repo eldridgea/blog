@@ -2,7 +2,7 @@
 author = "Eldridge Alexander"
 categories = ["two-factor", "authentication"]
 date = 2014-12-30T04:57:58Z
-description = ""
+description = "The security measures I take personally to secure online accounts."
 draft = false
 image = "img/10597406823_e1e624c732_z-1.jpg"
 slug = "security-measures"

@@ -2,7 +2,7 @@
 author = "Eldridge Alexander"
 categories = ["security", "servers", "nas", "data storage"]
 date = 2014-12-30T04:54:15Z
-description = ""
+description = "The security measures I take personally to secure my servers and data storage."
 draft = false
 image = "img/10597406823_e1e624c732_z-1.jpg"
 slug = "security-measure-servers-and-data-storage"

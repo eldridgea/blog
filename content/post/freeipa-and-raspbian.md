@@ -1,7 +1,7 @@
 +++
 author = "Eldridge Alexander"
 date = 2017-08-10T01:58:41Z
-description = ""
+description = "I use FreeIPA heavily to manage my lab at home however their client wasn't available on Raspbian, so I documented the stpes it took to get it working on my Pi."
 draft = false
 image = "/img/RaspberryPi.jpg"
 slug = "freeipa-and-raspbian"

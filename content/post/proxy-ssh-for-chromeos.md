@@ -2,7 +2,7 @@
 author = "Eldridge Alexander"
 categories = ["chromeos", "chromebook", "ssh", "linuxadmin"]
 date = 2016-02-28T04:41:09Z
-description = ""
+description = "What it took to get an SSH bastion host working with ChromeOS clients."
 draft = false
 image = "img/6042224090_00eff900ff_b.jpg"
 slug = "proxy-ssh-for-chromeos"

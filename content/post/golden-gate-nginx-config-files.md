@@ -1,7 +1,7 @@
 +++
 author = "Eldridge Alexander"
 date = 2015-03-22T04:20:50Z
-description = ""
+description = "The nginx files I used to get my reverse proxy working."
 draft = false
 image = "img/800px-Golden_Gate_Bridge_Yang_Ming_Line.jpg"
 slug = "golden-gate-nginx-config-files"
