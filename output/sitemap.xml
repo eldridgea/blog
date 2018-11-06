@@ -3,11 +3,6 @@
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   
   <url>
-    <loc>/2018/11/05/why-webauthn-will-save-us-all/</loc>
-    <lastmod>2018-11-05T20:55:01+00:00</lastmod>
-  </url>
-  
-  <url>
     <loc>/2018/11/03/universities-in-society/</loc>
     <lastmod>2018-11-03T16:39:01+00:00</lastmod>
   </url>
@@ -104,13 +99,7 @@
   
   <url>
     <loc>/</loc>
-    <lastmod>2018-11-05T20:55:01+00:00</lastmod>
-    <priority>0</priority>
-  </url>
-  
-  <url>
-    <loc>/tags/authentication/</loc>
-    <lastmod>2014-12-30T04:57:58+00:00</lastmod>
+    <lastmod>2018-11-03T16:39:01+00:00</lastmod>
     <priority>0</priority>
   </url>
   
@@ -121,13 +110,19 @@
   </url>
   
   <url>
-    <loc>/tags/broswer/</loc>
-    <lastmod>2015-05-19T20:34:28+00:00</lastmod>
+    <loc>/tags/authentication/</loc>
+    <lastmod>2014-12-30T04:57:58+00:00</lastmod>
     <priority>0</priority>
   </url>
   
   <url>
     <loc>/categories/broswer/</loc>
+    <lastmod>2015-05-19T20:34:28+00:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>/tags/broswer/</loc>
     <lastmod>2015-05-19T20:34:28+00:00</lastmod>
     <priority>0</priority>
   </url>
@@ -139,20 +134,14 @@
   </url>
   
   <url>
-    <loc>/tags/chrome/</loc>
-    <lastmod>2015-05-19T20:34:28+00:00</lastmod>
-    <priority>0</priority>
-  </url>
-  
-  <url>
     <loc>/categories/chrome/</loc>
     <lastmod>2015-05-19T20:34:28+00:00</lastmod>
     <priority>0</priority>
   </url>
   
   <url>
-    <loc>/tags/chromebook/</loc>
-    <lastmod>2016-02-28T04:41:09+00:00</lastmod>
+    <loc>/tags/chrome/</loc>
+    <lastmod>2015-05-19T20:34:28+00:00</lastmod>
     <priority>0</priority>
   </url>
   
@@ -163,7 +152,7 @@
   </url>
   
   <url>
-    <loc>/tags/chromeos/</loc>
+    <loc>/tags/chromebook/</loc>
     <lastmod>2016-02-28T04:41:09+00:00</lastmod>
     <priority>0</priority>
   </url>
@@ -175,8 +164,8 @@
   </url>
   
   <url>
-    <loc>/tags/client-devices/</loc>
-    <lastmod>2014-12-30T04:39:15+00:00</lastmod>
+    <loc>/tags/chromeos/</loc>
+    <lastmod>2016-02-28T04:41:09+00:00</lastmod>
     <priority>0</priority>
   </url>
   
@@ -187,8 +176,8 @@
   </url>
   
   <url>
-    <loc>/tags/cloudflare/</loc>
-    <lastmod>2018-09-26T22:57:01+00:00</lastmod>
+    <loc>/tags/client-devices/</loc>
+    <lastmod>2014-12-30T04:39:15+00:00</lastmod>
     <priority>0</priority>
   </url>
   
@@ -199,8 +188,8 @@
   </url>
   
   <url>
-    <loc>/tags/data-storage/</loc>
-    <lastmod>2014-12-30T04:54:15+00:00</lastmod>
+    <loc>/tags/cloudflare/</loc>
+    <lastmod>2018-09-26T22:57:01+00:00</lastmod>
     <priority>0</priority>
   </url>
   
@@ -211,8 +200,8 @@
   </url>
   
   <url>
-    <loc>/tags/debt/</loc>
-    <lastmod>2018-11-03T16:39:01+00:00</lastmod>
+    <loc>/tags/data-storage/</loc>
+    <lastmod>2014-12-30T04:54:15+00:00</lastmod>
     <priority>0</priority>
   </url>
   
@@ -223,8 +212,8 @@
   </url>
   
   <url>
-    <loc>/tags/dns/</loc>
-    <lastmod>2018-09-26T22:57:01+00:00</lastmod>
+    <loc>/tags/debt/</loc>
+    <lastmod>2018-11-03T16:39:01+00:00</lastmod>
     <priority>0</priority>
   </url>
   
@@ -235,7 +224,7 @@
   </url>
   
   <url>
-    <loc>/tags/dynamicdns/</loc>
+    <loc>/tags/dns/</loc>
     <lastmod>2018-09-26T22:57:01+00:00</lastmod>
     <priority>0</priority>
   </url>
@@ -247,8 +236,8 @@
   </url>
   
   <url>
-    <loc>/tags/edge/</loc>
-    <lastmod>2015-05-19T20:34:28+00:00</lastmod>
+    <loc>/tags/dynamicdns/</loc>
+    <lastmod>2018-09-26T22:57:01+00:00</lastmod>
     <priority>0</priority>
   </url>
   
@@ -259,8 +248,8 @@
   </url>
   
   <url>
-    <loc>/tags/education/</loc>
-    <lastmod>2018-11-03T16:39:01+00:00</lastmod>
+    <loc>/tags/edge/</loc>
+    <lastmod>2015-05-19T20:34:28+00:00</lastmod>
     <priority>0</priority>
   </url>
   
@@ -271,8 +260,8 @@
   </url>
   
   <url>
-    <loc>/tags/encryption/</loc>
-    <lastmod>2014-12-30T04:39:15+00:00</lastmod>
+    <loc>/tags/education/</loc>
+    <lastmod>2018-11-03T16:39:01+00:00</lastmod>
     <priority>0</priority>
   </url>
   
@@ -283,8 +272,8 @@
   </url>
   
   <url>
-    <loc>/tags/firefox/</loc>
-    <lastmod>2015-05-19T20:34:28+00:00</lastmod>
+    <loc>/tags/encryption/</loc>
+    <lastmod>2014-12-30T04:39:15+00:00</lastmod>
     <priority>0</priority>
   </url>
   
@@ -295,8 +284,8 @@
   </url>
   
   <url>
-    <loc>/tags/goldengate/</loc>
-    <lastmod>2016-11-24T23:25:13+00:00</lastmod>
+    <loc>/tags/firefox/</loc>
+    <lastmod>2015-05-19T20:34:28+00:00</lastmod>
     <priority>0</priority>
   </url>
   
@@ -307,8 +296,8 @@
   </url>
   
   <url>
-    <loc>/tags/hoemlab/</loc>
-    <lastmod>2018-09-26T22:57:01+00:00</lastmod>
+    <loc>/tags/goldengate/</loc>
+    <lastmod>2016-11-24T23:25:13+00:00</lastmod>
     <priority>0</priority>
   </url>
   
@@ -319,8 +308,8 @@
   </url>
   
   <url>
-    <loc>/tags/lastpass/</loc>
-    <lastmod>2014-12-30T04:57:26+00:00</lastmod>
+    <loc>/tags/hoemlab/</loc>
+    <lastmod>2018-09-26T22:57:01+00:00</lastmod>
     <priority>0</priority>
   </url>
   
@@ -331,8 +320,8 @@
   </url>
   
   <url>
-    <loc>/tags/linuxadmin/</loc>
-    <lastmod>2016-02-28T04:41:09+00:00</lastmod>
+    <loc>/tags/lastpass/</loc>
+    <lastmod>2014-12-30T04:57:26+00:00</lastmod>
     <priority>0</priority>
   </url>
   
@@ -343,8 +332,8 @@
   </url>
   
   <url>
-    <loc>/tags/nas/</loc>
-    <lastmod>2014-12-30T04:54:15+00:00</lastmod>
+    <loc>/tags/linuxadmin/</loc>
+    <lastmod>2016-02-28T04:41:09+00:00</lastmod>
     <priority>0</priority>
   </url>
   
@@ -355,8 +344,8 @@
   </url>
   
   <url>
-    <loc>/tags/nginx/</loc>
-    <lastmod>2016-11-24T23:25:13+00:00</lastmod>
+    <loc>/tags/nas/</loc>
+    <lastmod>2014-12-30T04:54:15+00:00</lastmod>
     <priority>0</priority>
   </url>
   
@@ -367,8 +356,8 @@
   </url>
   
   <url>
-    <loc>/tags/opera/</loc>
-    <lastmod>2015-05-19T20:34:28+00:00</lastmod>
+    <loc>/tags/nginx/</loc>
+    <lastmod>2016-11-24T23:25:13+00:00</lastmod>
     <priority>0</priority>
   </url>
   
@@ -379,8 +368,8 @@
   </url>
   
   <url>
-    <loc>/tags/password-management/</loc>
-    <lastmod>2014-12-30T04:57:26+00:00</lastmod>
+    <loc>/tags/opera/</loc>
+    <lastmod>2015-05-19T20:34:28+00:00</lastmod>
     <priority>0</priority>
   </url>
   
@@ -391,26 +380,14 @@
   </url>
   
   <url>
-    <loc>/tags/paswords/</loc>
-    <lastmod>2018-11-05T20:55:01+00:00</lastmod>
-    <priority>0</priority>
-  </url>
-  
-  <url>
-    <loc>/categories/paswords/</loc>
-    <lastmod>2018-11-05T20:55:01+00:00</lastmod>
+    <loc>/tags/password-management/</loc>
+    <lastmod>2014-12-30T04:57:26+00:00</lastmod>
     <priority>0</priority>
   </url>
   
   <url>
     <loc>/post/</loc>
-    <lastmod>2018-11-05T20:55:01+00:00</lastmod>
-    <priority>0</priority>
-  </url>
-  
-  <url>
-    <loc>/tags/proxy/</loc>
-    <lastmod>2016-11-24T23:25:13+00:00</lastmod>
+    <lastmod>2018-11-03T16:39:01+00:00</lastmod>
     <priority>0</priority>
   </url>
   
@@ -421,8 +398,8 @@
   </url>
   
   <url>
-    <loc>/tags/reverse-proxy/</loc>
-    <lastmod>2014-12-23T21:23:44+00:00</lastmod>
+    <loc>/tags/proxy/</loc>
+    <lastmod>2016-11-24T23:25:13+00:00</lastmod>
     <priority>0</priority>
   </url>
   
@@ -433,8 +410,8 @@
   </url>
   
   <url>
-    <loc>/tags/safari/</loc>
-    <lastmod>2015-05-19T20:34:28+00:00</lastmod>
+    <loc>/tags/reverse-proxy/</loc>
+    <lastmod>2014-12-23T21:23:44+00:00</lastmod>
     <priority>0</priority>
   </url>
   
@@ -445,8 +422,8 @@
   </url>
   
   <url>
-    <loc>/tags/security/</loc>
-    <lastmod>2016-11-24T23:25:13+00:00</lastmod>
+    <loc>/tags/safari/</loc>
+    <lastmod>2015-05-19T20:34:28+00:00</lastmod>
     <priority>0</priority>
   </url>
   
@@ -457,8 +434,8 @@
   </url>
   
   <url>
-    <loc>/tags/servers/</loc>
-    <lastmod>2014-12-30T04:54:15+00:00</lastmod>
+    <loc>/tags/security/</loc>
+    <lastmod>2016-11-24T23:25:13+00:00</lastmod>
     <priority>0</priority>
   </url>
   
@@ -469,8 +446,8 @@
   </url>
   
   <url>
-    <loc>/tags/society/</loc>
-    <lastmod>2018-11-03T16:39:01+00:00</lastmod>
+    <loc>/tags/servers/</loc>
+    <lastmod>2014-12-30T04:54:15+00:00</lastmod>
     <priority>0</priority>
   </url>
   
@@ -481,13 +458,19 @@
   </url>
   
   <url>
-    <loc>/tags/ssh/</loc>
-    <lastmod>2016-02-28T04:41:09+00:00</lastmod>
+    <loc>/tags/society/</loc>
+    <lastmod>2018-11-03T16:39:01+00:00</lastmod>
     <priority>0</priority>
   </url>
   
   <url>
     <loc>/categories/ssh/</loc>
+    <lastmod>2016-02-28T04:41:09+00:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>/tags/ssh/</loc>
     <lastmod>2016-02-28T04:41:09+00:00</lastmod>
     <priority>0</priority>
   </url>
@@ -499,20 +482,14 @@
   </url>
   
   <url>
-    <loc>/tags/two-factor/</loc>
-    <lastmod>2014-12-30T04:57:58+00:00</lastmod>
-    <priority>0</priority>
-  </url>
-  
-  <url>
     <loc>/categories/two-factor/</loc>
     <lastmod>2014-12-30T04:57:58+00:00</lastmod>
     <priority>0</priority>
   </url>
   
   <url>
-    <loc>/tags/universities/</loc>
-    <lastmod>2018-11-03T16:39:01+00:00</lastmod>
+    <loc>/tags/two-factor/</loc>
+    <lastmod>2014-12-30T04:57:58+00:00</lastmod>
     <priority>0</priority>
   </url>
   
@@ -523,8 +500,8 @@
   </url>
   
   <url>
-    <loc>/tags/web/</loc>
-    <lastmod>2015-05-19T20:34:28+00:00</lastmod>
+    <loc>/tags/universities/</loc>
+    <lastmod>2018-11-03T16:39:01+00:00</lastmod>
     <priority>0</priority>
   </url>
   
@@ -535,14 +512,8 @@
   </url>
   
   <url>
-    <loc>/tags/webauthn/</loc>
-    <lastmod>2018-11-05T20:55:01+00:00</lastmod>
-    <priority>0</priority>
-  </url>
-  
-  <url>
-    <loc>/categories/webauthn/</loc>
-    <lastmod>2018-11-05T20:55:01+00:00</lastmod>
+    <loc>/tags/web/</loc>
+    <lastmod>2015-05-19T20:34:28+00:00</lastmod>
     <priority>0</priority>
   </url>
   
