@@ -24,7 +24,7 @@ The reason I’m nitpicky about this is because it’s a rare security feature t
 
 There’s certainly a *lot* of work to be done on the spec and implementations, but Webauthn has the rare feature of being something we can implement that users are already used to, the friction is virtually nonexistent.
 
-If you want to try out an early demo, have Chrome Canary installed on your Mac with a Touch Bar, or on an Android device, and go to https://webauth.io. Select “Platform (TPM)” as the Authenticator Type. Then see what it’s like to register and login to an account with no password, using the system you’re already familiar with.
+If you want to try out an early demo, have Chrome Canary installed on your Mac with a Touch Bar, or on an Android device, and go to https://webauthn.io. Select “Platform (TPM)” as the Authenticator Type. Then see what it’s like to register and login to an account with no password, using the system you’re already familiar with.
 
 
 *To be extra clear - this means that the biometrics don’t leave the device at all. Your biometrics aren’t stored on a server anywhere. In every implementation I’m aware of they’re not even directly accessible to the OS. They’re stored on a separate chip in the device, so even if the system is entirely compromised, the biometrics can't be read out or compromised.
