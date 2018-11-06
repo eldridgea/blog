@@ -1,7 +1,7 @@
 +++
 author = "Eldridge Alexander"
 categories = ["webauthn", "paswords"]
-date = 2018-11-05T20:57:01Z
+date = 2018-11-05T20:55:01Z
 description = "Some minor nitpicking around Webauthn and how it has tha ability to replace passwords."
 draft = false
 image = "img/10597406823_e1e624c732_z-1.jpg"
