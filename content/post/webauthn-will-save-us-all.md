@@ -14,7 +14,7 @@ I wanted to take a moment and respond to Troy Hunt’s recent post [Here's Why \
 
 First, I’d like to say that overall I am in strong agreement with the premise of the article. Usability, adoption, lack of friction are all-important when considering a security mechanism, especially something as crucial as authentication, and when considering replacing something as well known as passwords. Not much out there that addresses all of these things at once.
 
-So, since I strongly agree with the premise, you’ve probably guessed what’s coming next - nitpicking! I usually don’t nitpick, since I think the overall point of a post is the most important, and I don't like getting bogged down in minutiae, but I wanted to address a misconception around Webauthn.
+So, since I strongly agree with the premise, you’ve probably guessed what’s coming next - nitpicking! I usually don’t nitpick, since I think the overall point of a post is the most important, and I don't like getting bogged down in minutiae, but I wanted to address a misconception around [Webauthn](https://www.w3.org/TR/webauthn/).
 
 Troy mentions Webauthn and biometrics, but specifically says “they don't replace passwords”. Webauthn paired with biometrics can certianly be used as a second factor to a password. But the “whole point” of Webauthn *is* for it to replace passwords eventually. (I think I’m slightly more optimistic about the Webauthn timeline, but we both agree it’s certainly not *right* around the corner.)
 
