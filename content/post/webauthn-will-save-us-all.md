@@ -5,9 +5,9 @@ date = 2018-11-05T20:39:01Z
 description = "Some minor nitpicking around Webauthn and how it has tha ability to replace passwords."
 draft = false
 image = "/img/10597406823_e1e624c732_z-1.jpg"
-slug = "why-webauthn-will-save-us"
+slug = "in-defense-of-webauthn"
 tags = ["webauthn", "passwords"]
-title = "Why Webauthn Will Save Us All"
+title = "In Defense of Webauthn"
 
 +++
 I wanted to take a moment and respond to Troy Hunt’s recent post [Here's Why \[Insert Thing Here\] Is Not a Password Killer](https://www.troyhunt.com/heres-why-insert-thing-here-is-not-a-password-killer/).
