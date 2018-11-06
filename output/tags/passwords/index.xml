@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Passwords on </title>
+    <link>/tags/passwords/</link>
+    <description>Recent content in Passwords on </description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-US</language>
+    <lastBuildDate>Mon, 05 Nov 2018 20:39:01 +0000</lastBuildDate>
+    
+	<atom:link href="/tags/passwords/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>Why Webauthn Will Save Us All</title>
+      <link>/2018/11/05/why-webauthn-will-save-us/</link>
+      <pubDate>Mon, 05 Nov 2018 20:39:01 +0000</pubDate>
+      
+      <guid>/2018/11/05/why-webauthn-will-save-us/</guid>
+      <description>I wanted to take a moment and respond to Troy Hunt’s recent post Here&amp;rsquo;s Why [Insert Thing Here] Is Not a Password Killer.
+First, I’d like to say that overall I am in strong agreement with the premise of the article. Usability, adoption, lack of friction are all-important when considering a security mechanism, especially something as crucial as authentication, and when considering replacing something as well known as passwords. Not much out there that addresses all of these things at once.</description>
+    </item>
+    
+  </channel>
+</rss>
