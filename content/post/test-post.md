@@ -3,11 +3,11 @@ author = "Eldridge Alexander"
 categories = ["test", "post"]
 date = 2018-11-07T20:39:01Z
 description = "A post that tests some stuff."
-draft = true
+draft = false
 image = "/img/10597406823_e1e624c732_z-1.jpg"
 slug = "test-post"
 tags = ["test", "post"]
-title = "In Defense of Webauthn"
+title = "A test post thingy"
 
 +++
 Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aliquam efficitur velit eu purus sollicitudin commodo in eu diam. Nunc interdum aliquet magna, vitae finibus risus ullamcorper pharetra. Cras at metus orci. Quisque pellentesque velit nisl, et scelerisque mi fermentum vitae. Praesent vitae augue dui. Maecenas sed justo enim. Cras lorem dolor, mattis quis dapibus vel, efficitur sit amet ante. Etiam dignissim mollis augue, ac faucibus justo maximus eget. Donec non dui vel enim fermentum tincidunt. Integer sed metus fermentum, hendrerit lectus sit amet, condimentum nibh.

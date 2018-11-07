@@ -6,18 +6,18 @@
     <description>Recent content in Post on </description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-US</language>
-    <lastBuildDate>Sat, 20 Oct 2018 20:50:01 +0000</lastBuildDate>
+    <lastBuildDate>Wed, 07 Nov 2018 20:39:01 +0000</lastBuildDate>
     
 	<atom:link href="/categories/post/index.xml" rel="self" type="application/rss+xml" />
     
     
     <item>
-      <title>This is a Test Post</title>
-      <link>/2018/10/20/test-post/</link>
-      <pubDate>Sat, 20 Oct 2018 20:50:01 +0000</pubDate>
+      <title>A test post thingy</title>
+      <link>/2018/11/07/test-post/</link>
+      <pubDate>Wed, 07 Nov 2018 20:39:01 +0000</pubDate>
       
-      <guid>/2018/10/20/test-post/</guid>
-      <description>This is a test post Lorem ipsum dolor sit amet, consectetur adipiscing elit. Mauris volutpat in erat eget rhoncus. Pellentesque vitae justo est. Sed quis ultricies orci. Mauris eros tellus, sodales ut maximus sed, convallis eu lorem. Pellentesque eu cursus mauris. Curabitur imperdiet fringilla cursus. Duis congue luctus risus quis dictum. Quisque pretium nulla elit, sed tristique turpis viverra et. Ut tincidunt, leo sed euismod blandit, eros odio tempor ligula, eu tincidunt orci justo sit amet purus.</description>
+      <guid>/2018/11/07/test-post/</guid>
+      <description>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aliquam efficitur velit eu purus sollicitudin commodo in eu diam. Nunc interdum aliquet magna, vitae finibus risus ullamcorper pharetra. Cras at metus orci. Quisque pellentesque velit nisl, et scelerisque mi fermentum vitae. Praesent vitae augue dui. Maecenas sed justo enim. Cras lorem dolor, mattis quis dapibus vel, efficitur sit amet ante. Etiam dignissim mollis augue, ac faucibus justo maximus eget. Donec non dui vel enim fermentum tincidunt.</description>
     </item>
     
   </channel>

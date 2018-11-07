@@ -228,6 +228,15 @@
     </item>
     
     <item>
+      <title>Post</title>
+      <link>/categories/post/</link>
+      <pubDate>Wed, 07 Nov 2018 20:39:01 +0000</pubDate>
+      
+      <guid>/categories/post/</guid>
+      <description></description>
+    </item>
+    
+    <item>
       <title>Proxy</title>
       <link>/categories/proxy/</link>
       <pubDate>Thu, 24 Nov 2016 23:25:13 +0000</pubDate>
@@ -287,6 +296,15 @@
       <pubDate>Sun, 28 Feb 2016 04:41:09 +0000</pubDate>
       
       <guid>/categories/ssh/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Test</title>
+      <link>/categories/test/</link>
+      <pubDate>Wed, 07 Nov 2018 20:39:01 +0000</pubDate>
+      
+      <guid>/categories/test/</guid>
       <description></description>
     </item>
     
