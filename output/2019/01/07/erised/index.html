@@ -4,39 +4,39 @@
     <meta http-equiv="Content-Type" content="text/html" charset="UTF-8" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1" />
 
-    <title>LDAP With FreeIPA and Golden Gate Proxies &middot; </title>
+    <title>Erised &middot; </title>
 
     <meta name="HandheldFriendly" content="True" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
 
     <link rel="shortcut icon" href="/favicon.ico" />
-    <link rel="canonical" href="/2017/06/20/ldap-with-freeipa-and-golden-gate-proxies/" />
+    <link rel="canonical" href="/2019/01/07/erised/" />
 
-     <meta name="description" content="I wanted to have a complete centralized authentication at home, but also wanted as secure of a way as possible to overrid that of my LDAP server were to go down. This documents my &#34;war room&#34; configurations." /> 
+     <meta name="description" content="System-wide ad and tracker blocking on Android" /> 
 
      
     
     <meta name="twitter:card" content="summary_large_image"/>
-    <meta name="twitter:image" content="/img/800px-Golden_Gate_Bridge_Yang_Ming_Line.jpg"/>
+    <meta name="twitter:image" content="/img/androids.jpg"/>
     
  
-    <meta name="twitter:title" content="LDAP With FreeIPA and Golden Gate Proxies"/>
-    <meta name="twitter:description" content="I wanted to have a complete centralized authentication at home, but also wanted as secure of a way as possible to overrid that of my LDAP server were to go down. This documents my &#34;war room&#34; configurations."/>
-    <meta name="twitter:url" content="/2017/06/20/ldap-with-freeipa-and-golden-gate-proxies/" />
+    <meta name="twitter:title" content="Erised"/>
+    <meta name="twitter:description" content="System-wide ad and tracker blocking on Android"/>
+    <meta name="twitter:url" content="/2019/01/07/erised/" />
     <meta name="twitter:site" content="@magiceldridge"/>
 
     <meta property="og:site_name" content="" />
-    <meta property="og:title" content="LDAP With FreeIPA and Golden Gate Proxies &middot; Eldridge&#39;s Blog" />
-    <meta property="og:url" content="/2017/06/20/ldap-with-freeipa-and-golden-gate-proxies/" />
+    <meta property="og:title" content="Erised &middot; Eldridge&#39;s Blog" />
+    <meta property="og:url" content="/2019/01/07/erised/" />
     
 
     <meta property="og:type" content="article" />
-    <meta property="og:description" content="I wanted to have a complete centralized authentication at home, but also wanted as secure of a way as possible to overrid that of my LDAP server were to go down. This documents my &#34;war room&#34; configurations." />
+    <meta property="og:description" content="System-wide ad and tracker blocking on Android" />
 
-    <meta property="article:published_time" content="2017-06-20T06:54:05Z" />
-    
+    <meta property="article:published_time" content="2019-01-07T20:39:01Z" />
+    <meta property="article:tag" content="android" /><meta property="article:tag" content="dns" />
 
-    <meta property="og:image" content="/img/800px-Golden_Gate_Bridge_Yang_Ming_Line.jpg"/>
+    <meta property="og:image" content="/img/androids.jpg"/>
 
 
     <meta name="generator" content="Hugo 0.49.2" />
@@ -104,54 +104,28 @@
       <article class="post-full post"> 
     <header class="post-full-header">
         <section class="post-full-meta">
-            <time class="post-full-meta-date" datetime="2017-06-20">20 June 2017</time>
+            <time class="post-full-meta-date" datetime="2019-01-07">7 January 2019</time>
+                <span class="date-divider">/</span> <a href="/tags/android/">#android</a>&nbsp;<a href="/tags/dns/">#dns</a>&nbsp;
         </section>
-        <h1 class="post-full-title">LDAP With FreeIPA and Golden Gate Proxies</h1>
+        <h1 class="post-full-title">Erised</h1>
     </header>
     
-    <figure class="post-full-image" style="background-image: url(/img/800px-Golden_Gate_Bridge_Yang_Ming_Line.jpg)">
+    <figure class="post-full-image" style="background-image: url(/img/androids.jpg)">
     </figure>
 
     <section class="post-full-content">
         <div class="kg-card-markdown">
-        <p>I have a hypervisor to run my VMs at home and I decided to finally rollout LDAP and Kerberos using <a href="https://www.freeipa.org/page/Main_Page">FreeIPA</a>.</p>
+        <p>Android 9.0 <a href="https://android-developers.googleblog.com/2018/04/dns-over-tls-support-in-android-p.html">intoduced</a> native suppport for DNS over TLS (DoT). I like blocking ads and trackers on my device but I don&rsquo;t like rooting or using an always-on VPN.
+I begain investigating using DoT as a method for adblocking as Android uses DoT for all DNS requests if it&rsquo;s enabled. I used a combination of off-the-shelf stuff in a docker network to handle this.</p>
 
-<p>I wanted to completely remove local login options, but this presented a minor problem - I wanted to make sure that if my LDAP server was down for any reason, I would still be able to access and troubleshoot priority systems. I login to systems via certificate but my sudo commands now require LDAP.</p>
+<p>The incoming DoT request is handled by <a href="https://caddyserver.com/">Caddy</a> which strips the TLS and forwards it as a standard DNS request within the private Docker network to a container running <a href="https://pi-hole.net/">PiHole</a>.
+PiHole will blackhole any requests that are on its blacklist, and otherwise forward them upstream to the container running <a href="https://developers.cloudflare.com/1.1.1.1/dns-over-https/cloudflared-proxy/">cloudflared</a> which will reeencrypt the request and send it upstream to Cloudflare&rsquo;s <a href="https://1.1.1.1.">1.1.1.1</a> DNS service.</p>
 
-<p>My priority systems are my hypervisor itself, my <a href="https://blog.eldrid.ge/2015/03/29/golden-gate-ssh-config-files/">SSH bastion host</a> VM, and my <a href="https://blog.eldrid.ge/2016/02/28/proxy-ssh-for-chromeos/">WebSockets SSH Proxy</a> VM. If those are functional I can access and troubleshoot most everything else.</p>
+<p>So the only DNS requests that will get legit responses are ones not on PiHole&rsquo;s blacklist, and this applies across the web and within apps.</p>
 
-<p>I wanted this access to be emergency only. I figured the best way to approach this was to have a complex root password that was only usable from my local network and notified me every time it was used.</p>
+<p><a href="https://github.com/eldridgea/erised">I&rsquo;ve uploaded the project to GitHub</a>. If you have docker and docker-compose already installed you can get this up and runnning in about 5 minutes and with 2 commands.</p>
 
-<p>I added a password for root on each of these systems (I usually never have one). I normally restrict my SSH port(s) to only allow incoming traffic from my proxy servers. In this case, I opened up SSH ports for traffic coming from my local network (192.168.1.0/24). However I also wanted to ensure that any of my user account traffic (eldridgea@) was required to go through my proxy servers. After making the firewall changes, I added this to sshd_config:</p>
-
-<pre><code>Match Address 192.168.1.*,127.0.0.1 User root
-      PermitRootLogin yes
-      PasswordAuthentication yes
-
-AllowUsers eldridgea@192.168.1.139
-AllowUsers eldridgea@192.168.1.119
-AllowUsers eldridgea@127.0.0.1
-AllowUsers root@192.168.1.0/24
-</code></pre>
-
-<p>This &ldquo;Match&rdquo; section ensures that &ldquo;PermitRootLogin&rdquo; and &ldquo;PasswordAuthentication&rdquo; works only works on my local network and only for root. Root login is banned from elsewhere. The AllowUsers lines similarly allow root from my local network, but my personal user account is proxied.</p>
-
-<p>For notifications I used <a href="https://wiki.debian.org/sSMTP">sSMTP</a> to send notifications using my Outlook account that I have for this purpose.</p>
-
-<p>I set /etc/ssmtp/ssmtp.conf to my Outlook settings:</p>
-
-<pre><code>root=me@outlook.com
-
-mailhub=smtp-mail.outlook.com:587
-AuthUser=me@outlook.com
-AuthPass=MY_PASSWORD
-UseTLS=YES
-UseSTARTTLS=YES
-</code></pre>
-
-<p>Then in in /root/.bashrc I wanted to call a script that emails me on any login. Fortunately there were a couple good ones available on github. I used <a href="https://gist.github.com/tommybutler/6953743#file-iloggedin-sh">this one</a>.</p>
-
-<p>The end result is as long as I&rsquo;m connected to my home network I can connect those 3 systems with a root password I have stored in Lastpass, and will get notified anytime a root shell is used.</p>
+<p><code>Photo Credit: https://www.flickr.com/photos/rbulmahn/6180104944</code></p>
     
         </div>
     </section>
@@ -183,6 +157,7 @@ UseSTARTTLS=YES
     <header class="read-next-card-header">
         <small class="read-next-card-header-sitetitle">&mdash; Eldridge&#39;s Blog &mdash;</small>
         
+        <h3 class="read-next-card-header-title"><a href="/tags/android/">#android</a></h3>
     </header>
     <div class="read-next-divider"><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M13 14.5s2 3 5 3 5.5-2.463 5.5-5.5S21 6.5 18 6.5c-5 0-7 11-12 11C2.962 17.5.5 15.037.5 12S3 6.5 6 6.5s4.5 3.5 4.5 3.5"/></svg>
     </div>
@@ -190,68 +165,43 @@ UseSTARTTLS=YES
     <div class="read-next-card-content">
       
         <ul>
-          <li><a href="/2015/08/24/project-transmute/">Project Transmute</a></li>            
+          <li><a href="/2014/12/30/security-measure-servers-and-data-storage/">Security Measures: Servers and Data Storage</a></li>            
         
-                      
+          <li><a href="/2017/08/10/freeipa-and-raspbian/">FreeIPA and Raspbian</a></li>            
         
-          <li><a href="/2017/10/10/proposal-for-improving-social-security-numbers/">Proposal For Improving Social Security Numbers</a></li>            
+          <li><a href="/2014/12/30/security-measures/">Security Measures: Two-Factor</a></li>            
         
-          <li><a href="/2018/11/05/in-defense-of-webauthn/">In Defense of Webauthn</a></li>            
-        
-          <li><a href="/2017/04/11/the-myth-of-the-necessary-jerk/">The Myth of the Necessary Jerk</a></li>            
+          <li><a href="/2014/12/30/security-measures-client-devices/">Security Measures: Client Devices</a></li>            
         </ul>
     </div>
     <footer class="read-next-card-footer">
       
+        <a href="/tags/android/">See all related posts →</a>
     </footer>
 </article>
 
 
       
+      
       <article class="post-card post"> 
     
-    <a class="post-card-image-link" href="/2017/08/10/freeipa-and-raspbian/">
-      <div class="post-card-image" style="background-image: url(/img/RaspberryPi.jpg)"></div>
+    <a class="post-card-image-link" href="/2018/11/27/we-measure-the-economy-wrong/">
+      <div class="post-card-image" style="background-image: url(/img/dollar_bill.jpg)"></div>
     </a>
     
 
     <div class="post-card-content">
-      <a class="post-card-content-link" href="/2017/08/10/freeipa-and-raspbian/">
+      <a class="post-card-content-link" href="/2018/11/27/we-measure-the-economy-wrong/">
           <header class="post-card-header">
+              <span class="post-card-tags">
+              #economy 
+              #policy  </span>
               
-              <h2 class="post-card-title">FreeIPA and Raspbian</h2>
+              <h2 class="post-card-title">We Measure The Economy Wrong</h2>
           </header>
           <section class="post-card-excerpt">
                
-                <p>I use FreeIPA heavily to manage my lab at home however their client wasn&rsquo;t available on Raspbian, so I documented the stpes it took to get it working on my Pi.</p>
-              
-          </section>
-      </a>
-
-      <footer class="post-card-meta">
-          <img class="author-profile-image" src="/img/eldridge_alexander.jpg" alt="Author" />
-          <span class="post-card-author"><a href="/">Eldridge Alexander</a></span>
-      </footer>
-    </div>
-</article>
-      
-      
-      <article class="post-card post"> 
-    
-    <a class="post-card-image-link" href="/2017/04/11/the-myth-of-the-necessary-jerk/">
-      <div class="post-card-image" style="background-image: url(/img/4265771518_be7505810d_o.jpg)"></div>
-    </a>
-    
-
-    <div class="post-card-content">
-      <a class="post-card-content-link" href="/2017/04/11/the-myth-of-the-necessary-jerk/">
-          <header class="post-card-header">
-              
-              <h2 class="post-card-title">The Myth of the Necessary Jerk</h2>
-          </header>
-          <section class="post-card-excerpt">
-               
-                <p>There&rsquo;s a prevailing myth in popular culture and the tech industry of the &ldquo;Necessary Jerk&rdquo; - a jerk who is so singularly gifted in their field that they&rsquo;re completely irreplaceable. Here I argue why that&rsquo;s not only incorrect, but a stance that will actively harm groups and businesses.</p>
+                <p>An overview of common economic measurements and how they can be improved.</p>
               
           </section>
       </a>
@@ -275,17 +225,17 @@ UseSTARTTLS=YES
     </a>
   </div>
   <span class="floating-header-divider">&mdash;</span>
-  <div class="floating-header-title">LDAP With FreeIPA and Golden Gate Proxies</div>
+  <div class="floating-header-title">Erised</div>
   <div class="floating-header-share">
     <div class="floating-header-share-label">Share this <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24">
      <path d="M7.5 15.5V4a1.5 1.5 0 1 1 3 0v4.5h2a1 1 0 0 1 1 1h2a1 1 0 0 1 1 1H18a1.5 1.5 0 0 1 1.5 1.5v3.099c0 .929-.13 1.854-.385 2.748L17.5 23.5h-9c-1.5-2-5.417-8.673-5.417-8.673a1.2 1.2 0 0 1 1.76-1.605L7.5 15.5zm6-6v2m-3-3.5v3.5m6-1v2"/></svg>
     </div>
     
-    <a class="floating-header-share-tw" href="https://twitter.com/share?text=LDAP%20With%20FreeIPA%20and%20Golden%20Gate%20Proxies&amp;url=%2f2017%2f06%2f20%2fldap-with-freeipa-and-golden-gate-proxies%2f"
+    <a class="floating-header-share-tw" href="https://twitter.com/share?text=Erised&amp;url=%2f2019%2f01%2f07%2ferised%2f"
           onclick="window.open(this.href, 'share-twitter', 'width=550,height=235');return false;">
           <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 32 32"><path d="M30.063 7.313c-.813 1.125-1.75 2.125-2.875 2.938v.75c0 1.563-.188 3.125-.688 4.625a15.088 15.088 0 0 1-2.063 4.438c-.875 1.438-2 2.688-3.25 3.813a15.015 15.015 0 0 1-4.625 2.563c-1.813.688-3.75 1-5.75 1-3.25 0-6.188-.875-8.875-2.625.438.063.875.125 1.375.125 2.688 0 5.063-.875 7.188-2.5-1.25 0-2.375-.375-3.375-1.125s-1.688-1.688-2.063-2.875c.438.063.813.125 1.125.125.5 0 1-.063 1.5-.25-1.313-.25-2.438-.938-3.313-1.938a5.673 5.673 0 0 1-1.313-3.688v-.063c.813.438 1.688.688 2.625.688a5.228 5.228 0 0 1-1.875-2c-.5-.875-.688-1.813-.688-2.75 0-1.063.25-2.063.75-2.938 1.438 1.75 3.188 3.188 5.25 4.25s4.313 1.688 6.688 1.813a5.579 5.579 0 0 1 1.5-5.438c1.125-1.125 2.5-1.688 4.125-1.688s3.063.625 4.188 1.813a11.48 11.48 0 0 0 3.688-1.375c-.438 1.375-1.313 2.438-2.563 3.188 1.125-.125 2.188-.438 3.313-.875z"/></svg>
       </a>
-      <a class="floating-header-share-fb" href="https://www.facebook.com/sharer/sharer.php?u=%2f2017%2f06%2f20%2fldap-with-freeipa-and-golden-gate-proxies%2f"
+      <a class="floating-header-share-fb" href="https://www.facebook.com/sharer/sharer.php?u=%2f2019%2f01%2f07%2ferised%2f"
           onclick="window.open(this.href, 'share-facebook','width=580,height=296');return false;">
           <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 32 32"><path d="M19 6h5V0h-5c-3.86 0-7 3.14-7 7v3H8v6h4v16h6V16h5l1-6h-6V7c0-.542.458-1 1-1z"/></svg>
       </a>
