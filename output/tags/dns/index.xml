@@ -12,12 +12,12 @@
     
     
     <item>
-      <title>Erised</title>
-      <link>/2019/01/07/erised/</link>
+      <title>Project Erised</title>
+      <link>/2019/01/07/project-erised/</link>
       <pubDate>Mon, 07 Jan 2019 20:39:01 +0000</pubDate>
       
-      <guid>/2019/01/07/erised/</guid>
-      <description>Android 9.0 intoduced native suppport for DNS over TLS (DoT). I like blocking ads and trackers on my device but I don&amp;rsquo;t like rooting or using an always-on VPN. I begain investigating using DoT as a method for adblocking as Android uses DoT for all DNS requests if it&amp;rsquo;s enabled. I used a combination of off-the-shelf stuff in a docker network to handle this.
+      <guid>/2019/01/07/project-erised/</guid>
+      <description>Android 9.0 introduced native suppport for DNS over TLS (DoT). I like blocking ads and trackers on my device, but I don&amp;rsquo;t like rooting or using an always-on VPN. I begain investigating using DoT as a method for adblocking, as Android uses DoT for all DNS requests if it&amp;rsquo;s enabled. I used a combination of off-the-shelf stuff in a docker network to handle this.
 The incoming DoT request is handled by Caddy which strips the TLS and forwards it as a standard DNS request within the private Docker network to a container running PiHole.</description>
     </item>
     
