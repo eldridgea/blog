@@ -11,7 +11,7 @@ title = "Project Erised"
 
 +++
 
-Android 9.0 [introduced](https://android-developers.googleblog.com/2018/04/dns-over-tls-support-in-android-p.html) native suppport for DNS over TLS (DoT). I like blocking ads and trackers on my device, but I don't like rooting or using an always-on VPN.
+Android 9.0 [introduced](https://android-developers.googleblog.com/2018/04/dns-over-tls-support-in-android-p.html) native suppport for [DNS over TLS](https://tools.ietf.org/html/rfc7858) (DoT). I like blocking ads and trackers on my device, but I don't like rooting or using an always-on VPN.
 I begain investigating using DoT as a method for adblocking, as Android uses DoT for all DNS requests if it's enabled. I used a combination of off-the-shelf stuff in a docker network to handle this. 
 
 The incoming DoT request is handled by [Caddy](https://caddyserver.com/) which strips the TLS and forwards it as a standard DNS request within the private Docker network to a container running [PiHole](https://pi-hole.net/).
