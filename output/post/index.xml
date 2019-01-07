@@ -6,10 +6,20 @@
     <description>Recent content in Posts on </description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-US</language>
-    <lastBuildDate>Tue, 27 Nov 2018 22:57:01 +0000</lastBuildDate>
+    <lastBuildDate>Mon, 07 Jan 2019 20:39:01 +0000</lastBuildDate>
     
 	<atom:link href="/post/index.xml" rel="self" type="application/rss+xml" />
     
+    
+    <item>
+      <title>Erised</title>
+      <link>/2019/01/07/erised/</link>
+      <pubDate>Mon, 07 Jan 2019 20:39:01 +0000</pubDate>
+      
+      <guid>/2019/01/07/erised/</guid>
+      <description>Android 9.0 intoduced native suppport for DNS over TLS (DoT). I like blocking ads and trackers on my device but I don&amp;rsquo;t like rooting or using an always-on VPN. I begain investigating using DoT as a method for adblocking as Android uses DoT for all DNS requests if it&amp;rsquo;s enabled. I used a combination of off-the-shelf stuff in a docker network to handle this.
+The incoming DoT request is handled by Caddy which strips the TLS and forwards it as a standard DNS request within the private Docker network to a container running PiHole.</description>
+    </item>
     
     <item>
       <title>We Measure The Economy Wrong</title>

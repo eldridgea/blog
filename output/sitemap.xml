@@ -3,6 +3,11 @@
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   
   <url>
+    <loc>/2019/01/07/erised/</loc>
+    <lastmod>2019-01-07T20:39:01+00:00</lastmod>
+  </url>
+  
+  <url>
     <loc>/2018/11/27/we-measure-the-economy-wrong/</loc>
     <lastmod>2018-11-27T22:57:01+00:00</lastmod>
   </url>
@@ -109,7 +114,19 @@
   
   <url>
     <loc>/</loc>
-    <lastmod>2018-11-27T22:57:01+00:00</lastmod>
+    <lastmod>2019-01-07T20:39:01+00:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>/tags/android/</loc>
+    <lastmod>2019-01-07T20:39:01+00:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>/categories/android/</loc>
+    <lastmod>2019-01-07T20:39:01+00:00</lastmod>
     <priority>0</priority>
   </url>
   
@@ -139,7 +156,7 @@
   
   <url>
     <loc>/categories/</loc>
-    <lastmod>2014-12-30T04:57:58+00:00</lastmod>
+    <lastmod>2019-01-07T20:39:01+00:00</lastmod>
     <priority>0</priority>
   </url>
   
@@ -229,13 +246,13 @@
   
   <url>
     <loc>/tags/dns/</loc>
-    <lastmod>2018-09-26T22:57:01+00:00</lastmod>
+    <lastmod>2019-01-07T20:39:01+00:00</lastmod>
     <priority>0</priority>
   </url>
   
   <url>
     <loc>/categories/dns/</loc>
-    <lastmod>2018-09-26T22:57:01+00:00</lastmod>
+    <lastmod>2019-01-07T20:39:01+00:00</lastmod>
     <priority>0</priority>
   </url>
   
@@ -433,7 +450,7 @@
   
   <url>
     <loc>/post/</loc>
-    <lastmod>2018-11-27T22:57:01+00:00</lastmod>
+    <lastmod>2019-01-07T20:39:01+00:00</lastmod>
     <priority>0</priority>
   </url>
   
@@ -523,7 +540,7 @@
   
   <url>
     <loc>/tags/</loc>
-    <lastmod>2014-12-30T04:57:58+00:00</lastmod>
+    <lastmod>2019-01-07T20:39:01+00:00</lastmod>
     <priority>0</priority>
   </url>
   
