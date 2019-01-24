@@ -13,6 +13,6 @@ title = "Ignite Talk: Universities In Society"
 This week I gave a talk at [Ignite Ann Arbor](https://www.igniteannarbor.org/). All of the talks given were fasicnating, I definitley recommend them.
 
 I spoke about the effects of outside influences that are increasing how much they affect universites, and how that in turn is affecting students, professors, and administrators.
-If you'd like to see it, the stream is [available on YouTube](https://www.youtube.com/watch?v=-MAxBG-jfeY&feature=youtu.be&t=7035). My talk starts at 1:57:15 (the link should take you straight there).
+If you'd like to see it, the stream is [available on YouTube](https://www.youtube.com/watch?v=fceGFd0sr2w).
 
 The slides are [available here](https://docs.google.com/presentation/d/e/2PACX-1vTlvIWp2kZ588J6c-Tl-DiHS48dwSzmYYdxjB0cKX3Oi3noctAbZq6Glc0h46xBVDr7nkBJdmptCBdT/pub?start=false&loop=false&delayms=3000).
