@@ -10,7 +10,7 @@ tags = ["universities", "society", "education", "debt"]
 title = "Ignite Talk: Universities In Society"
 
 +++
-This week I gave a talk at [Ignite Ann Arbor](https://www.igniteannarbor.org/). All of the talks given were fasicnating, I definitley recommend them.
+This week I gave a talk at [Ignite Ann Arbor](https://www.igniteannarbor.org/). All of the talks given were fascinating, I definitley recommend them.
 
 I spoke about the effects of outside influences that are increasing how much they affect universites, and how that in turn is affecting students, professors, and administrators.
 If you'd like to see it, the stream is [available on YouTube](https://www.youtube.com/watch?v=fceGFd0sr2w).
