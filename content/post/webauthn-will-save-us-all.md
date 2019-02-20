@@ -12,7 +12,7 @@ title = "In Defense of Webauthn"
 +++
 I wanted to take a moment and respond to Troy Hunt’s recent post [Here's Why \[Insert Thing Here\] Is Not a Password Killer](https://www.troyhunt.com/heres-why-insert-thing-here-is-not-a-password-killer/).
 
-First, I’d like to say that overall I am in strong agreement with the premise of the article. Usability, adoption, lack of friction are all-important when considering a security mechanism, especially something as crucial as authentication, and when considering replacing something as well known as passwords. Not much out there that addresses all of these things at once.
+First, I’d like to say that overall I am in strong agreement with the premise of the article. Usability, adoption, lack of friction are all-important when considering a security mechanism, especially something as crucial as authentication, and when considering replacing something as well known as passwords. Not much out there addresses all of these things at once.
 
 So, since I strongly agree with the premise, you’ve probably guessed what’s coming next - nitpicking! I usually don’t nitpick, since I think the overall point of a post is the most important, and I don't like getting bogged down in minutiae, but I wanted to address a misconception around [Webauthn](https://www.w3.org/TR/webauthn/).
 
