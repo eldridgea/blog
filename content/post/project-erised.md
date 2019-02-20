@@ -15,7 +15,7 @@ Android 9.0 [introduced](https://android-developers.googleblog.com/2018/04/dns-o
 I begain investigating using DoT as a method for adblocking, as Android uses DoT for all DNS requests if it's enabled. I used a combination of off-the-shelf stuff in a docker network to handle this. 
 
 The incoming DoT request is handled by [Caddy](https://caddyserver.com/) which strips the TLS and forwards it as a standard DNS request within the private Docker network to a container running [PiHole](https://pi-hole.net/).
-PiHole will blackhole any requests that are on its blacklist, and otherwise forward them upstream to the container running [cloudflared](https://developers.cloudflare.com/1.1.1.1/dns-over-https/cloudflared-proxy/), which will reeencrypt the request and send it upstream to Cloudflare's [1.1.1.1](https://1.1.1.1.) DNS service.
+PiHole will blackhole any requests that are on its blacklist, and otherwise forward them upstream to the container running [cloudflared](https://developers.cloudflare.com/1.1.1.1/dns-over-https/cloudflared-proxy/), which will re-encrypt the request and send it upstream to Cloudflare's [1.1.1.1](https://1.1.1.1.) DNS service.
 
 So the only DNS requests that will get legit responses are ones not on PiHole's blacklist, and this applies across the web and within apps.
 
