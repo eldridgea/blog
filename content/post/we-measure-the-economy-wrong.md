@@ -13,7 +13,7 @@ title = "We Measure The Economy Wrong"
 
 We measure the economy wrong.
 
-Well, maybe not wrong, but way we measure the economy is increasingly irrelevant to the day-to-day lives of citizens when attempting to measure positive effects. 
+Well, maybe not wrong, but the way we measure the economy is increasingly irrelevant to the day-to-day lives of citizens when attempting to measure positive effects. 
 
 If it's reported that "the economy" is getting worse, you'll probably notice the effects in your personal life. If it's reported that "the economy" is getting better, you may not be as directly affected.
 
