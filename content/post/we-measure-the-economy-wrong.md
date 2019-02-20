@@ -98,7 +98,7 @@ The most typical method to measure the stock market is indexes. The most common 
 
 ### Why it's ineffective
 
-Unlike some of the other metrics I'm diving into, the stock market does affect most Americans directly but not as substantially as you might expect. In 2017 the Federal Reserve found that [51.9 of Americans were invested in the stock market](https://www.federalreserve.gov/publications/files/scf17.pdf). It is worth noting that a change in the stock market would have no direct effect on almost half of Americans, but I want to examine that 51.9%. If you're invested in the market, a change obviously has a direct effect on them, but how much?
+Unlike some of the other metrics I'm diving into, the stock market does affect most Americans directly but not as substantially as you might expect. In 2017 the Federal Reserve found that [51.9% of Americans were invested in the stock market](https://www.federalreserve.gov/publications/files/scf17.pdf). It is worth noting that a change in the stock market would have no direct effect on almost half of Americans, but I want to examine that 51.9%. If you're invested in the market, a change obviously has a direct effect on them, but how much?
 
 [Edward N. Wolff's research](https://www.nber.org/papers/w24085) shows 84% of the stocks are owned by the country's richest 10%, meaning that the remaining 16% of stock ownership is spread far more thinly among American stockholders. So while market measures are relevant, they are mostly impactful to 10% of Americans and vary from less impactful to non-impactful for the vast majority of citizens.
 
