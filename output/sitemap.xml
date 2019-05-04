@@ -3,6 +3,11 @@
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   
   <url>
+    <loc>/2019/05/04/thotcon-malicious-devices/</loc>
+    <lastmod>2019-05-04T12:00:11+00:00</lastmod>
+  </url>
+  
+  <url>
     <loc>/2019/01/07/project-erised/</loc>
     <lastmod>2019-01-07T20:39:01+00:00</lastmod>
   </url>
@@ -40,11 +45,6 @@
   <url>
     <loc>/2017/06/20/ldap-with-freeipa-and-golden-gate-proxies/</loc>
     <lastmod>2017-06-20T06:54:05+00:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>/2017/04/11/the-myth-of-the-necessary-jerk/</loc>
-    <lastmod>2017-04-11T14:31:11+00:00</lastmod>
   </url>
   
   <url>
@@ -114,7 +114,7 @@
   
   <url>
     <loc>/</loc>
-    <lastmod>2019-01-07T20:39:01+00:00</lastmod>
+    <lastmod>2019-05-04T12:00:11+00:00</lastmod>
     <priority>0</priority>
   </url>
   
@@ -450,7 +450,7 @@
   
   <url>
     <loc>/post/</loc>
-    <lastmod>2019-01-07T20:39:01+00:00</lastmod>
+    <lastmod>2019-05-04T12:00:11+00:00</lastmod>
     <priority>0</priority>
   </url>
   
