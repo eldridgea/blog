@@ -2,7 +2,7 @@
 author = "Eldridge Alexander"
 categories = ["thotcon", "security", "talk"]
 date = 2019-05-04T22:57:01Z
-description = "A script that continually checks  your public IP address and updates your Cloudflare DNS records accordingly."
+description = "A recap of my THOTCON talk on malicious devices and 5G networks at home."
 draft = false
 image = "/img/thotcon.jpg"
 slug = "thotcon-malicious-devices"
