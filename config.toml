@@ -1,4 +1,4 @@
-baseurl         = "/"
+baseurl         = "https://blog.eldrid.ge/"
 theme           = "hugo-casper-two"
 languageCode    = "en-US"
 disqusShortname = ""
