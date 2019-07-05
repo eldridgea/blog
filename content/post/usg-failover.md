@@ -2,10 +2,10 @@
 author = "Eldridge Alexander"
 categories = ["security", "proxy", "reverse proxy"]
 date = 2019-07-05T21:23:44Z
-description = "Golden Gate aims to be a transparent reverse proxy that sits on the border of a network."
+description = "USG Failover"
 draft = false
 image = "img/800px-Golden_Gate_Bridge_Yang_Ming_Line.jpg"
-slug = "goldengate"
+slug = "usg-failover"
 tags = ["security", "proxy", "reverse proxy"]
 title = "USG Failover"
 
