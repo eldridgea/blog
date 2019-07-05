@@ -13,7 +13,7 @@ title = "USG Failover"
 
 ### Overview
 
-This is an outline for a project I'm working on. I'll post updates as I progress.
+aThis is an outline for a project I'm working on. I'll post updates as I progress.
 
 Golden Gate aims to be a transparent reverse proxy that sits on the border of a network. It will handle all web requests coming into the newtork and pass them to the appropriate server. Except for Golden Gate, nothing will be open to the Internet in general.
 
