@@ -5,7 +5,7 @@ description = "Using a secondary Internet source for seamless failover if my AT&
 draft = false
 image = "/img/ubiquiti-switch.jpg"
 slug = "usg-failover"
-title = "Home Nework Internet Failover"
+title = "Home Network Internet Failover"
 
 +++
 
