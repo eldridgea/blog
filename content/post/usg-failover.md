@@ -41,7 +41,9 @@ Once this was connected, I went to my controller, opened the configuration for m
 ![USG Menu Screen](/img/usg1.png)
 
 Then, I went to the Site settings for my home and created a new network called WAN2.
-I set the "Load Balancing" type to "Failover only" as I want to use my fiber line if it's available. 
+I set the "Load Balancing" type to "Failover only" as I want to use my fiber line if it's available.
+
+![USG Menu Screen](/img/usg2.png)
 
 I saved my setting and that's it! Ubiquiti makes it easy.
 
