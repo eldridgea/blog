@@ -56,3 +56,5 @@ Ubiquti has a pretty good notification system. Imn the Site settings, I enabled 
 
 As my Internet seamless failed over I was no longer made immediately aware if my Internet went down.
 Now I get an email alert when my AT&T fiber goes down.
+
+`Image Credit: https://ccsearch.creativecommons.org/photos/fe524643-f6ba-48bc-b489-06041d4589b5`
