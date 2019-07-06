@@ -11,11 +11,11 @@ title = "Home Nework Internet Failover"
 
 ### Overview
 
-My home AT&T fiber goes down on rare ocassion.
-Overall the realibiltiy is pretty high but I wanted to have a failover just in case.
-This is my home Intenet connection -- it runs some services, but nothing crucial.
+My home AT&T fiber goes down on rare occasion.
+Overall the reliability is pretty high but I wanted to have a failover just in case.
+This is my home Internet connection -- it runs some services, but nothing crucial.
 I didn't want to spend a lot of money on this.
-I have a pasword for [Xfinity WiFi](https://wifi.xfinity.com/) and my neighbors have an Xfinity hotspot so I decided I wanted to use this.
+I have a password for [Xfinity WiFi](https://wifi.xfinity.com/) and my neighbors have an Xfinity hotspot so I decided I wanted to use this.
 
 ### Parts and Services
 I already had Ubiquiti gear for my home network including a
@@ -25,8 +25,8 @@ The only new piece of hardware I got was a [GL.iNET travel router](https://www.a
 ![Travel Router](/img/glinet.png)
 
 ### Travel Router Setup
-The GL.iNET travel router is somewhat cheap, so if you use one, adjust expectations accordingly, but it's extremely configurabe.
-It uses a whiltlabeled verion of OpenWRT, with some nice defaults. One easy-to-setup option taking a WiFi connection and providing it via the device's LAN port, called "Repeater".
+The GL.iNET travel router is somewhat cheap, so if you use one, adjust expectations accordingly, but it's extremely configurable.
+It uses a whiltlabeled version of OpenWRT, with some nice defaults. One easy-to-setup option taking a WiFi connection and providing it via the device's LAN port, called "Repeater".
 
 I chose the "Scan" option under "Repeater" and selected "xfinitywifi" as my upstream connection. I then connected my laptop to the LAN port, hit Xfinity's captive portal, and logged in.
 
@@ -54,5 +54,5 @@ Ubiquti has a pretty good notification system. Imn the Site settings, I enabled 
 
 ![Email Alert Screen](/img/usg3.png)
 
-As my Internet seamless failed over I was no longer made immedately aware if my Internet went down.
+As my Internet seamless failed over I was no longer made immediately aware if my Internet went down.
 Now I get an email alert when my AT&T fiber goes down.
