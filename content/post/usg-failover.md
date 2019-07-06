@@ -49,3 +49,10 @@ I saved my setting and that's it! Ubiquiti makes it easy.
 
 ### Notifications
 
+Ubiquti has a pretty good notification system. Imn the Site settings, I enabled email alerts. 
+(You can configure your email credential settings in your Settings > Controller menu.)
+
+![Email Alert Screen](/img/usg3.png)
+
+As my Internet seamless failed over I was no longer made immedately aware if my Internet went down.
+Now I get an email alert when my AT&T fiber goes down.
