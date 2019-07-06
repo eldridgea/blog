@@ -22,4 +22,4 @@ I already had Ubiquiti gear for my home network including a
 [Security Gateway](https://store.ui.com/products/unifi-security-gateway). I also had my Xfinity password. 
 The only new piece of hardware I got was a [GL.iNET travel router](https://www.amazon.com/gp/product/B073TSK26W).
 
-[!Travel Router](/img/glinet.png)
+![Travel Router](/img/glinet.png)
