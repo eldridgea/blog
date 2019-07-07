@@ -49,7 +49,7 @@ I saved my setting and that's it! Ubiquiti makes it easy.
 
 ### Notifications
 
-Ubiquti has a pretty good notification system. Imn the Site settings, I enabled email alerts. 
+Ubiquti has a pretty good notification system. In the Site settings, I enabled email alerts. 
 (You can configure your email credential settings in your Settings > Controller menu.)
 
 ![Email Alert Screen](/img/usg3.png)
