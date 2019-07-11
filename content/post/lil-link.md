@@ -9,9 +9,13 @@ title = "Lil Link"
 
 +++
 
+Today I'm open sourcing a shortlink project I'm calling [Lil Link](https://lillink.co) that runs entirely on [Cloudflare Workers](https://workers.cloudflare.com/).
 
-This is the test announcemtn for Lil Link.
+At every company where I've worked, there has always been a "go link" or a "shortlink" system.
+As there aren't many modern and maintained open source systems, this tends to get reimplmented a lot. In fact. as an employee, I wrote the shortlink system that Cloudflare itself used (and may still use) in AppEngine before Workers was a product.
+The big difference between these shortlink systems and something like bit.ly is the shortlinks typically are aimed at employees and insiders as opposed to the public, so anyone is allowed to make "branded" shortlinks - a link named whatever the user wants.
+This makes it easy to shre the links verbally or in text form and have the linke be remembered, a huge benefit as many internal links to resources are often long and unweildy. 
 
-* On my NAS I only connect via encrypted methods such as AFP and SSH
-* On my next upgrade, I will have my NAS encrypt on disk
-* I only connect remotely to any of my servers/NAS via SSH or HTTPS
+As this runs entirely on Cloudflare Workers this is quick and easy to implement and relatively cheap to run.
+
+I'll be offering a hosted version later this summer for anyone that doens't want to, or can't maintain with their own installation, but some organziations will hopefilly find this useful after a quick `wrangler publish`.
