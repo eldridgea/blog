@@ -12,9 +12,9 @@ title = "Lil Link"
 Today I'm open sourcing a shortlink project I'm calling [Lil Link](https://lillink.co) that runs entirely on [Cloudflare Workers](https://workers.cloudflare.com/).
 
 At every company where I've worked, there has always been a "go link" or a "shortlink" system.
-As there aren't many modern and maintained open source systems, this tends to get reimplmented a lot. In fact. as an employee, I wrote the shortlink system that Cloudflare itself used (and may still use) in AppEngine before Workers was a product.
+As there aren't many modern and maintained open source systems, this tends to get reimplemented a lot. In fact. as an employee, I wrote the shortlink system that Cloudflare itself used (and may still use) in AppEngine before Workers was a product.
 The big difference between these shortlink systems and something like bit.ly is the shortlinks typically are aimed at employees and insiders as opposed to the public, so anyone is allowed to make "branded" shortlinks - a link named whatever the user wants.
-This makes it easy to shre the links verbally or in text form and have the linke be remembered, a huge benefit as many internal links to resources are often long and unweildy. 
+This makes it easy to share the links verbally or in text form and have the link be remembered, a huge benefit as many internal links to resources are often long and unwieldy. 
 
 As this runs entirely on Cloudflare Workers this is quick and easy to implement and relatively cheap to run.
 
