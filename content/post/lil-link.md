@@ -19,3 +19,5 @@ This makes it easy to share the links verbally or in text form and have the link
 As this runs entirely on Cloudflare Workers this is quick and easy to implement and relatively cheap to run.
 
 I'll be offering a hosted version later this summer for anyone that doens't want to, or can't maintain with their own installation, but some organziations will hopefilly find this useful after a quick `wrangler publish`.
+
+[The code is available in this GitHub repo](https://github.com/eldridgea/lil-link).
