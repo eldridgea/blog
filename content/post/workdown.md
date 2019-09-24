@@ -1,7 +1,7 @@
 +++
 author = "Eldridge Alexander"
 date = 2019-09-23T12:03:11Z
-description = "A system to write Markdown and have it published and hosted via Cloudflare Workers."
+description = "An app to write Markdown and have it published and hosted via Cloudflare Workers."
 draft = false
 image = "img/workers-illustration.png"
 slug = "workdown"
