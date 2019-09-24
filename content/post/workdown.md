@@ -5,8 +5,7 @@ description = "A system to write Markdown and have it published and hosted via C
 draft = false
 image = "img/workers-illustration.png"
 slug = "workdown"
-title = "=WorkdowW
-
+title = "Workdown"
 +++
 
 Today I'm open sourcing an app [Workdown](https://github.com/eldridgea/workdown/) -- you write Markdown and it will converted to a site, uploaded, and hosted on Cloudflare Workers.
