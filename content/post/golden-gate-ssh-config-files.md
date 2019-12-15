@@ -15,10 +15,16 @@ For my internal services I added this to the ~/.ssh/config file on my laptop (re
 
     Host *.naphos.com
         User USERNAME
+        ProxyJump USERNAME@PROXY_IP
+
+`ProxyJump` is a relatively new SSH option, so if you find that it doesn't work for you, you can use option `ProxyCommand`:
+        
         ProxyCommand ssh -q -x USERNAME@PROXY_IP -W %h:%p
         
- This makes any SSH or SFTP request from my laptop to *internal.naphos.com* initiate a connection to *PROXY_IP*, and then automatically pass the request on to *internal.naphos.com*.
+This makes any SSH or SFTP request from my laptop to *internal.naphos.com* initiate a connection to *PROXY_IP*, and then automatically pass the request on to *internal.naphos.com*.
  
 I use certificate-based authentication for my SSH connections, so the same certificate that authenticates my laptop to *internal* also authenticates me to *PROXY_IP*.
 
 **EDIT:** I moved the config from using *netcat* to using the *ssh -W* to ensure that encryption is used all the way to the destination.
+
+**EDIT: 2019-12-15** I've updated the config above to reflect the new(ish) ProxyJump option in SSH.
