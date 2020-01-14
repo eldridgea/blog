@@ -2,7 +2,7 @@
 author = "Eldridge Alexander"
 date = 2020-01-13T12:03:11Z
 description = "Using Windows again so I can use Linux effectively."
-draft = true
+draft = false
 image = "img/microsoft-surface.jpg"
 slug = "back-to-microsoft"
 title = "Back to Microsoft"
