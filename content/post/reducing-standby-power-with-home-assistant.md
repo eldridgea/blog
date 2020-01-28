@@ -12,11 +12,11 @@ I’ve recently been trying to reduce unnecessary power usage in my home. I have
 
 Standby power from devices such as TVs and sound systems is generally relatively low. The power used in standby allows the devices to receive the power-on command from the remote as well as generally help have a faster startup time. I wanted to reduce that usage even more for times that it’s definitely not needed -- when no one is home.
 
-I currently use Home Assistant to do most of my home automation. This runs on a Raspberry Pi and integrates with multiple vendors of home automation and IoT devices. I currently have it controlling my Phillips Hue devices, TP-Link Kasa devices, an Ecobee thermostat, and integrating with my Ubiquiti networking gear.
+I currently use Home Assistant to do most of my home automation. This runs on a Raspberry Pi and integrates with multiple vendors of home automation and IoT devices. I currently have it controlling my [Phillips Hue devices](https://amzn.to/2GqJ1Ta), TP-Link Kasa devices, an [Ecobee thermostat](https://amzn.to/2RU3C7B), and integrating with my Ubiquiti networking gear.
 
 Because it integrates with my networking gear I can associate a smartphone with a person. If that device is on the WiFi Home Assistant will mark the person as “Home”. If the device leaves the WiFi for more than 10 minutes it marks the person as “Away”. This allows for having an “away mode” for my home that doesn't require any location tracking software on my phone, and also allows me to accommodate regular guests without asking them to flip some type of “Away/Home” switch.
 
-I purchased two [Kasa smart plugs](https://www.amazon.com/dp/B07B8W2KHZ?&_encoding=UTF8&tag=eldridge0a-20&linkCode=ur2&linkId=02dad32998a9ed4d1af0a9a054ddc0d8&camp=1789&creative=9325) and ran my TVs and sound systems through them. In Home Assistant I created two [scenes](https://www.home-assistant.io/docs/scene/editor/) - one where everything is powered off and one where the Kasa switches are powered on.
+I purchased two [Kasa smart plugs](https://amzn.to/2tYGSLI) and ran my TVs and sound systems through them. In Home Assistant I created two [scenes](https://www.home-assistant.io/docs/scene/editor/) - one where everything is powered off and one where the Kasa switches are powered on.
 
 ![Scenes Screnshot](/img/scene-switch-on.png)
 
