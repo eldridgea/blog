@@ -26,3 +26,5 @@ At this point in my career, I have an informal testing measure for how well remo
 
 While I think that open offices make integrating remote workers difficult, it is by no means impossible. However, by having a non-open office configuration human nature will help in creating team habits and structure that are automatically inclusive of remote workers.  
 
+`Image Credit: https://www.flickr.com/photos/perspective/45245459581/in/photolist-2bWbNNH-oWctZG-91zKAq-mi6ej-HK881R-2JzVMk-23u3Uvu-dLXp7X-nB29YL-56TqR-fD7nj9-6s76gS-rap1yy-GvzLQk-eVcDmz-dvvRh4-npwEW8-3jjSN6-23u3U1m-7C5iFf-nG6Zwa-noPeR2-24AxuJo-qFoiPg-dZ9Qrb-aXSfAn-9Lhvmb-owYgut-q3nBHs-q3vCNz-oyhsex-Neuvn3-rCyScc-aaZo1y-XTUUJa-4ktGXa-ED6QKT-7DYy8Y-9oH9Gw-dAMGh9-pd44ck-oPt1Ac-2fqnuFh-4VqsGT-nHm3qv-huhn9Z-4eGuW5-GmFace-pEJH5L-7DUEgz`
+
