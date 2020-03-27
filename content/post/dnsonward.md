@@ -14,11 +14,11 @@ Operating systems and even [browsers](https://blog.mozilla.org/blog/2020/02/25/f
 
 I wanted to have a home DNS service similar to consumer routers that would take local traditional DNS requests and forward them to an upstream DNS service but only using encrypted DNS. This way all my home devices could be upgraded to encrypted DNS in one fell swoop. I also wanted to make it easy for others to use and have some well known services preconfigured for use.
 
-I built and open sourced [Dnsonward](https://github.com/eldridgea/dnsonward). It’s a docker container that can be started and pointed to some popula DoT servers and also allow you to configurre you’re own. This is built on top of the excellent [CoreDNS](https://coredns.io/) -- written in go, perfomrant, and modular it fit this usecase perfectly.
+I built and open sourced [Dnsonward](https://github.com/eldridgea/dnsonward). It’s a docker container that can be started and pointed to some popular DoT servers and also allow you to configure your own. This is built on top of the excellent [CoreDNS](https://coredns.io/) -- written in go, performant, and modular it fit this use case perfectly.
 
 ## Quickstart 
 
 If you want to give it a try you can spin up it up with Docker:
 `docker run -e SERVICE="cloudflare" -p 53:53 -p 53:53/udp eldridgea/dnsonward`
 
-You can replace `cloudflare` with either `google` or `quad9`. You can also pass enviornment variables to have it point at any DoT server, those details are in the [README](https://github.com/eldridgea/dnsonward).
+You can replace `cloudflare` with either `google` or `quad9`. You can also pass environment variables to have it point at any DoT server, those details are in the [README](https://github.com/eldridgea/dnsonward).
