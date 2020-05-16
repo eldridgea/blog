@@ -135,7 +135,7 @@ While I'm no economist, below are some metrics that will better serve most citiz
 
 ## Real Wage Growth
 
-Real wage growth would measure wage growth _after_ inflation is taken into account. So if a person gets a 3% raise but inflation is 5%, they have actually had a real wage _decrease _of 2%.
+Real wage growth would measure wage growth _after_ inflation is taken into account. So if a person gets a 3% raise but inflation is 5%, they have actually had a real wage _decrease_ of 2%.
 
 This will show if the actual buying power of the average citizen is increasing or decreasing.
 
