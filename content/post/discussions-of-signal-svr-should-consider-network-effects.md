@@ -3,7 +3,7 @@ author = "Eldridge Alexander"
 date = 2020-07-14T12:03:11Z
 description = "Discussions of Signal's new SVR feature should consider not only the Signal app, but the Signal ecosystem as well."
 draft = false
-image = "img/dsignal.jpg"
+image = "img/signal.jpg"
 slug = "discussions-of-signal-svr-should-consider-network-effects"
 title = "Discussions of Signal SVR Should Consider Network Effects "
 +++
