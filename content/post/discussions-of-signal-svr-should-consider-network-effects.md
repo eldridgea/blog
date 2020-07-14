@@ -12,7 +12,7 @@ There is currently a lot of discussion around Signal’s new [PIN](https://signa
 
 This week there was [an excellent post](https://blog.cryptographyengineering.com/2020/07/10/a-few-thoughts-about-signals-secure-value-recovery/) by [Matthew Green](https://twitter.com/matthew_d_green), a cryptographer and professor at Johns Hopkins University, where he discussed some of the concerns he has with Signal’s SVR system, especially around SGX. He also touched on the rollout methods and delivery Signal has used to communicate this new feature. It’s an excellent breakdown and I can’t effectively summarize it here, I highly recommend reading it.
 
-(To *in*effectively summarize it however, SGX isn’t foolproof and has had issues in the past. Signal is pushing this hard on users without a lot of context or easily understood options for disabling SVR.)
+(To *ineffectively* summarize it however, SGX isn’t foolproof and has had issues in the past. Signal is pushing this hard on users without a lot of context or easily understood options for disabling SVR.)
 
 Matthew’s criticisms are all valid and I don’t disagree at all. But I want to add something to the discussion that is being mostly omitted -- the network effect of a messaging app, and the considerations Moxie and Signal have to take into consideration to effectively secure your and my communications.
 
