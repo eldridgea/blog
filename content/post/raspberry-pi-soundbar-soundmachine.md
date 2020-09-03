@@ -31,11 +31,7 @@ echo 'standby 5' | cec-client -s -d 1  # Turn the soundbar to “standby”
 
 I used those to create [a script](https://gist.github.com/eldridgea/fea6dcdcf8e53decfdc0404c395bf18c) that I can call to easily start and stop white noise.
 
-<script src="https://gist.github.com/eldridgea/fea6dcdcf8e53decfdc0404c395bf18c.js"></script>
-
 That worked great for a while but I wanted to have some better automation so I decided to wrap the script with [Flask](https://flask.palletsprojects.com/en/1.1.x/). In a perfect world I would rewrite the bash script in python, and maybe I’ll do that eventually, but for a quick and dirty implementation I shell out to the Bash script from [the Flask app](https://gist.github.com/eldridgea/0f18ffed15b163e96fb2b1462b2c2c0b). 
-
-<script src="https://gist.github.com/eldridgea/0f18ffed15b163e96fb2b1462b2c2c0b.js"></script>
 
 The barebones Flask app script created a handful of api endpoints:
 
