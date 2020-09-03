@@ -1,12 +1,10 @@
 +++
 author = "Eldridge Alexander"
-categories = ["raspberrypi", "homeassistant", "homeautomation"]
 date = 2020-09-03T20:40:01Z
 description = "Building and automating a Raspberry Pi sound machine using a soundbar without having the TV turn on."
 draft = false
 image = "/img/RaspberryPi.jpg"
 slug = "raspberry-pi-soundbar-soundmachine"
-tags = ["raspberrypi", "homeassistant", "homeautomation"]
 title = "Raspberry Pi Soundbar Soundmachine"
 +++
 
