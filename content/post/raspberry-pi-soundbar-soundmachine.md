@@ -1,14 +1,13 @@
 +++
 author = "Eldridge Alexander"
-categories = ["android", "dns"]
-date = 2020-09-03T20:39:01Z
+categories = ["raspberrypi", "homeassistant", "homeautomation"]
+date = 2020-09-03T20:40:01Z
 description = "Building and automating a Raspberry Pi sound machine using a soundbar without having the TV turn on."
 draft = false
 image = "/img/RaspberryPi.jpg"
 slug = "raspberry-pi-soundbar-soundmachine"
 tags = ["raspberrypi", "homeassistant", "homeautomation"]
 title = "Raspberry Pi Soundbar Soundmachine"
-
 +++
 
 I have a TV in my bedroom with a soundbar, and I like to sleep with whitenoise on, but light from the TV screen keeps me awake. I’ve been using a phone app, but this week I decided to us a Raspberry Pi 0W to automate turning on _just_ the soundbar, turning on some whitenoise, and  being able to remote control that with my [Home Assistant](https://www.home-assistant.io/) installation.
