@@ -10,6 +10,8 @@ tags = ["raspberrypi", "homeassistant", "homeautomation"]
 title = "Raspberry Pi Soundbar Soundmachine"
 +++
 
+***UPDATE: I now have volume control working with some help from [CEC-O-Matic](https://cec-o-matic.com). I've added one file and updated the relevant code snippets below.***
+
 I have a TV in my bedroom with a soundbar, and I like to sleep with whitenoise on, but light from the TV screen keeps me awake. I’ve been using a phone app, but this week I decided to us a Raspberry Pi 0W to automate turning on _just_ the soundbar, turning on some whitenoise, and  being able to remote control that with my [Home Assistant](https://www.home-assistant.io/) installation.
 
 I first got a [Raspberry Pi 0W](https://www.raspberrypi.org/products/raspberry-pi-zero-w/) which is the Raspberry Pi 0 that includes WiFi onboard. I then installed [Raspberry Pi OS](https://www.raspberrypi.org/downloads/raspberry-pi-os/) (previously known as Raspbian). 
@@ -31,7 +33,11 @@ echo 'as' | cec-client -s -d 1               # Change the input to the Raspberry
 echo 'standby 5' | cec-client -s -d 1  # Turn the soundbar to “standby”
 ```
 
-I used those to create [a script](https://gist.github.com/eldridgea/fea6dcdcf8e53decfdc0404c395bf18c) that I can call to easily start and stop white noise.
+Unfortunately there was no easy way to do volume control but I found [CEC-O-Matic](https://www.cec-o-matic.com/) which allowed me to find the commands that are equivalent to "volume down" and "volume up" from a remote (`tx 15:44:42` and `tx 15:44:41` respectively). While I couldn't find a way to directly set my volume to "level 5" I worked around this by making a text file named [`on_with_vol_to_5.txt`](https://gist.github.com/eldridgea/23fd3763a507d9c7ba1cf9508c3d0e85) that contained the commands above with a *lot* of volume down commands and then five volume up commands. (Some volume down lines removed for brevity) 
+
+<script src="https://gist.github.com/eldridgea/23fd3763a507d9c7ba1cf9508c3d0e85.js"></script>
+
+I used those to create [a script](https://gist.github.com/eldridgea/fea6dcdcf8e53decfdc0404c395bf18c) that I can call to easily start and stop white noise. Here I separated out the "play" part into a separate function where the text file containing the "on", "input", and "volume-to-level-5 commands" are all piped in with `cec-client` being killed afterwards. This allows for the commands to be sent in one session making it send the commands much faster.
 
 <script src="https://gist.github.com/eldridgea/fea6dcdcf8e53decfdc0404c395bf18c.js"></script>
 
@@ -49,7 +55,7 @@ The barebones Flask app script created a handful of api endpoints:
 
 I used [gunicorn and systemd](https://edmondchuc.com/deploying-python-flask-with-gunicorn-nginx-and-systemd/) here to make sure that the Flask app starts on every reboot using port 4000.
 
-Once this is done I can now start and stop my soundmachine by having something hit the `/play` api endpoint. I decided to use my already existing Home Assistant for this. Home Assistant is a really cool home automatino project that allows integrating all sorts of things including REST endpoints.
+Once this is done I can now start and stop my soundmachine by having something hit the `/play` api endpoint. I decided to use my already existing Home Assistant for this. Home Assistant is a really cool home automation project that allows integrating all sorts of things including REST endpoints.
 
 I edited the confguration.yaml file to add the endpoints to Home Assistant. (The address for my Pi’s Flask app is 192.168.2.29:4000)
 
@@ -65,6 +71,6 @@ rest_command:
     payload: ""
 ```
 
-This creates two new entities in Home Assistant called “script.start_sound_machine” and “script.stop_sound_machine”. I can and have added them as buttons to my dashboard and in automations! Still just open an app on my phone and hit “Play” but I get it from the soundbar, doens’t use power from my phone, and I can have Home Assistat start it automatically, and also stop it before my normal wakeup time! 
+This creates two new entities in Home Assistant called “script.start_sound_machine” and “script.stop_sound_machine”. I can and have added them as buttons to my dashboard and in automations! Still just open an app on my phone and hit “Play” but I get it from the soundbar, doesn’t use power from my phone, and I can have Home Assistant start it automatically, and also stop it before my normal wakeup time! 
 
 
