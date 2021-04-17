@@ -45,7 +45,7 @@ As the wealth consolidates into the hands of a few people and organizations that
 
 Bitcoin as a commodity is here for the long haul but in the next 18 months we’ll see a scandal where the public is made aware of the manipulations of the Bitcoin market by a few major players. 
 
-(As I wrote the above, I read that the Coinbase leadership team have sold a massive amount of their stock in their listing on the stock market this week with the CFO selling 100%, and CEO selling 71% of their holdings. As this was a DPO and not an IPO, leadership cashing out is not as bad of a look, and is likely less indicative of fear than it would be in an IPO. We’ll see though).
+~~(As I wrote the above, I read that the Coinbase leadership team have sold a massive amount of their stock in their listing on the stock market this week with the CFO selling 100%, and CEO selling 71% of their holdings. As this was a DPO and not an IPO, leadership cashing out is not as bad of a look, and is likely less indicative of fear than it would be in an IPO. We’ll see though).~~ I misunderstood the reporting on the Coinbase selloff, the numbers in that parenthetical are totally incorrect.
 
 ## 6. Vaccine hesitancy will rise again
 
