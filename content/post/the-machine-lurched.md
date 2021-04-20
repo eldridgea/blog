@@ -18,7 +18,7 @@ In the wake of World War II, a new world order was created with American democra
 
 In the almost 80 years since the second world war, this new machine has trundled on. People forgot it was a machine. Until January 6th, when it gave a lurch.
 
-The machine lurched because the peaceful transfer of power failed. A powerful man lied. Some complicitly spread that lie. Others wholeheartedly believe it. Our world order is built on the foundation of democracy. This world order was undermined in D.C. when a mob attempted to thwart democracy with violence and again in Georgia when legislators passed laws to effectively disfranchise legitimate voters. 
+The machine lurched because the peaceful transfer of power failed. A powerful man lied. Some complicitly spread that lie. Others wholeheartedly believe it. Our world order is built on a foundation of democracy. This world order was undermined in D.C. when a mob attempted to thwart democracy with violence and again in Georgia when legislators passed laws to effectively disfranchise legitimate voters. 
 
 Boards and CEOs try to have their companies act in rational self-interest. And yet they’re not “punishing” Georgia or certain Senators because of an industry issue such as regulation. In fact, these moves seem to hurt more than help corporate bottom lines. These moves are a defense against an emerging threat. They’re making these moves because when Senators baselessly challenge a vote count or Georgia disenfranchises voters, they undermine American democracy. And a threat to democracy is an existential threat to the world order in which these companies operate, and therefore also a threat to the companies themselves.
 
