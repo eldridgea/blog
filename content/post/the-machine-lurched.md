@@ -1,7 +1,7 @@
 +++
 author = "Eldridge Alexander"
 date = 2021-04-19
-description = ""
+description = "This quote has been stuck in my head ever since public companies pulled out of Georgia at an astonishing rate in response to their new restrictive voter laws."
 draft = false
 image = "img/capitol.jpg"
 slug = "the-machine-lurched"
