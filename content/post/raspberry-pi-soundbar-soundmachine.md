@@ -12,7 +12,7 @@ title = "Raspberry Pi Soundbar Soundmachine"
 
 ***UPDATE: I now have volume control working with some help from [CEC-O-Matic](https://cec-o-matic.com). I've added one file and updated the relevant code snippets below.***
 
-I have a TV in my bedroom with a soundbar, and I like to sleep with whitenoise on, but light from the TV screen keeps me awake. I’ve been using a phone app, but this week I decided to us a Raspberry Pi 0W to automate turning on _just_ the soundbar, turning on some whitenoise, and  being able to remote control that with my [Home Assistant](https://www.home-assistant.io/) installation.
+I have a TV in my bedroom with a soundbar, and I like to sleep with whitenoise on, but light from the TV screen keeps me awake. I’ve been using a phone app, but this week I decided to use a Raspberry Pi 0W to automate turning on _just_ the soundbar, turning on some whitenoise, and  being able to remote control that with my [Home Assistant](https://www.home-assistant.io/) installation.
 
 I first got a [Raspberry Pi 0W](https://www.raspberrypi.org/products/raspberry-pi-zero-w/) which is the Raspberry Pi 0 that includes WiFi onboard. I then installed [Raspberry Pi OS](https://www.raspberrypi.org/downloads/raspberry-pi-os/) (previously known as Raspbian). 
 
