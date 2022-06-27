@@ -11,7 +11,7 @@ title = "Synced LUKS Boot and User Passwords"
 
 I made a password change tool to keep your user password and encrypted boot password the same on Linux and [made it available on GitHub](https://github.com/eldridgea/pwchange-synced).
 
-I recently swapped to an Ubuntu Linux laptop as my main machine and wanted to make my boot and user login passwords the same. This was one thing I missed about my Mac, the boot experience where my boot password was the same as my user password and I was auto-logged in after booting but still had a password if I locked my screen.
+I recently swapped to an Ubuntu Linux laptop as my main machine and wanted to make my boot and user login passwords the same as this would be a one-user machine. This was one thing I missed about my Mac, the boot experience where my boot password was the same as my user password and I was auto-logged in after booting but still had a password if I locked my screen.
 
 The only real thing needed here was a tool to use instead of `passwd` that would push the new password to LUKS and the normal user password. 
 
