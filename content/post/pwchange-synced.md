@@ -21,4 +21,8 @@ This should work on most Linux systems using LUKS and systemd, which is most of 
 
 I also changed the settings so that the desktop starts as logged in after boot with no password, so my user experience is that I type in the disk decryption key and it boots straight to my desktop. The password (or biometric) is still required to unlock the screen once it’s locked or the screensaver starts. 
  
-In the case of biometrics, Ubuntu offers it for the lockscreen if the hardware supports it. To enable biometric authentication for things like `sudo` or an “authentication required” screen I ran `sudo pam-auth-update` and enable my XPS’s fingerprint PAM module.
+~~In the case of biometrics, Ubuntu offers it for the lockscreen if the hardware supports it. To enable biometric authentication for things like `sudo` or an “authentication required” screen I ran `sudo pam-auth-update` and enable my XPS’s fingerprint PAM module.~~
+
+***Update: I ended up undoing the enabling of biometrics pam module, as it seemed to make GUI logins unreliable when completely logged out*** 
+
+`Photo Credit: https://www.flickr.com/photos/kevinshine/10597406823`
