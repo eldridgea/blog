@@ -19,4 +19,6 @@ So I made a tool that effectively a wrapper around the native tools for each, an
 
 This should work on most Linux systems using LUKS and systemd, which is most of the mainstream ones these days. However I only have my Ubuntu laptop to test with. 
 
-One thing I did in addition for experience’s sake was to run `sudo pam-auth-update` and enable my XPS’s fingerprint PAM module so that after typing the password at my bootscreen, I could login to the main UI using just my fingerprint. 
+I also changed the settings so that the desktop starts as logged in after boot with no password, so my user experience is that I type in the disk decryption key and it boots straight to my desktop. The password (or biometric) is still required to unlock the screen once it’s locked or the screensaver starts. 
+ 
+In the case of biometrics, Ubuntu offers it for the lockscreen if the hardware supports it. To enable biometric authentication for things like `sudo` or an “authentication required” screen I ran `sudo pam-auth-update` and enable my XPS’s fingerprint PAM module.
