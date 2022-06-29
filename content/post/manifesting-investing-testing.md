@@ -1,7 +1,7 @@
 +++
 author = "Eldridge Alexander"
 date = 2022-06-29T02:03:11Z
-description = "Using paper trading to test my (almost definitely probalby wrong) market theses."
+description = "Using paper trading to test my (almost definitely wrong) market theses."
 draft = false
 image = "img/stockmarket.jpg"
 slug = "manifesting-investing-testing"
@@ -47,12 +47,12 @@ I’m going to prioritize investing in market segments where I feel most knowled
 I will operate by creating investing theses and investing in companies that fit one or more of them. 
 
 ## Infrastructure Tech
-Investments in the Information Security sector will continue to rise significantly as the US government continues to fund and encourage more secure infrastructure
-In particular the government will encourage Zero Trust implementations. Zero Trust providers that are FedRAMP certified will do well selling to government agencies
-Companies that have a “good” zero trust implementation and good onboarding will do well selling to large companies that operate pieces of US infrastructure (public or private)
-Companies that enable customers to meet compliance requirements will do well as requirement complexity increases. Particularly with companies below the “security poverty line”
-“Pareto Principle” security companies, ones that get you 80% of the way to strong securtire for a fraction of the cost of those more sophisticated companies will do well
-Cloud-first endpoint and connection management companies will do well
+* Investments in the Information Security sector will continue to rise significantly as the US government continues to fund and encourage more secure infrastructure
+* In particular the government will encourage Zero Trust implementations. Zero Trust providers that are FedRAMP certified will do well selling to government agencies
+*Companies that have a “good” zero trust implementation and good onboarding will do well selling to large companies that operate pieces of US infrastructure (public or private)
+* Companies that enable customers to meet compliance requirements will do well as requirement complexity increases. Particularly with companies below the “security poverty line”
+* “Pareto Principle” security companies, ones that get you 80% of the way to strong securtire for a fraction of the cost of those more sophisticated companies will do well
+* Cloud-first endpoint and connection management companies will do well
 
 ## Fintech
 * Companies that enable p2p payments will be successful
