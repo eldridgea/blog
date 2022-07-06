@@ -5,7 +5,6 @@ description = "Examining the interplay between free speech, the first amendment,
 draft = false
 image = "/img/constitution.jpg"
 slug = "free-speech-and-antitrust"
-tags = ["free speech", "antitrust"]
 title = "Free Speech and Antitrust"
 
 +++
