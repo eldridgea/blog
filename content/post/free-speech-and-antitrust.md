@@ -1,6 +1,5 @@
 +++
 author = "Eldridge Alexander"
-categories = ["free speech", "antitrust"]
 date = 2022-07-06T22:57:01Z
 description = "Examining the interplay between free speech, the first amendment, and antitrust."
 draft = false
@@ -44,3 +43,5 @@ We should revive, update, and begin enforcing antitrust laws against these conso
 A list of options which is by no means exhaustive could include: Facebook’s purchase of Instagram can be unwound. Tech giants with an algorithmic driven feed (e.g. Twitter, Facebook, TikTok) can be required to disclaim certain details about that algorithm to users similar to nutrition labels or cigarette warnings. Amazon and Google can be required to stop using their search engines to prefer their own products and services. Google and Apple can be required to not prefer their own apps in their respective app store search results, or require developers to use and prefer their payment platforms.
 
 There are lots of options here, but the priority is clear. The goal is no longer to only ensure consumers pay the lowest price, but to ensure that our ideals can be upheld without being challenged by a private entity that is disproportionately powerful. To ensure that the only rules that society runs on are set by the People themselves via democratically elected leaders who represent us. 
+
+`Image credit: https://www.flickr.com/photos/7471115@N08/4249886990`
