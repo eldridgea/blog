@@ -1,9 +1,9 @@
 +++
 author = "Eldridge Alexander"
-date = 2022-07-06T22:57:01Z
+date = 2022-07-06T02:03:11Z
 description = "Examining the interplay between free speech, the first amendment, and antitrust."
 draft = false
-image = "/img/constitution.jpg"
+image = "img/constitution.jpg"
 slug = "free-speech-and-antitrust"
 title = "Free Speech and Antitrust"
 
