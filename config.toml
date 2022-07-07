@@ -28,7 +28,7 @@ paginate        = 6
   authorAvatar = "img/eldridge_alexander.jpg"
   authorLocation = "Ann Arbor, MI"
   authorWebsite = "https://eldrid.ge"
-  authorDescription = "I am the Associate Director of Cloud Security at Gemini. Formerly employed at Duo Labs, Cloudflare and at Google. Technologist, magician, designer, musician, videographer, blogger, and avid sweet tea drinker."
+  authorDescription = "I'm an Information Security engineer, writer, and trainer. Formerly employed at Duo Labs, Cloudflare and at Google. Technologist, magician, designer, musician, videographer, blogger, and avid sweet tea drinker."
 
   pageNotFoundTitle = "404 - Page not found"
 
