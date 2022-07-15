@@ -5,7 +5,7 @@ description = "The only resonable way to navigate mental health treatment is to 
 draft = false
 image = "img/brain.jpg"
 slug = "mental-health-treatment-obstacle-course"
-title = "Mental Health Treatment Obstacle Course"
+title = "The Mental Health Treatment Obstacle Course"
 
 +++
 
