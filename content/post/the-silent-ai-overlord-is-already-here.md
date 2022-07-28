@@ -37,7 +37,7 @@ You see this in practice when [women get lower credit offerings](https://www.cnn
 
 
 
-{{< figure src="/img/ibm-accountable.png" title="IBM Presentation Slide" alt="A computer can never be held accountable, therefore a computer must never make a management decision">}}
+{{< figure src="/img/ibm-accountable.png" alt="A computer can never be held accountable, therefore a computer must never make a management decision">}}
 
 I really like AI and think it’s a cool technology that I’m excited to see evolve but its marketing has surpassed its abilities. Attempting to remove bias from data sets, or make an AI that can identify and not internalize that bias is a huge unsolved problem. Researchers are making progress but it’s early days. While I’m excited to see how this area evolves, we should be cautious. We should allow almost any kind of research, but strongly restrict applications until we have substantial testing proving their safety. Tech has a history of ignoring long tails of users, but for AIs that increasingly run society we can’t afford to be that lax.
 
