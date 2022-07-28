@@ -35,7 +35,9 @@ Putting decision making in the hands of an AI is dangerous as they are difficult
 
 You see this in practice when [women get lower credit offerings](https://www.cnn.com/2019/11/12/business/apple-card-gender-bias/index.html), [wrongful arrests happen](https://www.washingtonpost.com/opinions/2020/06/24/i-was-wrongfully-arrested-because-facial-recognition-why-are-police-allowed-use-this-technology/), [interview and hiring decisions are made based on AI-measured emotions](https://www.inc.com/minda-zetlin/ai-is-now-analyzing-candidates-facial-expressions-during-video-job-interviews.html). It seems like an ([alleged](https://twitter.com/bumblebike/status/832394003492564993?s=20)) slide from an IBM presentation in 1979 applies here
 
-![A computer can never be held accountable, therefore a computer must never make a management decision](/img/ibm-accountable.png “A computer can never be held accountable, therefore a computer must never make a management decision”)
+
+
+{{< figure src="/img/ibm-accountable.png" title="IBM Presentation Slide" alt="A computer can never be held accountable, therefore a computer must never make a management decision">}}
 
 I really like AI and think it’s a cool technology that I’m excited to see evolve but its marketing has surpassed its abilities. Attempting to remove bias from data sets, or make an AI that can identify and not internalize that bias is a huge unsolved problem. Researchers are making progress but it’s early days. While I’m excited to see how this area evolves, we should be cautious. We should allow almost any kind of research, but strongly restrict applications until we have substantial testing proving their safety. Tech has a history of ignoring long tails of users, but for AIs that increasingly run society we can’t afford to be that lax.
 
