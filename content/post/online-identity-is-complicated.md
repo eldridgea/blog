@@ -11,13 +11,11 @@ title = "Online Identity is Complicated"
 
 I am seeing increasing calls for real life identity to be a fundamental part of online presence, especially in places like Twitter where disinformation thrives. This sounds good but it's more complicated than that.
 
-The premise is that ensuring posts are connected to a real life identity will help prevent hate speech, disinformation, and scams. This is a bad idea. Or at the very least, lacks nuance. It falls into the trap tech always seems to fall into – pushing for major change without ensuring we have marginalized people at the table and in the discussion before we make these changes.
+The premise is that ensuring posts are connected to a real life identity will help prevent hate speech, disinformation, and scams. This is a bad idea. Or at the very least, lacks nuance. It falls into the trap tech always seems to fall into – pushing for major change without ensuring we have marginalized people in the discussion before we make these changes. Enforcing identity is great at reducing problems. As long as you’re straight, white, male, and American. For others it’s not quite as clear cut. 
 
 I have heard suggestions in this vein from all over, but most consistently from [Scott Galloway](https://profgmedia.com) across several of his outlets. I like his work and generally agree with his overall thrust here, but I think from my career I have some unique exposure to knock-on effects here (and others have much more) that would be unethical and dangerous to ignore.[^1]
 
 [^1]: Galloway's recurring example of how identified people are less confrontational and less likely to lie is LinkedIn. Which, I don't disagree, but that's the mother of all selection biases. 
-
-Me and people like me are already at this table. Others are not, and this would affect them differently, and place many of them into real physical danger. Enforcing identity is great at reducing problems. As long as you’re straight, white, male, and American. For others it’s not quite as clear cut. 
 
 To be clear, I’m not trying to land on one side of the identity debate or another. I’m trying to inject nuance into the conversation and make sure we don’t leave certain groups out of the conversation as a whole, as we have done so many times before. A perennial problem in almost all of tech is we don’t stop to consider externalities. This is especially true for people that aren’t in the same demographics as the biggest creators and consumers of that technology. That’s happening here. 
 
