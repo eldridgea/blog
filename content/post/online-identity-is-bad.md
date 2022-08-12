@@ -4,8 +4,8 @@ date = 2022-08-12T02:03:11Z
 description = "Online identity hurts the marginalized"
 draft = false
 image = "img/ai.jpg"
-slug = "the-silent-ai-overlord-is-already-here"
-title = "The Silent AI Overlord is Already Here"
+slug = "online-identity-is-bad"
+title = "Online Identity is Complicated"
 
 +++
 
