@@ -1,7 +1,7 @@
 +++
 author = "Eldridge Alexander"
 date = 2022-07-28T02:03:11Z
-description = "The villian AI is here, but it's not what we thought it would be."
+description = "The villain AI is here, but it's not what we thought it would be."
 draft = false
 image = "img/ai.jpg"
 slug = "the-silent-ai-overlord-is-already-here"
