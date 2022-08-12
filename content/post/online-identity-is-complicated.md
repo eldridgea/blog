@@ -9,7 +9,7 @@ title = "Online Identity is Complicated"
 
 +++
 
-I am seeing increasing calls for real life identity to be a fundamental part of online presence, especially in places like Twitter where disinformation thrives. This is a problem.
+I am seeing increasing calls for real life identity to be a fundamental part of online presence, especially in places like Twitter where disinformation thrives. This sounds good but it's more complicated than that.
 
 The premise is that ensuring posts are connected to a real life identity will help prevent hate speech, disinformation, and scams. This is a bad idea. Or at the very least, lacks nuance. It falls into the trap tech always seems to fall into – pushing for major change without ensuring we have marginalized people at the table and in the discussion before we make these changes.
 
