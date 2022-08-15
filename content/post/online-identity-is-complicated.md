@@ -9,15 +9,17 @@ title = "Online Identity is Complicated"
 
 +++
 
-I am seeing increasing calls for real life identity to be a fundamental part of online presence, especially in places like Twitter where disinformation thrives. This sounds good but it's more complicated than that.
+I am seeing increasing calls for real life identity to be a fundamental part of online presence, especially in places like Twitter where disinformation thrives. This is a problem.
 
-The premise is that ensuring posts are connected to a real life identity will help prevent hate speech, disinformation, and scams. This is a bad idea. Or at the very least, lacks nuance. It falls into the trap tech always seems to fall into – pushing for major change without ensuring we have marginalized people in the discussion before we make these changes. Enforcing identity is great at reducing problems. As long as you’re straight, white, male, and American. For others it’s not quite as clear cut. 
+The premise is that ensuring posts are connected to a real life identity will help prevent hate speech, disinformation, and scams. This is a bad idea. Or at the very least, lacks nuance. It falls into the trap tech always seems to fall into – pushing for major change without ensuring we have marginalized people at the table and in the discussion before we make these changes.
 
-I have heard suggestions in this vein from all over, but most consistently from [Scott Galloway](https://profgmedia.com) across several of his outlets. I like his work and generally agree with his overall thrust here, but I think from my career I have some unique exposure to knock-on effects here (and others have much more) that would be unethical and dangerous to ignore.[^1]
+I have heard suggestions in this vein from all over, but most consistently from [Scott Galloway](https://profgmedia.com). I like his work and generally agree with his overall thrust here, but I think from my career I have some exposure to knock-on effects here (and others have much more) that demonstrate why this would put marginalized people in physical danger, as I show below.[^1]
 
-[^1]: Galloway's recurring example of how identified people are less confrontational and less likely to lie is LinkedIn. Which, I don't disagree, but that's the mother of all selection biases. 
+[^1]: Galloway's recurring example of how identified people are less confrontational and less likely to lie is LinkedIn. I don't disagree, but I think picking as an example a platform which is used by professionals to hire and get hired on is as or more relevant than the identity component.
 
-To be clear, I’m not trying to land on one side of the identity debate or another. I’m trying to inject nuance into the conversation and make sure we don’t leave certain groups out of the conversation as a whole, as we have done so many times before. A perennial problem in almost all of tech is we don’t stop to consider externalities. This is especially true for people that aren’t in the same demographics as the biggest creators and consumers of that technology. That’s happening here. 
+Me and people like me are already at this table. Others are not, and this would affect them differently, and place many of them into real physical danger. Enforcing identity is great at reducing problems. As long as you’re straight, white, male, and American. For others it’s not quite as clear cut.
+
+To be clear, I’m not trying to land on one side of the identity debate or another. I’m trying to inject nuance into the conversation and make sure we don’t leave certain groups out of the conversation as a whole, as we have done so many times before. A perennial problem in almost all of tech is we don’t stop to consider externalities. This is especially true for people that aren’t in the same demographics as the biggest creators and consumers of that technology. That’s happening here.
 
 I’m sure I can’t speak to all those affected but I want to talk about how these policies have affected members of the LGBT+ community in the past, and how it will inevitably do so in the future. It’s pretty straightforward. Members of marginalized communities, such as LGBT+, often find support in online groups, but don’t want that associated with their real life identities. Exposing that identity can cause grief, and sometimes puts them at risk of violence or death.
 
@@ -37,7 +39,7 @@ I don’t have a grand solution unfortunately. It seems that lack of identity co
 
 [^2]: If someone suggests a "simple" solution here and uses the word "blockchain", just run away.
 
-One method that might help is, via corporate policy or government regulation, prohibiting *amplifying* any account in algorithmic feeds (e.g. Twitter, TikTok) unless identity is verified. You can follow anyone, but you won’t ever see a "suggestion" from a non-verified account, preventing their amplification effect. 
+One method that might help is, via corporate policy or government regulation, prohibiting *amplifying* any account in algorithmic feeds (e.g. Twitter, TikTok) unless identity is verified. You can follow anyone, but you won’t ever see a "suggestion" from a non-verified account, preventing their amplification effect.
 
 Another might be stronger "liveness" testing. Some [proposals](https://www.theverge.com/2021/5/16/22436395/cloudflare-end-captcha-madness-security-key-cryptographic-attestation-of-personhood) already exist to make this better than the current captcha system. This could also utilize the biometrics that modern devices provide.[^3]
 
