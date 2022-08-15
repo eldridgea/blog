@@ -15,7 +15,7 @@ The premise is that ensuring posts are connected to a real life identity will he
 
 I have heard suggestions in this vein from all over, but most consistently from [Scott Galloway](https://profgmedia.com). I like his work and generally agree with his overall thrust here,[^1] but I think from my career I have some exposure to knock-on effects here (and others have much more) that demonstrate why this would put marginalized people in physical danger, as I show below.
 
-[^1]: Galloway's recurring example of how identified people are less confrontational and less likely to lie is LinkedIn. I don't disagree, but I think picking as an example a platform which is used by professionals to hire and get hired on is as or more relevant than the identity component.
+[^1]: Galloway's recurring example of how identified people are less confrontational and less likely to lie is LinkedIn. I don't disagree, but I think picking as an example a platform which is used by professionals to hire and get hired is at least as relevant than the identity component.
 
 Me and people like me are already at this table. Others are not, and this would affect them differently, and place many of them into real physical danger. Enforcing identity is great at reducing problems. As long as you’re straight, white, male, and American. For others it’s not quite as clear cut.
 
