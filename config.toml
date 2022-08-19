@@ -13,3 +13,6 @@ youtube = "#"
 
 [taxonomies]
 author = "authors"
+
+[permalinks]
+  posts = '/:year/:month/:title/'
