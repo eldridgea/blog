@@ -30,4 +30,7 @@
 
     <script src="scripts/instantpage.min.js" type="module" defer></script>
 
+    <!-- override for hero images -->
+    <link rel="stylesheet" type="text/css" href="/css/override.css">
+
 </head>
