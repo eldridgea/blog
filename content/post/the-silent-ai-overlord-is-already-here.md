@@ -1,13 +1,13 @@
-+++
-author = "Eldridge Alexander"
-date = 2022-07-28T02:03:11Z
-description = "The villain AI is here, but it's not what we thought it would be."
-draft = false
-hero = "/img/ai.jpg"
-slug = "the-silent-ai-overlord-is-already-here"
-title = "The Silent AI Overlord is Already Here"
+---
+title: The Silent AI Overlord is Already Here
+date: 2022-07-28
+hero: "/img/ai.jpg"
+excerpt: The villain AI is here, but it's not what we thought it would be.
+authors:
+  - Hugo Authors
 
-+++
+---
+
 
 Every few months or years it seems like there’s at least a few news cycles devoted to how Artificial Intelligence is an existential threat to humanity.
 
