@@ -15,4 +15,4 @@ youtube = "#"
 author = "authors"
 
 [permalinks]
-  posts = '/:year/:month/:title/'
+  post = '/:year/:month/:title/'
