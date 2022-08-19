@@ -3,7 +3,7 @@ author = "Eldridge Alexander"
 date = 2015-03-22T04:20:50Z
 description = "The nginx files I used to get my reverse proxy working."
 draft = false
-hero = "img/800px-Golden_Gate_Bridge_Yang_Ming_Line.jpg"
+hero = "/img/800px-Golden_Gate_Bridge_Yang_Ming_Line.jpg"
 slug = "golden-gate-nginx-config-files"
 title = "Golden Gate Nginx Config Files"
 

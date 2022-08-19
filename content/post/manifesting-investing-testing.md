@@ -3,7 +3,7 @@ author = "Eldridge Alexander"
 date = 2022-06-29T02:03:11Z
 description = "Using paper trading to test my (almost definitely wrong) market theses."
 draft = false
-hero = "img/stockmarket.jpg"
+hero = "/img/stockmarket.jpg"
 slug = "manifesting-investing-testing"
 title = "Manifesting Investing Testing"
 

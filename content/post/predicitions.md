@@ -3,7 +3,7 @@ author = "Eldridge Alexander"
 date = 2021-04-17
 description = "A weekly post where I try to guess stuff and keep myself honest"
 draft = false
-hero = "img/crystal-ball.jpg"
+hero = "/img/crystal-ball.jpg"
 slug = "this-weeks-predictions"
 title = "This Week's Predictions"
 +++

@@ -3,7 +3,7 @@ author = "Eldridge Alexander"
 date = 2022-06-22T02:03:11Z
 description = "A wrapper tool to use instead of passwd to update user and LUKS passwords simultaneously"
 draft = false
-hero = "img/10597406823_e1e624c732_z-1.jpg"
+hero = "/img/10597406823_e1e624c732_z-1.jpg"
 slug = "synced-luks-boot-and-user-passwords"
 title = "Synced LUKS Boot and User Passwords"
 

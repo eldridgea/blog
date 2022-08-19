@@ -3,7 +3,7 @@ author = "Eldridge Alexander"
 date = 2020-02-18T12:03:11Z
 description = "Why remote work and open offices are antithetical and why jokes in Slack are a good measure of a distributed team."
 draft = false
-hero = "img/open-office.jpg"
+hero = "/img/open-office.jpg"
 slug = "open-offices-inhibiut-remote-work"
 title = "Open Offices Inhibit Remote Work"
 +++
