@@ -3,7 +3,7 @@ author = "Eldridge Alexander"
 date = 2020-01-27T12:03:11Z
 description = "Using the Presence Detection features of Home Assistant to improve my home's power efficiency."
 draft = false
-image = "img/kasa-plug.jpg"
+hero = "img/kasa-plug.jpg"
 slug = "reducing-standby-power-with-home-assistant"
 title = "Reducing Standby Power with Home Assistant"
 +++

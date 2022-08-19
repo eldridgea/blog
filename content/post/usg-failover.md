@@ -3,7 +3,7 @@ author = "Eldridge Alexander"
 date = 2019-07-05T12:00:11Z
 description = "Using a secondary Internet source for seamless failover if my AT&T goes down."
 draft = false
-image = "/img/ubiquiti-switch.jpg"
+hero = "/img/ubiquiti-switch.jpg"
 slug = "usg-failover"
 title = "Home Network Internet Failover"
 

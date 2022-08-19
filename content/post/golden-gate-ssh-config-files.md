@@ -3,7 +3,7 @@ author = "Eldridge Alexander"
 date = 2015-03-29T04:35:09Z
 description = "The SSH config files I used to get clients using my bastion host seamlessly."
 draft = false
-image = "img/800px-Golden_Gate_Bridge_Yang_Ming_Line.jpg"
+hero = "img/800px-Golden_Gate_Bridge_Yang_Ming_Line.jpg"
 slug = "golden-gate-ssh-config-files"
 title = "Golden Gate SSH Config Files"
 

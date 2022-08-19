@@ -3,7 +3,7 @@ author = "Eldridge Alexander"
 date = 2019-05-04T12:00:11Z
 description = "A recap of my talk at THOTCON on malicious IoT devices and 5G Networks."
 draft = false
-image = "/img/thotcon.jpg"
+hero = "/img/thotcon.jpg"
 slug = "thotcon-malicious-devices"
 title = "THOTCON Talk"
 

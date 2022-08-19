@@ -3,7 +3,7 @@ author = "Eldridge Alexander"
 date = 2022-07-15T02:03:11Z
 description = "The only resonable way to navigate mental health treatment is to not have mental illness."
 draft = false
-image = "img/brain.jpg"
+hero = "img/brain.jpg"
 slug = "mental-health-treatment-obstacle-course"
 title = "The Mental Health Treatment Obstacle Course"
 

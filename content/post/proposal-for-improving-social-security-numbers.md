@@ -3,7 +3,7 @@ author = "Eldridge Alexander"
 date = 2017-10-10T02:00:00Z
 description = "In the wake of the Equifax breach, a proposal for how the US can transition to a new Federal identification system with security as a main component."
 draft = false
-image = "/img/proposal.jpg"
+hero = "/img/proposal.jpg"
 slug = "proposal-for-improving-social-security-numbers"
 title = "Proposal For Improving Social Security Numbers"
 
@@ -72,4 +72,4 @@ Private keys could be issued in phases over several years, to volunteers at firs
 
 As we are seeing with the credit card chip rollout, this will be slow, but the government could provide a long but mandated timeline, with a shorter timeline applied as punishment to companies such as Equifax that are negligent in their protections of consumer data.
 
-`Photo Credit: http://www.kiplinger.com/quiz/retirement/T051-S001-how-well-do-you-know-social-security/images/intro.jpg`
+`Photo Credit: http://www.kiplinger.com/quiz/retirement/T051-S001-how-well-do-you-know-social-security/heros/intro.jpg`
