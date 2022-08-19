@@ -3,7 +3,7 @@ theme = "github.com/forestryio/hugo-theme-novela"
 languageCode    = "en-US"
 paginate = 6
 
-[[social]
+[social]
 twitter= "https://twitter.com/magiceldridge"
 github= "https://github.com/eldridgea"
 linkedin= "https://www.linkedin.com/company/forestry.io"
