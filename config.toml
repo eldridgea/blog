@@ -1,5 +1,5 @@
 baseurl         = "/"
-theme = "github.com/forestryio/hugo-theme-novela"
+theme = "hugo-theme-novela"
 languageCode    = "en-US"
 paginate = 6
 
