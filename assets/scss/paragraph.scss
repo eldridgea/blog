@@ -1,6 +1,6 @@
 p{
     line-height: 1.756;
-    font-size: 20px;
+    font-size: 25px;
     color: var(--articleText);
     font-family: var(--sanserif);
     -webkit-transition: var(--color-mode-transition);
@@ -18,7 +18,7 @@ p b {
 /*DESKTOP*/
 @media screen and (max-width: 1070px){
     p{
-        max-width: 700px;
+        max-width: 507px;
     }
 }
 
