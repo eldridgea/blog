@@ -1,5 +1,5 @@
 baseurl         = "/"
-theme = "hugo-theme-novela-2"
+theme = "hugo-theme-novela-3"
 #theme = "ea-theme"
 languageCode    = "en-US"
 paginate = 6
