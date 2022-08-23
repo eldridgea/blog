@@ -1,7 +1,7 @@
 ---
 hero:
-  heading: Covering information security, privacy, and tech corporate ethics.
+  heading:
   maxWidthPX: 652
 seo:
-  image: /images/hero-2.jpg
+  image: /img/eldridge_alexander.jpg
 ---

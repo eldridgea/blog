@@ -7,28 +7,13 @@ paginate = 6
 [social]
 twitter= "https://twitter.com/magiceldridge"
 github= "https://github.com/eldridgea"
-linkedin= "https://www.linkedin.com/company/forestry.io"
-instagram = "#"
-dribbble = "#"
-youtube = "#"
+linkedin= "https://www.linkedin.com/in/eldridgea/"
+#instagram = "#"
+#dribbble = "#"
+#youtube = "#"
 
 [taxonomies]
 author = "authors"
 
 [permalinks]
   post = '/:year/:month/:day/:title/'
-
-[[menu.main]]
-  name = "Blog"
-  url = "/"
-  weight = 200
-
-[[menu.main]]
-  name = "Home"
-  url = "https://eldrid.ge"
-  weight = 300
-
-[[menu.main]]
-  name = "Subscribe"
-  url = "/post/index.xml"
-  weight = 100
