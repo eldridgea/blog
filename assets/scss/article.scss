@@ -136,7 +136,7 @@
 }
 
 .article-hero-image{
-    position: relative;
+    position: absolute;
     z-index: 1;
     width: 100%;
     max-width: 944px;
@@ -154,6 +154,7 @@
     /*DESKTOP MEDIUM*/
     @media screen and (max-width: $desktop_medium){
         position: relative;
+        width: 50%;
     }
   
     /*TABLET*/
