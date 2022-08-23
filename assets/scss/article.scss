@@ -47,24 +47,24 @@
 .article-header{
     position: relative;
     z-index: 10;
-    margin:25px auto 25px;
+    margin:25px auto 50px;
     padding-left: 68px;
     max-width: 749px;
   
     @media screen and (max-width: $desktop){
         padding-left: 53px;
         max-width: calc(507px + 53px);
-        margin: 25px auto 25px;
+        margin: 25px auto 50px;
     }
 
     @media screen and (max-width: $tablet){
         padding-left: 0;
-        margin: 25px auto 25px;
+        margin: 25px auto 50px;
         max-width: 480px;
     }
 
     @media screen and (max-width: $phablet){
-        margin: 25px auto 25px;
+        margin: 25px auto 50px;
         padding: 0 40px;
     }
   
@@ -76,18 +76,18 @@
 .article-hero-heading{
     font-size: 48px;
     font-family: var(--serif);
-    margin-bottom: 5px;
+    margin-bottom: 10px;
     font-weight: bold;
     line-height: 1.32;
   
     @media screen and (max-width: $tablet){
-        margin-bottom: 5px;
+        margin-bottom: 10px;
         font-size: 36px;
     }
 
     @media screen and (max-width: $phablet){
         font-size: 32px;
-        margin-bottom: 5px;
+        margin-bottom: 10px;
     }
 }
 
@@ -131,7 +131,7 @@
         strong {
             display: block;
             font-weight: 500;
-            margin-bottom: 5px;
+            margin-bottom: 10px;
         }
     }
 }
@@ -285,7 +285,7 @@
         strong {
           display: block;
           font-weight: semi-bold;
-          margin-bottom: 5px;
+          margin-bottom: 10px;
         }
     }
 }
