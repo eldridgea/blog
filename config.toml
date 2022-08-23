@@ -17,3 +17,18 @@ author = "authors"
 
 [permalinks]
   post = '/:year/:month/:day/:title/'
+
+[[menu.main]]
+  name = "Blog"
+  url = "/"
+  weight = 200
+
+[[menu.main]]
+  name = "Home"
+  url = "https://eldrid.ge"
+  weight = 300
+
+[[menu.main]]
+  name = "Subscribe"
+  url = "/post/index.xml"
+  weight = 100
