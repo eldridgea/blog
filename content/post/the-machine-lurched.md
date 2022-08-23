@@ -1,12 +1,14 @@
-+++
-author = "Eldridge Alexander"
-date = 2021-04-19
-description = "This quote has been stuck in my head ever since public companies pulled out of Georgia at an astonishing rate in response to their new restrictive voter laws."
-draft = false
-hero = "/img/capitol.jpg"
-slug = "the-machine-lurched"
-title = "The Machine Lurched"
-+++
+---
+author: "Eldridge Alexander"
+date: 2021-04-19
+excerpt: "This quote has been stuck in my head ever since public companies pulled out of Georgia at an astonishing rate in response to their new restrictive voter laws."
+draft: false
+hero: "/img/capitol.jpg"
+slug: "the-machine-lurched"
+title: "The Machine Lurched"
+authors:
+  - Eldridge Alexander
+---
 
 > And now the whole machine, which whirred away so quietly that people had forgotten that it was a machine at all and thought it was just the way the world worked, had given a lurch. 
 >

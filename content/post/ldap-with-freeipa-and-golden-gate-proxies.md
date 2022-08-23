@@ -1,13 +1,15 @@
-+++
-author = "Eldridge Alexander"
-date = 2017-06-20T06:54:05Z
-description = "I wanted to have a complete centralized authentication at home, but also wanted as secure of a way as possible to overrid that of my LDAP server were to go down. This documents my \"war room\" configurations."
-draft = false
-hero = "/img/800px-Golden_Gate_Bridge_Yang_Ming_Line.jpg"
-slug = "ldap-with-freeipa-and-golden-gate-proxies"
-title = "LDAP With FreeIPA and Golden Gate Proxies"
+---
+author: "Eldridge Alexander"
+date: 2017-06-20T06:54:05Z
+excerpt: "I wanted to have a complete centralized authentication at home, but also wanted as secure of a way as possible to overrid that of my LDAP server were to go down. This documents my \"war room\" configurations."
+draft: false
+hero: "/img/800px-Golden_Gate_Bridge_Yang_Ming_Line.jpg"
+slug: "ldap-with-freeipa-and-golden-gate-proxies"
+title: "LDAP With FreeIPA and Golden Gate Proxies"
 
-+++
+authors:
+  - Eldridge Alexander
+---
 
 I have a hypervisor to run my VMs at home and I decided to finally rollout LDAP and Kerberos using [FreeIPA](https://www.freeipa.org/page/Main_Page). 
 

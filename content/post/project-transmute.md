@@ -1,13 +1,15 @@
-+++
-author = "Eldridge Alexander"
-date = 2015-08-24T04:22:47Z
-description = "A script I wrote to automatically detect and convert video files to a travel optimized format."
-draft = false
-hero = "/img/6978815038_6d41a935f9_k.jpg"
-slug = "project-transmute"
-title = "Project Transmute"
+---
+author: "Eldridge Alexander"
+date: 2015-08-24T04:22:47Z
+excerpt: "A script I wrote to automatically detect and convert video files to a travel optimized format."
+draft: false
+hero: "/img/6978815038_6d41a935f9_k.jpg"
+slug: "project-transmute"
+title: "Project Transmute"
 
-+++
+authors:
+  - Eldridge Alexander
+---
 
 I would like my videos to be ready to be moved to mobile devices when I want to travel, and things like [Plex](https://plex.tv) take too long for my liking. However I also prefer retaining the original full quality videos. 
 

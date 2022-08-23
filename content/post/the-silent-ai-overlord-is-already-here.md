@@ -5,7 +5,6 @@ hero: "/img/ai.jpg"
 excerpt: The villain AI is here, but it's not what we thought it would be.
 authors:
   - Eldridge Alexander
-
 ---
 
 

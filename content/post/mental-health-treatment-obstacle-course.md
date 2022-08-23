@@ -1,13 +1,15 @@
-+++
-author = "Eldridge Alexander"
-date = 2022-07-15T02:03:11Z
-description = "The only resonable way to navigate mental health treatment is to not have mental illness."
-draft = false
-hero = "/img/brain.jpg"
-slug = "mental-health-treatment-obstacle-course"
-title = "The Mental Health Treatment Obstacle Course"
+---
+author: "Eldridge Alexander"
+date: 2022-07-15T02:03:11Z
+excerpt: "The only resonable way to navigate mental health treatment is to not have mental illness."
+draft: false
+hero: "/img/brain.jpg"
+slug: "mental-health-treatment-obstacle-course"
+title: "The Mental Health Treatment Obstacle Course"
 
-+++
+authors:
+  - Eldridge Alexander
+---
 
 So I got diagnosed with depression last year. I wasn’t happy about it (I mean, that’s obvious — that was the problem) but I knew it was one of the most common mental illnesses so I expected getting and executing a treatment plan would be frustrating but straightforward. I was extremely wrong.
 

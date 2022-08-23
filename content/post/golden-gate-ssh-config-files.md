@@ -1,13 +1,15 @@
-+++
-author = "Eldridge Alexander"
-date = 2015-03-29T04:35:09Z
-description = "The SSH config files I used to get clients using my bastion host seamlessly."
-draft = false
-hero = "/img/800px-Golden_Gate_Bridge_Yang_Ming_Line.jpg"
-slug = "golden-gate-ssh-config-files"
-title = "Golden Gate SSH Config Files"
+---
+author: "Eldridge Alexander"
+date: 2015-03-29T04:35:09Z
+excerpt: "The SSH config files I used to get clients using my bastion host seamlessly."
+draft: false
+hero: "/img/800px-Golden_Gate_Bridge_Yang_Ming_Line.jpg"
+slug: "golden-gate-ssh-config-files"
+title: "Golden Gate SSH Config Files"
 
-+++
+authors:
+  - Eldridge Alexander
+---
 
 In addition to my [Golden Gate proxy](https://blog.eldridgealexander.com/2014/12/23/goldengate/) providing security for web requests, I needed it to assist in securing SSH requests as well. SSH is already as secure as I need it, but I wanted to avoid exposing my servers directly to the Internet. 
 

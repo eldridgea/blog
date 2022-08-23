@@ -1,13 +1,15 @@
-+++
-author = "Eldridge Alexander"
-date = 2022-06-22T02:03:11Z
-description = "A wrapper tool to use instead of passwd to update user and LUKS passwords simultaneously"
-draft = false
-hero = "/img/10597406823_e1e624c732_z-1.jpg"
-slug = "synced-luks-boot-and-user-passwords"
-title = "Synced LUKS Boot and User Passwords"
+---
+author: "Eldridge Alexander"
+date: 2022-06-22T02:03:11Z
+excerpt: "A wrapper tool to use instead of passwd to update user and LUKS passwords simultaneously"
+draft: false
+hero: "/img/10597406823_e1e624c732_z-1.jpg"
+slug: "synced-luks-boot-and-user-passwords"
+title: "Synced LUKS Boot and User Passwords"
 
-+++
+authors:
+  - Eldridge Alexander
+---
 
 I made a password change tool to keep your user password and encrypted boot password the same on Linux and [made it available on GitHub](https://github.com/eldridgea/pwchange-synced).
 

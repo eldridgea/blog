@@ -1,13 +1,15 @@
-+++
-author = "Eldridge Alexander"
-date = 2015-03-22T04:20:50Z
-description = "The nginx files I used to get my reverse proxy working."
-draft = false
-hero = "/img/800px-Golden_Gate_Bridge_Yang_Ming_Line.jpg"
-slug = "golden-gate-nginx-config-files"
-title = "Golden Gate Nginx Config Files"
+---
+author: "Eldridge Alexander"
+date: 2015-03-22T04:20:50Z
+excerpt: "The nginx files I used to get my reverse proxy working."
+draft: false
+hero: "/img/800px-Golden_Gate_Bridge_Yang_Ming_Line.jpg"
+slug: "golden-gate-nginx-config-files"
+title: "Golden Gate Nginx Config Files"
 
-+++
+authors:
+  - Eldridge Alexander
+---
 
 I have a rudimenatry [Golden Gate proxy](https://blog.eldridgealexander.com/2014/12/23/goldengate/) up and running using nginx reverse proxies. I have included the configuration file (from /etc/nginx/sites-enabled) I used to protect my Sickbeard installation.
 

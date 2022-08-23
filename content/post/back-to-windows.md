@@ -1,12 +1,14 @@
-+++
-author = "Eldridge Alexander"
-date = 2020-01-13T12:03:11Z
-description = "Using Windows again so I can use Linux effectively."
-draft = false
-hero = "/img/microsoft-surface.jpg"
-slug = "back-to-microsoft"
-title = "Back to Microsoft"
-+++
+---
+author: "Eldridge Alexander"
+date: 2020-01-13T12:03:11Z
+excerpt: "Using Windows again so I can use Linux effectively."
+draft: false
+hero: "/img/microsoft-surface.jpg"
+slug: "back-to-microsoft"
+title: "Back to Microsoft"
+authors:
+  - Eldridge Alexander
+---
 
 
 I recently was on the hunt for a new laptop, and after over a decade of *nix/macOS laptops, decided to go with Windows 10 on a [Surface Pro 7](https://www.microsoft.com/en-us/surface/devices/surface-pro-7/tech-specs). Even with my daily workflow still being heavily Linux based, between the Surface line’s hardware, [WSL](https://docs.microsoft.com/en-us/windows/wsl/about), and the new Windows Terminal it was the perfect balance for what I needed.

@@ -1,17 +1,19 @@
-+++
-author = "Eldridge Alexander"
-categories = ["security", "servers", "nas", "data storage"]
-date = 2014-12-30T04:54:15Z
-description = "The security measures I take personally to secure my servers and data storage."
-draft = false
-hero = "/img/10597406823_e1e624c732_z-1.jpg"
-slug = "security-measure-servers-and-data-storage"
-tags = ["security", "servers", "nas", "data storage"]
-title = "Security Measures: Servers and Data Storage"
+---
+author: "Eldridge Alexander"
+categories: ["security", "servers", "nas", "data storage"]
+date: 2014-12-30T04:54:15Z
+excerpt: "The security measures I take personally to secure my servers and data storage."
+draft: false
+hero: "/img/10597406823_e1e624c732_z-1.jpg"
+slug: "security-measure-servers-and-data-storage"
+tags: ["security", "servers", "nas", "data storage"]
+title: "Security Measures: Servers and Data Storage"
 
-+++
+authors:
+  - Eldridge Alexander
+---
 
-*This is a brief description of my security practices. I will make several posts and write updates as I make changes.*
+*This is a brief excerpt of my security practices. I will make several posts and write updates as I make changes.*
 #### Servers
 
 I keep my data on a server running [NAS4Free](http://www.nas4free.org/) with one drive of parity. I also have servers running as VMs on a server running [KVM](http://www.linux-kvm.org/page/Main_Page) and [WebVirtMgr](http://www.webvirtmgr.net).

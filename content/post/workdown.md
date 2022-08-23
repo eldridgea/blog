@@ -1,12 +1,14 @@
-+++
-author = "Eldridge Alexander"
-date = 2019-09-23T12:03:11Z
-description = "An app to write Markdown and have it published and hosted via Cloudflare Workers."
-draft = false
-hero = "/img/workers-illustration.png"
-slug = "workdown"
-title = "Workdown"
-+++
+---
+author: "Eldridge Alexander"
+date: 2019-09-23T12:03:11Z
+excerpt: "An app to write Markdown and have it published and hosted via Cloudflare Workers."
+draft: false
+hero: "/img/workers-illustration.png"
+slug: "workdown"
+title: "Workdown"
+authors:
+  - Eldridge Alexander
+---
 
 Today I'm open sourcing an app [Workdown](https://github.com/eldridgea/workdown/) -- you write Markdown and it will be converted to a site, uploaded, and hosted on Cloudflare Workers.
 

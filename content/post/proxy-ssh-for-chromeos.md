@@ -1,15 +1,17 @@
-+++
-author = "Eldridge Alexander"
-categories = ["chromeos", "chromebook", "ssh", "linuxadmin"]
-date = 2016-02-28T04:41:09Z
-description = "What it took to get an SSH bastion host working with ChromeOS clients."
-draft = false
-hero = "/img/6042224090_00eff900ff_b.jpg"
-slug = "proxy-ssh-for-chromeos"
-tags = ["chromeos", "chromebook", "ssh", "linuxadmin"]
-title = "SSH Relay for ChromeOS"
+---
+author: "Eldridge Alexander"
+categories: ["chromeos", "chromebook", "ssh", "linuxadmin"]
+date: 2016-02-28T04:41:09Z
+excerpt: "What it took to get an SSH bastion host working with ChromeOS clients."
+draft: false
+hero: "/img/6042224090_00eff900ff_b.jpg"
+slug: "proxy-ssh-for-chromeos"
+tags: ["chromeos", "chromebook", "ssh", "linuxadmin"]
+title: "SSH Relay for ChromeOS"
 
-+++
+authors:
+  - Eldridge Alexander
+---
 
 I am a fairly heavy user of ChromeOS. Most of my "actual work" is done on my server so ChromeOS makes for a great laptop OS for me. However it is not compatible with my ["Golden Gate" SSH](https://blog.eldridgealexander.com/2015/03/29/golden-gate-ssh-config-files/) setup as the [Secure Shell](https://chrome.google.com/webstore/detail/secure-shell/pnhechapfaindjhompbnflcldabbghjo?hl=en) extension for Chrome does not support ProxyCommand. There is a relay option that is [used internally at Google](https://goo.gl/muppJj) that is unfortunately not open sourced.
 

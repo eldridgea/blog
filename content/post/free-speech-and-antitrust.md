@@ -1,13 +1,15 @@
-+++
-author = "Eldridge Alexander"
-date = 2022-07-06T02:03:11Z
-description = "Examining the interplay between free speech, the first amendment, and antitrust."
-draft = false
-hero = "/img/constitution.jpg"
-slug = "free-speech-and-antitrust"
-title = "Free Speech and Antitrust"
+---
+author: "Eldridge Alexander"
+date: 2022-07-06T02:03:11Z
+excerpt: "Examining the interplay between free speech, the first amendment, and antitrust."
+draft: false
+hero: "/img/constitution.jpg"
+slug: "free-speech-and-antitrust"
+title: "Free Speech and Antitrust"
 
-+++
+authors:
+  - Eldridge Alexander
+---
 
 Fairly regularly there’s a public discussion on free speech and the first amendment. There’s one happening now and I want to talk about these components and how they are similar or different and what roles they play, and why antitrust should be a part of these exact conversations. Antitrust is often a part of a separate conversation as it’s a completely different area of law. However in the area of large tech companies, antitrust is inextricable from the others. 
 

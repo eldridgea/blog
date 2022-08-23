@@ -1,12 +1,14 @@
-+++
-author = "Eldridge Alexander"
-date = 2020-01-27T12:03:11Z
-description = "Using the Presence Detection features of Home Assistant to improve my home's power efficiency."
-draft = false
-hero = "/img/kasa-plug.jpg"
-slug = "reducing-standby-power-with-home-assistant"
-title = "Reducing Standby Power with Home Assistant"
-+++
+---
+author: "Eldridge Alexander"
+date: 2020-01-27T12:03:11Z
+excerpt: "Using the Presence Detection features of Home Assistant to improve my home's power efficiency."
+draft: false
+hero: "/img/kasa-plug.jpg"
+slug: "reducing-standby-power-with-home-assistant"
+title: "Reducing Standby Power with Home Assistant"
+authors:
+  - Eldridge Alexander
+---
 
 I’ve recently been trying to reduce unnecessary power usage in my home. I have some ongoing projects which are pretty common: check to make sure heat isn’t escaping through poor insulation, replace bulbs with LED ones, set thermostat rules, etc. Something that caught my eye recently was standby power, and I decided to combine it with my existing [presence detection](https://www.home-assistant.io/getting-started/presence-detection/) with [Home Assistant](https://www.home-assistant.io/). 
 

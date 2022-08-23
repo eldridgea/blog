@@ -1,20 +1,22 @@
-+++
-author = "Eldridge Alexander"
-categories = ["password management", "lastpass"]
-date = 2014-12-30T04:57:26Z
-description = "The security measures I take personally to secure my passwords and other secrets."
-draft = false
-hero = "/img/10597406823_e1e624c732_z-1.jpg"
-slug = "security-measures-password-management"
-tags = ["password management", "lastpass"]
-title = "Security Measures: Password Management"
+---
+author: "Eldridge Alexander"
+categories: ["password management", "lastpass"]
+date: 2014-12-30T04:57:26Z
+excerpt: "The security measures I take personally to secure my passwords and other secrets."
+draft: false
+hero: "/img/10597406823_e1e624c732_z-1.jpg"
+slug: "security-measures-password-management"
+tags: ["password management", "lastpass"]
+title: "Security Measures: Password Management"
 
-+++
+authors:
+  - Eldridge Alexander
+---
 
 > UPDATE: Since the writing of this post I have switched to [Bitwarden](https://bitwarden.com/) for a variety of reasons.
 > Most notably due to their fully open source approach and support for U2F as a second factor.
 
-*This is a brief description of my security practices. I will make several posts and write updates as I make changes.*
+*This is a brief excerpt of my security practices. I will make several posts and write updates as I make changes.*
 #### Password Management
 For password mangement I use [LastPass](https://lastpass.com/). LastPass has its issues, however it is, in my opinion, the best balance of convenice and security. It encrypts all passwords and syncs the encrypred file to all computers and is only decrypted locally. It has only had [two suspected breaches](https://en.wikipedia.org/wiki/LastPass#Security_breach) in its history and the company disclosed them and corrected them quickly.
 

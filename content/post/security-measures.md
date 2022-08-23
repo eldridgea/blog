@@ -1,17 +1,19 @@
-+++
-author = "Eldridge Alexander"
-categories = ["two-factor", "authentication"]
-date = 2014-12-30T04:57:58Z
-description = "The security measures I take personally to secure online accounts."
-draft = false
-hero = "/img/10597406823_e1e624c732_z-1.jpg"
-slug = "security-measures"
-tags = ["two-factor", "authentication"]
-title = "Security Measures: Two-Factor"
+---
+author: "Eldridge Alexander"
+categories: ["two-factor", "authentication"]
+date: 2014-12-30T04:57:58Z
+excerpt: "The security measures I take personally to secure online accounts."
+draft: false
+hero: "/img/10597406823_e1e624c732_z-1.jpg"
+slug: "security-measures"
+tags: ["two-factor", "authentication"]
+title: "Security Measures: Two-Factor"
 
-+++
+authors:
+  - Eldridge Alexander
+---
 
-*This is a brief description of my security practices. I will make several posts and write updates as I make changes.*
+*This is a brief excerpt of my security practices. I will make several posts and write updates as I make changes.*
 
 #### Two-Factor Authentication
 I enable [two-factor authentication](https://en.wikipedia.org/wiki/Two_factor_authentication) whenever possible. I use multiple apps to do this, but I usually use Google Authenticator's [TOTP](https://en.wikipedia.org/wiki/Time-based_One-time_Password_Algorithm). I have this enabled on:

@@ -1,12 +1,14 @@
-+++
-author = "Eldridge Alexander"
-date = 2021-07-23
-description = "A weekly post where I try to guess stuff and keep myself honest"
-draft = false
-hero = "/img/crystal-ball.jpg"
-slug = "this-weeks-predictions"
-title = "This Week's Predictions"
-+++
+---
+author: "Eldridge Alexander"
+date: 2021-07-23
+excerpt: "A weekly post where I try to guess stuff and keep myself honest"
+draft: false
+hero: "/img/crystal-ball.jpg"
+slug: "this-weeks-predictions"
+title: "This Week's Predictions"
+authors:
+  - Eldridge Alexander
+---
 
 
 *A [recurring segment](https://blog.eldrid.ge/2021/04/17/this-weeks-predictions/) where I make predictions and check on my previous ones.*
