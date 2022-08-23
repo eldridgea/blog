@@ -6,6 +6,7 @@ draft = false
 hero = "/img/brain.jpg"
 slug = "mental-health-treatment-obstacle-course"
 title = "The Mental Health Treatment Obstacle Course"
+authors = Eldridge Alexander
 
 +++
 
