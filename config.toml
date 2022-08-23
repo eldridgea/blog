@@ -2,7 +2,7 @@ baseurl         = "/"
 theme = "hugo-theme-novela-3"
 #theme = "ea-theme"
 languageCode    = "en-US"
-paginate = 6
+paginate = 12
 
 [social]
 twitter= "https://twitter.com/magiceldridge"
