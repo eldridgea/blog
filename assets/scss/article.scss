@@ -76,17 +76,18 @@
 .article-hero-heading{
     font-size: 48px;
     font-family: var(--serif);
-    margin-bottom: 0px;
+    margin-bottom: 25px;
     font-weight: bold;
     line-height: 1.32;
   
     @media screen and (max-width: $tablet){
-        margin-bottom: 0px;
+        margin-bottom: 20px;
         font-size: 36px;
     }
 
     @media screen and (max-width: $phablet){
         font-size: 32px;
+        margin-bottom: 5px;
     }
 }
 
