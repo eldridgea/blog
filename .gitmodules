@@ -11,3 +11,6 @@
 [submodule "themes/hugo-theme-novela-2"]
 	path = themes/hugo-theme-novela-2
 	url = https://github.com/forestryio/hugo-theme-novela
+[submodule "themes/ea-theme"]
+	path = themes/ea-theme
+	url = https://github.com/eldridgea/hugo-theme-novela
