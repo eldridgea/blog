@@ -76,18 +76,18 @@
 .article-hero-heading{
     font-size: 48px;
     font-family: var(--serif);
-    margin-bottom: 50px;
+    margin-bottom: 10px;
     font-weight: bold;
     line-height: 1.32;
   
     @media screen and (max-width: $tablet){
-        margin-bottom: 50px;
+        margin-bottom: 10px;
         font-size: 36px;
     }
 
     @media screen and (max-width: $phablet){
         font-size: 32px;
-        margin-bottom: 50px;
+        margin-bottom: 10px;
     }
 }
 
@@ -131,7 +131,7 @@
         strong {
             display: block;
             font-weight: 500;
-            margin-bottom: 50px;
+            margin-bottom: 10px;
         }
     }
 }
@@ -285,7 +285,7 @@
         strong {
           display: block;
           font-weight: semi-bold;
-          margin-bottom: 50px;
+          margin-bottom: 10px;
         }
     }
 }
@@ -450,7 +450,7 @@
 /**************************************ARTICLE BODY**************************************/
 
 .post-content{
-    padding: 0px 0 35px;
+    padding: 20px 0 35px;
 }
 
 /**************************************ARTICLE NEXT**************************************/
