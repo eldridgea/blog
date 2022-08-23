@@ -1,6 +1,6 @@
 ---
 hero:
-  heading: Welcome to Novela, the simplest way to start publishing with Hugo.
+  heading: Every week, industry veteran and teacher Eldridge Alexander share his thoughts on tech companies, privacy, security, and tech corporate ethics.
   maxWidthPX: 652
 seo:
   image: /images/hero-2.jpg
