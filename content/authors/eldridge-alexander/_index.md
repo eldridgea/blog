@@ -1,8 +1,7 @@
 ---
 title: Eldridge Alexander
 bio: |
-  Written by You. This is where your author bio lives. Share your work, your
-  joys and of course, your Twitter handle.
+  Information Security engineer, writer, and trainer. Formerly employed at Duo Labs, Cloudflare and Google. Technologist, magician, designer, musician, videographer, blogger, and avid sweet tea drinker.
 avatar: https://eldrid.ge/img/eldridge_alexander.jpg
 featured: true
 social:
