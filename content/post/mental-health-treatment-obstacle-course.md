@@ -5,7 +5,7 @@ excerpt: "The only resonable way to navigate mental health treatment is to not h
 draft: false
 hero: "/img/brain.jpg"
 slug: "mental-health-treatment-obstacle-course"
-title: "The Mental Health Treatment Obstacle Course"
+title: "Mental Health Treatment Obstacle Course"
 
 authors:
   - Eldridge Alexander
