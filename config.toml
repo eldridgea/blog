@@ -1,6 +1,5 @@
 baseurl         = "/"
 theme = "novela"
-#theme = "ea-theme"
 languageCode    = "en-US"
 paginate = 12
 
@@ -8,9 +7,7 @@ paginate = 12
 twitter= "https://twitter.com/magiceldridge"
 github= "https://github.com/eldridgea"
 linkedin= "https://www.linkedin.com/in/eldridgea/"
-#instagram = "#"
-#dribbble = "#"
-#youtube = "#"
+
 
 [taxonomies]
 author = "authors"
