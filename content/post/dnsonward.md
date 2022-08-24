@@ -5,7 +5,7 @@ excerpt: "Easily proxy traditional DNS requests to a DoT server ensuring no eave
 draft: false
 hero: "/img/dig-command.png"
 slug: "dnsonward"
-title: "Dnsonward: Moving to encrypted DNS"
+title: "Dnsonward"
 authors:
   - Eldridge Alexander
 ---
@@ -18,7 +18,7 @@ I wanted to have a home DNS service similar to consumer routers that would take 
 
 I built and open sourced [Dnsonward](https://github.com/eldridgea/dnsonward). It’s a docker container that can be started and pointed to some popular DoT servers and also allow you to configure your own. This is built on top of the excellent [CoreDNS](https://coredns.io/) -- being written in go, performant, and modular made it fit this use case perfectly.
 
-## Quickstart 
+## Quickstart
 
 If you want to give it a try you can spin up it up with Docker:
 `docker run -e SERVICE="cloudflare" -p 53:53 -p 53:53/udp eldridgea/dnsonward`
