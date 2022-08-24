@@ -10,7 +10,6 @@ title: "Proposal For Improving Social Security Numbers"
 authors:
   - Eldridge Alexander
 ---
-
 *Update: Added diagrams for an example*
 
 If you're unfamiliar with asymmetric or public key cryptography, a good introduction without the math is [available here](https://blog.vrypan.net/2013/08/28/public-key-cryptography-for-non-geeks/).
@@ -74,4 +73,4 @@ Private keys could be issued in phases over several years, to volunteers at firs
 
 As we are seeing with the credit card chip rollout, this will be slow, but the government could provide a long but mandated timeline, with a shorter timeline applied as punishment to companies such as Equifax that are negligent in their protections of consumer data.
 
-`Photo Credit: http://www.kiplinger.com/quiz/retirement/T051-S001-how-well-do-you-know-social-security/heros/intro.jpg`
+`Photo Credit: http://www.kiplinger.com/quiz/retirement/T051-S001-how-well-do-you-know-social-security/images/intro.jpg`

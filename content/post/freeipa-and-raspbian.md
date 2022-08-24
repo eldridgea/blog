@@ -33,26 +33,26 @@ This mostly took care of it but the SSSD conf file needed to be configured. I ha
 
 ```
 [sssd]
-config_file_version: 2
+config_file_version = 2
 
 [domain/example.com]
 
-cache_credentials: True
-krb5_store_password_if_offline: True
-ipa_domain: example.com
-id_provider: ipa
-auth_provider: ipa
-access_provider: ipa
-ipa_hostname: pi.example.com
-chpass_provider: ipa
-ipa_server: _srv_, freeipa.example.com
-ldap_tls_cacert: /etc/ipa/ca.crt
+cache_credentials = True
+krb5_store_password_if_offline = True
+ipa_domain = example.com
+id_provider = ipa
+auth_provider = ipa
+access_provider = ipa
+ipa_hostname = pi.example.com
+chpass_provider = ipa
+ipa_server = _srv_, freeipa.example.com
+ldap_tls_cacert = /etc/ipa/ca.crt
 [sssd]
-services: nss, sudo, pam, ssh
+services = nss, sudo, pam, ssh
 
-domains: example.com
+domains = example.com
 [nss]
-homedir_substring: /home
+homedir_substring = /home
 
 [pam]
 
@@ -68,5 +68,4 @@ homedir_substring: /home
 Then, in FreeIPA's web interface, I went to Authentication > Certificates and open up `CN=Certificate Authority,O=EXAMPLE.COM` (serial number 1 in my case), copied the certificate value, and pasted it into /etc/ipa/ca.crt on my Pi.
 
 I then opened /etc/ssh/sshd_config and changed `GSSAPIAuthentication` to "yes". Once I restarted SSSD and SSH, everything worked like a charm
-
 

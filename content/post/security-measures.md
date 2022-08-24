@@ -13,7 +13,7 @@ authors:
   - Eldridge Alexander
 ---
 
-*This is a brief excerpt of my security practices. I will make several posts and write updates as I make changes.*
+*This is a brief description of my security practices. I will make several posts and write updates as I make changes.*
 
 #### Two-Factor Authentication
 I enable [two-factor authentication](https://en.wikipedia.org/wiki/Two_factor_authentication) whenever possible. I use multiple apps to do this, but I usually use Google Authenticator's [TOTP](https://en.wikipedia.org/wiki/Time-based_One-time_Password_Algorithm). I have this enabled on:
