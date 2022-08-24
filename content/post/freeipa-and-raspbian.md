@@ -1,13 +1,15 @@
-+++
-author = "Eldridge Alexander"
-date = 2017-08-10T01:58:41Z
-description = "I use FreeIPA heavily to manage my lab at home however their client wasn't available on Raspbian, so I documented the stpes it took to get it working on my Pi."
-draft = false
-image = "/img/RaspberryPi.jpg"
-slug = "freeipa-and-raspbian"
-title = "FreeIPA and Raspbian"
+---
+author: "Eldridge Alexander"
+date: 2017-08-10T01:58:41Z
+excerpt: "I use FreeIPA heavily to manage my lab at home however their client wasn't available on Raspbian, so I documented the stpes it took to get it working on my Pi."
+draft: false
+hero: "/img/RaspberryPi.jpg"
+slug: "freeipa-and-raspbian"
+title: "FreeIPA and Raspbian"
 
-+++
+authors:
+  - Eldridge Alexander
+---
 
 I've gotten used to having `freeipa-client` available in `dnf` or `apt` repos, so I've rarely setup clients manually. However, I did today in [Raspbian](https://www.raspberrypi.org/downloads/raspbian/) on my Raspberry Pi. I wanted to document it here mainly for my own memory. It was extremely straightforward but there were a couple tweaks needed. (In this doc "example.com" replaces my domain).
 
@@ -66,5 +68,4 @@ homedir_substring = /home
 Then, in FreeIPA's web interface, I went to Authentication > Certificates and open up `CN=Certificate Authority,O=EXAMPLE.COM` (serial number 1 in my case), copied the certificate value, and pasted it into /etc/ipa/ca.crt on my Pi.
 
 I then opened /etc/ssh/sshd_config and changed `GSSAPIAuthentication` to "yes". Once I restarted SSSD and SSH, everything worked like a charm
-
 

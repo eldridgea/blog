@@ -1,15 +1,17 @@
-+++
-author = "Eldridge Alexander"
-categories = ["security", "goldengate", "proxy", "nginx"]
-date = 2016-11-24T23:25:13Z
-description = "Utilizing Cerbot's \"webroot\" plugin with an nginx reverse proxy on a dedicated server or VM."
-draft = false
-image = "img/800px-Golden_Gate_Bridge_Yang_Ming_Line.jpg"
-slug = "golden-gate-and-lets-encrypt"
-tags = ["security", "goldengate", "proxy", "nginx"]
-title = "Golden Gate and Let's Encrypt"
+---
+author: "Eldridge Alexander"
+categories: ["security", "goldengate", "proxy", "nginx"]
+date: 2016-11-24T23:25:13Z
+excerpt: "Utilizing Cerbot's \"webroot\" plugin with an nginx reverse proxy on a dedicated server or VM."
+draft: false
+hero: "/img/800px-Golden_Gate_Bridge_Yang_Ming_Line.jpg"
+slug: "golden-gate-and-lets-encrypt"
+tags: ["security", "goldengate", "proxy", "nginx"]
+title: "Golden Gate and Let's Encrypt"
 
-+++
+authors:
+  - Eldridge Alexander
+---
 
 I am currently serving all the things out of my home from behind my "Golden Gate proxy," which is a combination of an nginx reverse proxy, an SSH WebSocket proxy, and an SSH bastion host.
 

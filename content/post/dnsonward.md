@@ -1,12 +1,14 @@
-+++
-author = "Eldridge Alexander"
-date = 2020-03-27T12:03:11Z
-description = "Easily proxy traditional DNS requests to a DoT server ensuring no eavesdropping or MITM manipulation of DNS requests."
-draft = false
-image = "img/dig-command.png"
-slug = "dnsonward"
-title = "Dnsonward: Moving to encrypted DNS"
-+++
+---
+author: "Eldridge Alexander"
+date: 2020-03-27T12:03:11Z
+excerpt: "Easily proxy traditional DNS requests to a DoT server ensuring no eavesdropping or MITM manipulation of DNS requests."
+draft: false
+hero: "/img/dig-command.png"
+slug: "dnsonward"
+title: "Dnsonward: Moving to encrypted DNS"
+authors:
+  - Eldridge Alexander
+---
 
 Encrypted DNS is an improvement to end-user privacy and security. While there are occasionally trade offs to consider especially in enterprises, for home users, moving to encrypted DNS is almost universally an improvement. It closes [huge privacy gaps](https://www.eff.org/deeplinks/2019/09/encrypted-dns-could-help-close-biggest-privacy-gap-internet-why-are-some-groups) and prevents ISPs from harvesting user data from DNS queries. (Currently that information can also be harvested from TLS headers but that gap will be closed too as connections move to using [encrypted SNI in TLS 1.3](https://blog.cloudflare.com/encrypted-sni/)). It also prevents ISPs from redirecting to ad laden pages when there is no DNS result as opposed to letting the OS or browser handle the empty reasons as expected. 
 

@@ -1,12 +1,14 @@
-+++
-author = "Eldridge Alexander"
-date = 2020-02-18T12:03:11Z
-description = "Why remote work and open offices are antithetical and why jokes in Slack are a good measure of a distributed team."
-draft = false
-image = "img/open-office.jpg"
-slug = "open-offices-inhibiut-remote-work"
-title = "Open Offices Inhibit Remote Work"
-+++
+---
+author: "Eldridge Alexander"
+date: 2020-02-18T12:03:11Z
+excerpt: "Why remote work and open offices are antithetical and why jokes in Slack are a good measure of a distributed team."
+draft: false
+hero: "/img/open-office.jpg"
+slug: "open-offices-inhibiut-remote-work"
+title: "Open Offices Inhibit Remote Work"
+authors:
+  - Eldridge Alexander
+---
 
 [Many](https://www.fastcompany.com/90464248/how-a-bankers-suicide-prompted-his-son-to-dig-up-secrets-on-trumps-finances) [words](https://www.newyorker.com/business/currency/the-open-office-trap) [have](https://www.washingtonpost.com/business/2018/07/18/open-office-plans-are-bad-you-thought/) [been](https://www.inc.com/geoffrey-james/why-your-company-will-benefit-from-getting-rid-of-open-office-spaces-first-90.html) spilled covering open office floor plans and the problems they present to both employees and employers. I’m not going to rehash the main points that have been covered many times, but wanted to point to a conclusion I’ve reached particularly relevant in my career -- open office floor plans tend to inhibit effective remote work. 
 

@@ -1,12 +1,14 @@
-+++
-author = "Eldridge Alexander"
-date = 2021-04-17
-description = "A weekly post where I try to guess stuff and keep myself honest"
-draft = false
-image = "img/crystal-ball.jpg"
-slug = "this-weeks-predictions"
-title = "This Week's Predictions"
-+++
+---
+author: "Eldridge Alexander"
+date: 2021-04-17
+excerpt: "A weekly post where I try to guess stuff and keep myself honest"
+draft: false
+hero: "/img/crystal-ball.jpg"
+slug: "this-weeks-predictions"
+title: "This Week's Predictions"
+authors:
+  - Eldridge Alexander
+---
 
 Recently I read [The Art of Thinking Clearly](https://www.amazon.com/Art-Thinking-Clearly-Rolf-Dobelli/dp/0062219693). I enjoyed it and one of my takeaways was we tend to remember the true predictions we made, but don’t remember our incorrect predictions or justify some external reason why we were wrong. A good way to check some of my biases is to regularly write my predictions and revisit them later to see how well I did. So I’m going to try and do that weekly from now on. I figured I’d blog it so people can bask in my prescience (unlikely) or laugh at how hilarious my idea of a port-less iPhone is (much more likely). Anyway. Here we go
 

@@ -1,12 +1,14 @@
-+++
-author = "Eldridge Alexander"
-date = 2020-07-14T12:03:11Z
-description = "Discussions of Signal's new SVR feature should consider not only the Signal app, but the Signal ecosystem as well."
-draft = false
-image = "img/signal.jpg"
-slug = "discussions-of-signal-svr-should-consider-network-effects"
-title = "Discussions of Signal SVR Should Consider Network Effects "
-+++
+---
+author: "Eldridge Alexander"
+date: 2020-07-14T12:03:11Z
+excerpt: "Discussions of Signal's new SVR feature should consider not only the Signal app, but the Signal ecosystem as well."
+draft: false
+hero: "/img/signal.jpg"
+slug: "discussions-of-signal-svr-should-consider-network-effects"
+title: "Discussions of Signal SVR Should Consider Network Effects "
+authors:
+  - Eldridge Alexander
+---
 
 There is currently a lot of discussion around Signal’s new [PIN](https://signal.org/blog/signal-pins/) decisions. In particular, the discussions have focused on the decision to use the PIN as a seed to encrypt backup data that will be stored on Signal servers using Secure Value Recovery (SVR). So user data will be stored in a way so that even Signal cannot access it. SVR uses [Intel SGX](https://en.wikipedia.org/wiki/Software_Guard_Extensions) to ensure this.
 

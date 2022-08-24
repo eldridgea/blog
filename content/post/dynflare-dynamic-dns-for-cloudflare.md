@@ -1,15 +1,17 @@
-+++
-author = "Eldridge Alexander"
-categories = ["cloudflare", "dns", "dynamicdns", "hoemlab"]
-date = 2018-09-26T22:57:01Z
-description = "A script that continually checks  your public IP address and updates your Cloudflare DNS records accordingly."
-draft = false
-image = "/img/lava-lamps.jpg"
-slug = "dynflare-dynamic-dns-for-cloudflare"
-tags = ["cloudflare", "dns", "dynamicdns", "hoemlab"]
-title = "Dynflare: Dynamic DNS for Cloudflare"
+---
+author: "Eldridge Alexander"
+categories: ["cloudflare", "dns", "dynamicdns", "hoemlab"]
+date: 2018-09-26T22:57:01Z
+excerpt: "A script that continually checks  your public IP address and updates your Cloudflare DNS records accordingly."
+draft: false
+hero: "/img/lava-lamps.jpg"
+slug: "dynflare-dynamic-dns-for-cloudflare"
+tags: ["cloudflare", "dns", "dynamicdns", "hoemlab"]
+title: "Dynflare: Dynamic DNS for Cloudflare"
 
-+++
+authors:
+  - Eldridge Alexander
+---
 
 ### *Disclaimer: This is not a product of Cloudflare and is not supported or endorsed by them.*
 <br></br>

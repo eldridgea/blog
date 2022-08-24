@@ -1,15 +1,17 @@
-+++
-author = "Eldridge Alexander"
-categories = ["security", "chrome", "firefox", "opera", "safari", "edge", "broswer", "web"]
-date = 2015-05-19T20:34:28Z
-description = "An examination of how I selected my preferred browser"
-draft = false
-image = "img/13792583873_832a262252_k.jpg"
-slug = "my-perfect-browser"
-tags = ["security", "chrome", "firefox", "opera", "safari", "edge", "broswer", "web"]
-title = "My Perfect Browser"
+---
+author: "Eldridge Alexander"
+categories: ["security", "chrome", "firefox", "opera", "safari", "edge", "broswer", "web"]
+date: 2015-05-19T20:34:28Z
+excerpt: "An examination of how I selected my preferred browser"
+draft: false
+hero: "/img/13792583873_832a262252_k.jpg"
+slug: "my-perfect-browser"
+tags: ["security", "chrome", "firefox", "opera", "safari", "edge", "broswer", "web"]
+title: "My Perfect Browser"
 
-+++
+authors:
+  - Eldridge Alexander
+---
 
 I'm trying to make everything I do online as secure as possible, while compromizing my expereince as little as possible. The most significant choice here is my web browser.
 

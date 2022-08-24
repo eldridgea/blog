@@ -1,15 +1,17 @@
-+++
-author = "Eldridge Alexander"
-categories = ["password management", "lastpass"]
-date = 2014-12-30T04:57:26Z
-description = "The security measures I take personally to secure my passwords and other secrets."
-draft = false
-image = "img/10597406823_e1e624c732_z-1.jpg"
-slug = "security-measures-password-management"
-tags = ["password management", "lastpass"]
-title = "Security Measures: Password Management"
+---
+author: "Eldridge Alexander"
+categories: ["password management", "lastpass"]
+date: 2014-12-30T04:57:26Z
+excerpt: "The security measures I take personally to secure my passwords and other secrets."
+draft: false
+hero: "/img/10597406823_e1e624c732_z-1.jpg"
+slug: "security-measures-password-management"
+tags: ["password management", "lastpass"]
+title: "Security Measures: Password Management"
 
-+++
+authors:
+  - Eldridge Alexander
+---
 
 > UPDATE: Since the writing of this post I have switched to [Bitwarden](https://bitwarden.com/) for a variety of reasons.
 > Most notably due to their fully open source approach and support for U2F as a second factor.

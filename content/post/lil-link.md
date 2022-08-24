@@ -1,13 +1,15 @@
-+++
-author = "Eldridge Alexander"
-date = 2019-07-09T12:03:11Z
-description = "A shortlink system built entirely on Cloudflare workers."
-draft = false
-image = "img/workers-illustration.png"
-slug = "lil-link"
-title = "Lil Link"
+---
+author: "Eldridge Alexander"
+date: 2019-07-09T12:03:11Z
+excerpt: "A shortlink system built entirely on Cloudflare workers."
+draft: false
+hero: "/img/workers-illustration.png"
+slug: "lil-link"
+title: "Lil Link"
 
-+++
+authors:
+  - Eldridge Alexander
+---
 
 Today I'm open sourcing a shortlink project I'm calling [Lil Link](https://lillink.co) that runs entirely on [Cloudflare Workers](https://workers.cloudflare.com/).
 

@@ -1,15 +1,17 @@
-+++
-author = "Eldridge Alexander"
-categories = ["android", "dns"]
-date = 2019-01-07T20:39:01Z
-description = "System-wide ad and tracker blocking on Android"
-draft = false
-image = "/img/androids.jpg"
-slug = "project-erised"
-tags = ["android", "dns"]
-title = "Project Erised"
+---
+author: "Eldridge Alexander"
+categories: ["android", "dns"]
+date: 2019-01-07T20:39:01Z
+excerpt: "System-wide ad and tracker blocking on Android"
+draft: false
+hero: "/img/androids.jpg"
+slug: "project-erised"
+tags: ["android", "dns"]
+title: "Project Erised"
 
-+++
+authors:
+  - Eldridge Alexander
+---
 
 Android 9.0 [introduced](https://android-developers.googleblog.com/2018/04/dns-over-tls-support-in-android-p.html) native suppport for [DNS over TLS](https://tools.ietf.org/html/rfc7858) (DoT). I like blocking ads and trackers on my device, but I don't like rooting or using an always-on VPN.
 I begain investigating using DoT as a method for adblocking, as Android uses DoT for all DNS requests if it's enabled. I used a combination of off-the-shelf stuff in a docker network to handle this. 

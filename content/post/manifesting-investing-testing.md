@@ -1,13 +1,15 @@
-+++
-author = "Eldridge Alexander"
-date = 2022-06-29T02:03:11Z
-description = "Using paper trading to test my (almost definitely wrong) market theses."
-draft = false
-image = "img/stockmarket.jpg"
-slug = "manifesting-investing-testing"
-title = "Manifesting Investing Testing"
+---
+author: "Eldridge Alexander"
+date: 2022-06-29T02:03:11Z
+excerpt: "Using paper trading to test my (almost definitely wrong) market theses."
+draft: false
+hero: "/img/stockmarket.jpg"
+slug: "manifesting-investing-testing"
+title: "Manifesting Investing Testing"
 
-+++
+authors:
+  - Eldridge Alexander
+---
 I’ve always been interested in business and the stock market. Like many people I’m aware that almost no one can beat the market reliably. So I have almost exclusively invested using index funds and roboadvisors with the only exception being equity I receive from a company where I work. Although even that I tend to sell and move to index funds eventually. 
 
 Even though I know the odds, I still like to think I can beat the market (don’t we all). There’s some niche areas in the market where I feel particularly plugged in that I wanted to try. But I also know that we tend to remember our wins and forget our losses, so I wanted to try this and record and compare the data.

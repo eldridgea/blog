@@ -1,15 +1,17 @@
-+++
-author = "Eldridge Alexander"
-categories = ["economy", "policy"]
-date = 2018-11-27T22:57:01Z
-description = "An overview of common economic measurements and how they can be improved."
-draft = false
-image = "/img/dollar_bill.jpg"
-slug = "we-measure-the-economy-wrong"
-tags = ["economy", "policy"]
-title = "We Measure The Economy Wrong"
+---
+author: "Eldridge Alexander"
+categories: ["economy", "policy"]
+date: 2018-11-27T22:57:01Z
+excerpt: "An overview of common economic measurements and how they can be improved."
+draft: false
+hero: "/img/dollar_bill.jpg"
+slug: "we-measure-the-economy-wrong"
+tags: ["economy", "policy"]
+title: "We Measure The Economy Wrong"
 
-+++
+authors:
+  - Eldridge Alexander
+---
 
 We measure the economy wrong.
 

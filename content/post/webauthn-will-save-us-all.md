@@ -1,15 +1,17 @@
-+++
-author = "Eldridge Alexander"
-categories = ["webauthn", "passwords"]
-date = 2018-11-05T20:39:01Z
-description = "Some minor nitpicking around Webauthn and how it has the ability to replace passwords."
-draft = false
-image = "/img/10597406823_e1e624c732_z-1.jpg"
-slug = "in-defense-of-webauthn"
-tags = ["webauthn", "passwords"]
-title = "In Defense of Webauthn"
+---
+author: "Eldridge Alexander"
+categories: ["webauthn", "passwords"]
+date: 2018-11-05T20:39:01Z
+excerpt: "Some minor nitpicking around Webauthn and how it has the ability to replace passwords."
+draft: false
+hero: "/img/10597406823_e1e624c732_z-1.jpg"
+slug: "in-defense-of-webauthn"
+tags: ["webauthn", "passwords"]
+title: "In Defense of Webauthn"
 
-+++
+authors:
+  - Eldridge Alexander
+---
 I wanted to take a moment and respond to Troy Hunt’s recent post [Here's Why \[Insert Thing Here\] Is Not a Password Killer](https://www.troyhunt.com/heres-why-insert-thing-here-is-not-a-password-killer/).
 
 First, I’d like to say that overall I am in strong agreement with the premise of the article. Usability, adoption, and lack of friction are all-important when considering a security mechanism, especially something as crucial as authentication, and when considering replacing something as well known as passwords. Not much out there addresses all of these things at once.

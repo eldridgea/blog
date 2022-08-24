@@ -1,17 +1,19 @@
-+++
-author = "Eldridge Alexander"
-categories = ["security", "client devices", "encryption"]
-date = 2014-12-30T04:39:15Z
-description = "The security measures I take personally to secure my client devices."
-draft = false
-image = "img/10597406823_e1e624c732_z-1.jpg"
-slug = "security-measures-client-devices"
-tags = ["security", "client devices", "encryption"]
-title = "Security Measures: Client Devices"
+---
+author: "Eldridge Alexander"
+categories: ["security", "client devices", "encryption"]
+date: 2014-12-30T04:39:15Z
+excerpt: "The security measures I take personally to secure my client devices."
+draft: false
+hero: "/img/10597406823_e1e624c732_z-1.jpg"
+slug: "security-measures-client-devices"
+tags: ["security", "client devices", "encryption"]
+title: "Security Measures: Client Devices"
 
-+++
+authors:
+  - Eldridge Alexander
+---
 
-*This is a brief description of my security practices. I will make several posts and write updates as I make changes.*
+*This is a brief excerpt of my security practices. I will make several posts and write updates as I make changes.*
 
 #### Client Devices
 

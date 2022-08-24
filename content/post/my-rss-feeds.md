@@ -1,13 +1,15 @@
-+++
-author = "Eldridge Alexander"
-date = 2015-02-09T23:35:02Z
-description = "A file with all of my RSS feeds listed."
-draft = false
-image = "img/rss.jpg"
-slug = "my-rss-feeds"
-title = "My RSS Feeds"
+---
+author: "Eldridge Alexander"
+date: 2015-02-09T23:35:02Z
+excerpt: "A file with all of my RSS feeds listed."
+draft: false
+hero: "/img/rss.jpg"
+slug: "my-rss-feeds"
+title: "My RSS Feeds"
 
-+++
+authors:
+  - Eldridge Alexander
+---
 
 *Update: I have now switched from TT-RSS to [Feedly](https://feedly.com)*
 

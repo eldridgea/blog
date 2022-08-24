@@ -1,14 +1,16 @@
-+++
-author = "Eldridge Alexander"
-categories = ["raspberrypi", "homeassistant", "homeautomation"]
-date = 2020-09-03
-description = "Building and automating a Raspberry Pi sound machine using Home Assistant and a soundbar without having the TV turn on."
-draft = false
-image = "/img/pi0.png"
-slug = "raspberry-pi-soundbar-soundmachine"
-tags = ["raspberrypi", "homeassistant", "homeautomation"]
-title = "Raspberry Pi Soundbar Soundmachine"
-+++
+---
+author: "Eldridge Alexander"
+categories: ["raspberrypi", "homeassistant", "homeautomation"]
+date: 2020-09-03
+excerpt: "Building and automating a Raspberry Pi sound machine using Home Assistant and a soundbar without having the TV turn on."
+draft: false
+hero: "/img/pi0.png"
+slug: "raspberry-pi-soundbar-soundmachine"
+tags: ["raspberrypi", "homeassistant", "homeautomation"]
+title: "Raspberry Pi Soundbar Soundmachine"
+authors:
+  - Eldridge Alexander
+---
 
 ***UPDATE: I now have volume control working with some help from [CEC-O-Matic](https://cec-o-matic.com). I've added one file and updated the relevant code snippets below.***
 
