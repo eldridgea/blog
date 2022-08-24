@@ -1,7 +1,7 @@
 ---
 author: "Eldridge Alexander"
 categories: ["identity", "policy"]
-date = 2022-08-12T02:03:11Z
+date: 2022-08-12T02:03:11Z
 excerpt: "Requiring proof of identity online hurts the marginalized"
 hero: "/img/13792583873_832a262252_k.jpg"
 tags: ["identity", "policy"]
