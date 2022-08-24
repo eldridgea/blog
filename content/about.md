@@ -2,7 +2,7 @@
 title: About
 ---
 
-{{< subscribe email="your@email.com" >}}
+{{< subscribe email="eldridgea@gmail.com" >}}
 
 Etiam porta sem malesuada magna mollis euismod. Duis mollis, est non commodo luctus, nisi erat porttitor ligula, eget lacinia odio sem nec elit. Donec id elit non mi porta gravida at eget metus. Donec sed odio dui.
 
