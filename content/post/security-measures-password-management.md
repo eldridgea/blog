@@ -16,7 +16,7 @@ authors:
 > UPDATE: Since the writing of this post I have switched to [Bitwarden](https://bitwarden.com/) for a variety of reasons.
 > Most notably due to their fully open source approach and support for U2F as a second factor.
 
-*This is a brief excerpt of my security practices. I will make several posts and write updates as I make changes.*
+*This is a brief description of my security practices. I will make several posts and write updates as I make changes.*
 #### Password Management
 For password mangement I use [LastPass](https://lastpass.com/). LastPass has its issues, however it is, in my opinion, the best balance of convenice and security. It encrypts all passwords and syncs the encrypred file to all computers and is only decrypted locally. It has only had [two suspected breaches](https://en.wikipedia.org/wiki/LastPass#Security_breach) in its history and the company disclosed them and corrected them quickly.
 
