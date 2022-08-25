@@ -13,7 +13,7 @@ authors:
 
 I am seeing increasing calls for real life identity to be a fundamental part of online presence, especially in places like Twitter where disinformation thrives. This is a problem.
 
-Supposedly ensuring posts are connected to a real life identity will help prevent hate speech, disinformation, and scams. This idea lacks crucial nuance. It falls into the trap tech always seems to fall into — pushing for major change without ensuring we have marginalized people at the table and in the discussion before we make major changes.
+Supposedly ensuring posts are connected to a real life identity will help prevent hate speech, disinformation, and scams. This proposal lacks crucial nuance. It falls into the trap tech always seems to fall into — pushing for major change without ensuring we have marginalized people at the table and in the discussion before we make major changes.
 
 I have heard these suggestions from all over, but most consistently from [Scott Galloway](https://profgmedia.com). I like hearing from his experience a lot, but I think from my career I have some exposure to knock-on effects here[^1] which demonstrate why this would put marginalized people in physical danger, as I show below. Enforcing identity is great at reducing problems for you as long as you’re straight, white, male, and American. For others it’s not quite as clear cut. This has been extensively researched, and [Jillian C. York maintains a list](https://jilliancyork.com/2021/01/14/everything-old-is-new-part-2-why-online-anonymity-matters/) of a lot of that research. 
 
