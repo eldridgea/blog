@@ -33,13 +33,13 @@ There are support and gathering groups online that will become hunting grounds f
 
 Having a safe place to discuss this without fear of decades in prison has been, and continues to be important. As the Supreme Court removes what were previously constitutional rights, this is even more crucial. What innocuous conversations are you having online today that might make you liable for a $10,000 civil lawsuit a year from now?
 
-So far I've focused on America-oriented problems, but living under certain regimes can make this situation *much* worse. In the US many of the problems I listed are fellow citizens using someone’s identity to commit a crime (usually violent) against them. This is terrible of course, but in some countries that violence is not only legal, but perpetrated against the person by [their own government](https://www.hrw.org/news/2020/10/01/egypt-security-forces-abuse-torture-lgbt-people), leaving them absolutely no recourse.
+So far I've focused on America-oriented problems, but living under certain regimes can make this situation *much* worse. In the US many of the problems I listed (but not all) are fellow citizens using someone’s identity to commit a crime (usually violent) against them. This is terrible, but in some countries that violence is not only legal, but also perpetrated against the person by [their own government](https://www.hrw.org/news/2020/10/01/egypt-security-forces-abuse-torture-lgbt-people), leaving them absolutely no recourse.
 
 I don’t have a grand solution unfortunately. It seems that lack of identity contributes to death threats, scams, and disinformation. But enforcing identity causes great risk and harm to the most vulnerable among us. Any answer that comes up in this space will not be a straightforward or simple one.[^3]
 
 [^3]: If someone suggests a "simple" solution here and uses the word "blockchain", just run away.
 
-One method that might help is, via corporate policy or government regulation, prohibiting *amplifying* any account in algorithmic feeds (e.g. Twitter, TikTok) unless identity is verified. You can follow anyone, but you won’t ever see a "suggestion" from a non-verified account, preventing their amplification effect.
+One method that might help is prohibiting *amplifying* any account in algorithmic feeds (e.g. Twitter, TikTok) unless identity is verified. You can follow anyone, but you won’t ever see a "suggestion" from a non-verified account, preventing their amplification effect.
 
 Another might be stronger "liveness" testing. Some [proposals](https://www.theverge.com/2021/5/16/22436395/cloudflare-end-captcha-madness-security-key-cryptographic-attestation-of-personhood) already exist to make this better than the current captcha system. This could also utilize the biometrics that modern devices provide.[^4]
 
@@ -47,6 +47,6 @@ Another might be stronger "liveness" testing. Some [proposals](https://www.theve
 
 This could be rolled out in tandem with making bot registration much more thorough. Twitter is already [experimenting](https://blog.twitter.com/common-thread/en/topics/stories/2021/the-secret-world-of-good-bots) in this area. Making liveness testing much more frequent, but *much* easier than captchas, and forcing bots through a separate system that requires strong identity attestation to an individual or company would allow good bots to continue while limiting malicious bots.
 
-Hate speech, disinformation, death threats – these are all terrible things that happen online that *might* be improved or reduced by enforcing identity. But we know from experience that enforcing identity will cause crimes, violence, death, and legal trouble.
+Hate speech, disinformation, death threats – these are all terrible things that happen online that might be improved or reduced for *some* people by enforcing identity. But we know from experience that enforcing identity will cause crimes, violence, death, and legal trouble.
 
 Tech has a long history of ignoring or downplaying the marginalized. These efforts around identity come from a good place – a desire to see social and online media improve and to counteract some of its most pernicious problems. But even in an attempt to do good with social media, we again risk leaving out the vulnerable and causing more harm than good. And, as we’ve seen, once information is public it’s close to impossible to claw back. If we get this wrong there's no going back.
