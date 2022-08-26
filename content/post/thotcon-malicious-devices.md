@@ -13,6 +13,4 @@ authors:
 
 This weekend I spoke at THOTCON in Chicago on 5G, IoT, and the increase of compromised devices with alway-on cellular connectivity being exposed to our home networks.
 
-Talks aren't recorded but my [abstract is here](https://thotcon.org/archive/speakers-0xA.html) I've included my slides below:
-
-<iframe src="https://docs.google.com/presentation/d/e/2PACX-1vR5Wtm96jZs_LHFwStt7Ca3e7hHV-mFoRS6OPh83sYuFULZirrHzeImJfwjF17LFrH74wsWjp8P5x37/embed?start=false&loop=false&delayms=3000" frameborder="0" width="480" height="299" allowfullscreen="true" mozallowfullscreen="true" webkitallowfullscreen="true"></iframe>
+Talks aren't recorded but my [abstract is here](https://thotcon.org/archive/speakers-0xA.html) I've made my [slides available here](https://docs.google.com/presentation/d/e/2PACX-1vR5Wtm96jZs_LHFwStt7Ca3e7hHV-mFoRS6OPh83sYuFULZirrHzeImJfwjF17LFrH74wsWjp8P5x37/pub?start=false&loop=false&delayms=3000).
