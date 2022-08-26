@@ -5,7 +5,7 @@ excerpt: "A recap of my talk at THOTCON on malicious IoT devices and 5G Networks
 draft: false
 hero: "/img/thotcon.jpg"
 slug: "thotcon-malicious-devices"
-title: "THOTCON Talk"
+title: "THOTCON Malicious Devices"
 
 authors:
   - Eldridge Alexander
