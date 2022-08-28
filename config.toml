@@ -8,6 +8,8 @@ twitter= "https://twitter.com/magiceldridge"
 github= "https://github.com/eldridgea"
 linkedin= "https://www.linkedin.com/in/eldridgea/"
 
+[author]
+	name = "Eldridge Alexander"
 
 [taxonomies]
 author = "authors"
