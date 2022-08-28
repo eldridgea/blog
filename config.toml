@@ -2,6 +2,7 @@ baseurl         = "/"
 theme = "novela"
 languageCode    = "en-US"
 paginate = 12
+title = "Eldridge's Blog"
 
 [social]
 twitter= "https://twitter.com/magiceldridge"
