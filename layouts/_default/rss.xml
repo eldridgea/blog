@@ -1,33 +1,43 @@
-<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+<?xml version="1.0" encoding="UTF-8"?><rss version="2.0"
+  xmlns:content="http://purl.org/rss/1.0/modules/content/"
+  xmlns:wfw="http://wellformedweb.org/CommentAPI/"
+  xmlns:dc="http://purl.org/dc/elements/1.1/"
+  xmlns:atom="http://www.w3.org/2005/Atom"
+  xmlns:sy="http://purl.org/rss/1.0/modules/syndication/"
+  xmlns:slash="http://purl.org/rss/1.0/modules/slash/"
+  >
+
   <channel>
     <title>Eldridge's Blog</title>
+    <atom:link href="https://blog.eldrid.ge/post/index.xml" rel="self" type="application/rss+xml" />
     <link>https://blog.eldrid.ge/</link>
-    <description>Recent content {{ if ne  .Title  .Site.Title }}{{ with .Title }}in {{.}} {{ end }}{{ end }}on {{ .Site.Title }}</description>
-    <generator>Hugo -- gohugo.io</generator>{{ with .Site.LanguageCode }}
-    <language>{{.}}</language>{{end}}{{ with .Site.Author.email }}
-    <managingEditor>{{.}}{{ with $.Site.Author.name }} ({{.}}){{end}}</managingEditor>{{end}}{{ with .Site.Author.email }}
-    <webMaster>{{.}}{{ with $.Site.Author.name }} ({{.}}){{end}}</webMaster>{{end}}{{ with .Site.Copyright }}
-    <copyright>{{.}}</copyright>{{end}}{{ if not .Date.IsZero }}
-    <lastBuildDate>{{ .Date.Format "Mon, 02 Jan 2006 15:04:05 -0700" | safeHTML }}</lastBuildDate>{{ end }}
+    <description></description>
+    <language>en-US</language>
+    <generator>Hugo -- gohugo.io</generator>
+
     {{ with .OutputFormats.Get "RSS" }}
-        {{ printf "<atom:link href=%q rel=\"self\" type=%q />" .Permalink .MediaType | safeHTML }}
+        {{ printf "<link href=%q rel=\"self\" type=%q />" .Permalink .MediaType | safeHTML }}
     {{ end }}
     {{ range .Pages }}
+
+    
     <item>
       <title>{{ .Title }}</title>
       <link>https://blog.eldrid.ge{{ .Permalink }}</link>
+      <dc:creator><![CDATA[Eldridge]]></dc:creator>
       <pubDate>{{ .Date.Format "Mon, 02 Jan 2006 15:04:05 -0700" | safeHTML }}</pubDate>
-      {{ with .Site.Author.email }}<author>{{.}}{{ with $.Site.Author.name }} ({{.}}){{end}}</author>{{end}}
-      <guid>{{ .Permalink }}</guid>
-      <content type="image/jpeg" medium="image" width="900" height="600" url="https://blog.eldrid.ge{{ .Params.hero | safeHTML }}" />
-      <description><![CDATA[{{- .Description | html -}}]]></description>
-      <content:encoded><![CDATA[
-        <div class="wp-block-image">
-          <figure class="aligncenter size-large"><img decoding="async" loading="lazy" width="500" height="333" src="https://blog.eldrid.ge{{ .Params.hero | safeHTML }}" /></figure>
-        </div>  
-        {{- .Content | html -}}
-        ]]></content:encoded>
-    </item>
-    {{ end }}
+      <guid isPermaLink="true">https://blog.eldrid.ge{{ .Permalink }}</guid>
+
+      <description><![CDATA[{{- .Description | html -}}
+]]></description>
+
+<content:encoded><![CDATA[
+  <div class="wp-block-image">
+    <figure class="aligncenter size-large"><img decoding="async" loading="lazy" width="500" height="333" src="https://blog.eldrid.ge{{ .Params.hero | safeHTML }}" /></figure>
+  </div>
+  {{- .Content | html -}}
+]]></content:encoded>
+</item>
+{{ end }}
   </channel>
 </rss>
