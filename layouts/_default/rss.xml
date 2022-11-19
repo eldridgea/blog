@@ -24,7 +24,7 @@
         <p>
           <img hspace="5" src="{https://blog.eldrid.ge{{ .Params.hero | safeHTML }}"/>
         </p>
-        {{ $content | safeHTML }}
+        {{- .Content | html -}}
         ]]>
       </description>
     </item>
