@@ -26,7 +26,7 @@
         https://blog.eldrid.ge{{ .Permalink }}
       </id>
       <author>
-        <name>{{ Author.name }}</name>
+        <name>{{ with .Site.Author.name }}</name>
       </author>
     </entry>
     {{ end }}
