@@ -25,5 +25,6 @@
     <content:encoded>{{chomp "<![CDATA[\n"}}{{ .Content | safeHTML }}{{chomp "]]>\n"}}</content:encoded>
     </item>
     {{ end }}
+    {{ end }}
   </channel>
 </rss>
