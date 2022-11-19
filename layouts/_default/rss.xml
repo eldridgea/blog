@@ -21,7 +21,7 @@
       <guid>{{ .Permalink }}</guid>
       <content type="image/jpeg" medium="image" width="900" height="600" url="https://blog.eldrid.ge{{ .Params.hero | safeHTML }}" />
       <description>
-        <img src="https://blog.eldrid.ge{{ .Params.hero | safeHTML }}"/>
+        <p><img src="https://blog.eldrid.ge{{ .Params.hero | safeHTML }}"/></p>
         {{- .Content | html -}}
       </description>
     </item>
