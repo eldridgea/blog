@@ -20,9 +20,9 @@
       {{ with .Site.Author.email }}<author>{{.}}{{ with $.Site.Author.name }} ({{.}}){{end}}</author>{{end}}
       <guid>{{ .Permalink }}</guid>
       <description>
-        {{ `<![CDATA[ ` | safeHTML }}
+        {{ `<![CDATA[ ` | html }}
         <p>
-          <img hspace="5" src="{https://blog.eldrid.ge{{ .Params.hero | safeHTML }}"/>
+          <img hspace="5" src="{https://blog.eldrid.ge{{ .Params.hero | html }}"/>
         </p>
         {{- .Content | html -}}
         ]]>
