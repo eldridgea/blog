@@ -20,7 +20,7 @@
       {{ with .Site.Author.email }}<author>{{.}}{{ with $.Site.Author.name }} ({{.}}){{end}}</author>{{end}}
       <guid>{{ .Permalink }}</guid>
       <content type="image/jpeg" medium="image" width="900" height="600" url="https://blog.eldrid.ge{{ .Params.hero | safeHTML }}" />
-      <description><![CDATA[{{- .Description | html -}}</description>]]>
+      <description><![CDATA[{{- .Description | html -}}]]></description>
       <content:encoded><![CDATA[
         <div class="wp-block-image">
           <figure class="aligncenter size-large"><img decoding="async" loading="lazy" width="500" height="333" src="https://blog.eldrid.ge{{ .Params.hero | safeHTML }}" /></figure>
