@@ -1,5 +1,4 @@
-{{ safeHTML "<?xml version=\"1.0\" encoding=\"utf-8\" standalone=\"yes\" ?>" }} {{ $css := resources.Get "css/rss.css"}}{{ if hugo.IsProduction }}{{ $css = $css }}{{end}}
-{{ safeHTML "<?xml-stylesheet type=\"text/css\" "}} href="{{ $css.Permalink  }}" ?>
+{{ safeHTML "<?xml version=\"1.0\" encoding=\"utf-8\" standalone=\"yes\" ?>" }}{{end}}
 <rss version="2.0" 
     xmlns:content="http://purl.org/rss/1.0/modules/content/" 
     xmlns:wfw="http://wellformedweb.org/CommentAPI/" 
