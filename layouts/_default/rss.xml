@@ -1,52 +1,32 @@
-{{ safeHTML "<?xml version=\"1.0\" encoding=\"utf-8\" standalone=\"yes\" ?>" }}
-<rss version="2.0" 
-    xmlns:content="http://purl.org/rss/1.0/modules/content/" 
-    xmlns:wfw="http://wellformedweb.org/CommentAPI/" 
-    xmlns:dc="http://purl.org/dc/elements/1.1/" 
-    xmlns:atom="http://www.w3.org/2005/Atom" 
-    xmlns:sy="http://purl.org/rss/1.0/modules/syndication/" 
-    xmlns:slash="http://purl.org/rss/1.0/modules/slash/" 
-    xmlns:media="http://search.yahoo.com/mrss/"     
-    xml:lang="{{ site.LanguageCode }}"
-    xml:base="{{site.BaseURL }}" > 
-  
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
-    <title>{{ site.Title }} RSS</title>
-    <link>{{ site.BaseURL }}</link>
-    {{ $logo := resources.Get "img/zz512.png" }}{{$logo = $logo.Resize "96x96" }}
-    <image>
-      <url>{{ $logo.Permalink }}</url>
-      <title>{{ site.Title }} RSS</title>
-      <link>{{ site.BaseURL }}</link>
-      <width>{{ $logo.Width }}</width>
-      <height>{{ $logo.Height }}</height>
-    </image>
-    {{ with  site.Home.OutputFormats.Get "FEED"}}<atom:link href="{{.Permalink}}" rel="self"      type="{{ safeHTML .MediaType.Type }}" />{{end}}
-    {{ with  site.Home.OutputFormats.Get "ATOM"}}<atom:link href="{{.Permalink}}" rel="alternate" type="{{ safeHTML .MediaType.Type }}" />{{end}}
-    {{ with  site.Home.OutputFormats.Get "JSON"}}<atom:link href="{{.Permalink}}" rel="alternate" type="{{ safeHTML .MediaType.Type }}" />{{end}}
-    {{with site.Params.description}}<description>{{ site.Params.description }}</description>{{end}}
-    <generator>>Hugo {{hugo.Version}}</generator>
-    {{ with site.Author.name }}<dc:creator>{{ . }}</dc:creator>{{end}}
-    {{ with site.LanguageCode }}<language>{{.}}</language>{{end}}
-    {{ with site.Params.Copyright }}<copyright>@ {{ site.Params.CopyrightYear }} {{.}}</copyright>{{end}}
-    <lastBuildDate>{{site.LastChange.UTC.Format  site.Params.dateFormatRFC822Z | html }}</lastBuildDate>
-    {{ $feedsize := site.Params.feedSize | default 25 }}
-    {{ range first $feedsize (where site.RegularPages.ByDate.Reverse "Section" "not in" site.Params.invisibleSections)}}
+    <title>{{ if eq  .Title  .Site.Title }}{{ .Site.Title }}{{ else }}{{ with .Title }}{{.}} on {{ end }}{{ .Site.Title }}{{ end }}</title>
+    <link>{{ .Permalink }}</link>
+    <description>Recent content {{ if ne  .Title  .Site.Title }}{{ with .Title }}in {{.}} {{ end }}{{ end }}on {{ .Site.Title }}</description>
+    <generator>Hugo -- gohugo.io</generator>{{ with .Site.LanguageCode }}
+    <language>{{.}}</language>{{end}}{{ with .Site.Author.email }}
+    <managingEditor>{{.}}{{ with $.Site.Author.name }} ({{.}}){{end}}</managingEditor>{{end}}{{ with .Site.Author.email }}
+    <webMaster>{{.}}{{ with $.Site.Author.name }} ({{.}}){{end}}</webMaster>{{end}}{{ with .Site.Copyright }}
+    <copyright>{{.}}</copyright>{{end}}{{ if not .Date.IsZero }}
+    <lastBuildDate>{{ .Date.Format "Mon, 02 Jan 2006 15:04:05 -0700" | safeHTML }}</lastBuildDate>{{ end }}
+    {{ with .OutputFormats.Get "RSS" }}
+        {{ printf "<atom:link href=%q rel=\"self\" type=%q />" .Permalink .MediaType | safeHTML }}
+    {{ end }}
+    {{ range .Pages }}
     <item>
       <title>{{ .Title }}</title>
-      <link>{{ .Permalink }}</link>{{ $date := .PublishDate.UTC }}
-      <pubDate>{{ $date.Format site.Params.dateFormatRFC822Z | html }}</pubDate>
-      <category>{{ .Section}}</category>
-      {{ range (.GetTerms "tags") }}
-      <category>{{ .LinkTitle }}</category>{{end}}
-      <guid isPermaLink="false">{{ md5 .Permalink }}</guid>
-      <description>{{ plainify .Summary  }}</description>
-      {{ range first 1 (.Resources.ByType "image") }}{{ $original := . }}{{ $.Scratch.Set "image" ($original.Fit "480x480 #ffffff q75 jpeg") }}{{ $image := $.Scratch.Get "image" }}
-      <enclosure url="{{ $image.Permalink }}" length="{{len $image.Content}}" type="{{$image.MediaType}}" />
-      <media:content   url="{{ $image.Permalink }}" width="{{$image.Width}}" height="{{$image.Height}}" medium="{{$image.MediaType.MainType}}" type="{{$image.MediaType}}" >    
-        <media:thumbnail url="{{ $image.Permalink }}" width="{{$image.Width}}" height="{{$image.Height}}"  />       
-      </media:content>
-      {{ end }}
+      <link>{{ .Permalink }}</link>
+      <pubDate>{{ .Date.Format "Mon, 02 Jan 2006 15:04:05 -0700" | safeHTML }}</pubDate>
+      {{ with .Site.Author.email }}<author>{{.}}{{ with $.Site.Author.name }} ({{.}}){{end}}</author>{{end}}
+      <guid>{{ .Permalink }}</guid>
+      <description>
+        {{ `<![CDATA[ ` | safeHTML }}
+        <p>
+          <img hspace="5" src="{https://blog.eldrid.ge{{ .Params.hero | safeHTML }}"/>
+        </p>
+        {{ $content | safeHTML }}
+        ]]>
+      </description>
     </item>
     {{ end }}
   </channel>
