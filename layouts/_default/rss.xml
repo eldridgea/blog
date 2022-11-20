@@ -23,7 +23,7 @@
       <description>
         <figure>
         {{ $img := (.Resources.ByType "image").GetMatch "*hero*" }}
-        {{ printf "<![CDATA[<img src=\"%s\" />]]>" .Params.hero | safeHTML }}
+        {{ printf "<![CDATA[<img src=\"%s\"  alt="alt test"/>]]>" .Params.hero | safeHTML }}
         </figure>
         {{- .Content | html -}}
       </description>
