@@ -21,8 +21,10 @@
       {{ with .Site.Author.email }}<author>{{.}}{{ with $.Site.Author.name }} ({{.}}){{end}}</author>{{end}}
       <guid>{{ .Permalink }}</guid>
       <description>
+        <p>
         {{ $img := (.Resources.ByType "image").GetMatch "*hero*" }}
         {{ printf "<![CDATA[<img src=\"%s\" />]]>" .Params.hero | safeHTML }}
+        </p>
         {{- .Content | html -}}
       </description>
     </item>
