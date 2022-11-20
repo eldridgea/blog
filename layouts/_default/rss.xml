@@ -21,10 +21,10 @@
       {{ with .Site.Author.email }}<author>{{.}}{{ with $.Site.Author.name }} ({{.}}){{end}}</author>{{end}}
       <guid>{{ .Permalink }}</guid>
       <description>
-        {{ $img := (.Resources.ByType "image").GetMatch "*featured*" }}
+        {{ $img := (.Resources.ByType "image").GetMatch "*hero*" }}
         {{ with $img }}
         {{ $img := .Resize "640x" }}
-        {{ printf "<![CDATA[<img src=\"%s\" width=\"%d\" height=\"%d\"/>]]>" .Params.hero $img.Width $img.Height | safeHTML }}
+        {{ printf "<![CDATA[<img src=\"%s\" width=\"%d\" height=\"%d\"/>]]>" $img.Permalink $img.Width $img.Height | safeHTML }}
         {{ end }}
         {{- .Content | html -}}
       </description>
