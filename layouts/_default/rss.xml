@@ -24,9 +24,9 @@
         {{ $img := (.Resources.ByType "image").GetMatch "*featured*" }}
         {{ with $img }}
         {{ $img := .Resize "640x" }}
-        {{ printf "<![CDATA[<img src=\"%s\" width=\"%d\" height=\"%d\"/>]]>" $img.Permalink $img.Width $img.Height | safeHTML }}
+        {{ printf "<![CDATA[<img src=\"%s\" width=\"%d\" height=\"%d\"/>]]>" https://blog.eldrid.ge{{ .Params.hero | safeHTML }} $img.Width $img.Height | safeHTML }}
         {{ end }}
-        {{ .Description | html }}
+        {{- .Content | html -}}
       </description>
     </item>
     {{ end }}
