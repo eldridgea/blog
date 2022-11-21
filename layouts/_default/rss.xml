@@ -14,7 +14,7 @@
     {{ end }}
     {{ range .Pages }}
     <item>
-      <title>{{ .Section | title }}: {{ .Title }}</title>
+      <title>{{ .Title }}</title>
       <link>https://blog.eldrid.ge{{ .Permalink }}</link>
       <lastBuildDate>{{ $.Page.Lastmod.Format "Mon, 02 Jan 2006 15:04:05 -0700" | safeHTML }}</lastBuildDate>
       <pubDate>{{ .Date.Format "Mon, 02 Jan 2006 15:04:05 -0700" | safeHTML }}</pubDate>
@@ -22,9 +22,13 @@
       <guid>{{ .Permalink }}</guid>
       <description>
         <figure>
-        {{ $img := (.Resources.ByType "image").GetMatch "*hero*" }}
-        {{ printf "<![CDATA[<img src=\"/img/ibm-accountable.png\" alt=\"test\"/>]]>" .Params.hero | safeHTML }}
+        {{ $img := (.Resources.ByType "image").GetMatch "*.Params.hero*" }}
+        {{ with $img }}
+        {{ $img := $img.Resize "640x" }}
+        {{ printf "<![CDATA[<img src=\"%s\" width=\"%d\" height=\"%d\"/></img>]]>" $img.Permalink $img.Width $img.Height | safeHTML }}
+        {{ end }}
         </figure>
+        <img src="{{ .Params.hero }}" />
         {{- .Content | html -}}
       </description>
     </item>
