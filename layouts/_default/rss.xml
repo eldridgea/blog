@@ -21,9 +21,9 @@
       <guid>{{ .Permalink }}</guid>
       <content type="image/jpeg" medium="image" width="900" height="600" url="https://blog.eldrid.ge{{ .Params.hero | safeHTML }}" />
       <description>
-        <p>
-        <figure><img src="https://blog.eldrid.ge{{- .Params.hero | html -}}" alt="A computer can never be held accountable, therefore a computer must never make a management decision"/> </figure> 
-        </p>
+        {{ $header := `<p>
+        <figure><img src="https://blog.eldrid.ge{{ .Params.hero }}" alt="A computer can never be held accountable, therefore a computer must never make a management decision"/> </figure> 
+        </p>` }}
         {{- .Content | html -}}
       </description>
     </item>
