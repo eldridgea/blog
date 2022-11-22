@@ -37,7 +37,7 @@ These systems allow enormous scale and reach for products that companies scale w
 
 It seems like an ([alleged](https://twitter.com/bumblebike/status/832394003492564993?s=20)) slide from an IBM presentation in 1979 applies here
 
-{{< figure src="/img/ibm-accountable.png" title= "this is a test rollover title" alt="A computer can never be held accountable, therefore a computer must never make a management decision">}}
+{{< figure src="/img/ibm-accountable.png" alt="A computer can never be held accountable, therefore a computer must never make a management decision">}}
 
 There are significant problems with how we use AI today. I really like AI and think it’s a cool technology I’m excited to see evolve! Photo tagging alone has enabled finding so many old photos of people in my giant mess of a photo archive. In more weighty areas, [AI is enabling better cancer fighting](https://www.newyorker.com/tech/annals-of-technology/the-pastry-ai-that-learned-to-fight-cancer), despite that AI being created to sell pastries!
 
