@@ -25,9 +25,7 @@ First, I needed my Cloudflare Gateway DoH endpoint. I'd already signed up for a 
 
 ![Cloudflare Dashboard Screenshot](/img/cloudflare-gateway-screenshot.png)
 
-Once I had that, on the UDR I created the file `/etc/systemd/system/cloudflare-dns-proxy.service`.
-
-<script src="https://gist.github.com/eldridgea/972a894453536a0c0e219b9e3fdcbd96.js"></script>
+Once I had that, on the UDR I created the file `/etc/systemd/system/cloudflare-dns-proxy.service` and added the relevant [configuration details](https://gist.github.com/eldridgea/972a894453536a0c0e219b9e3fdcbd96).
 
 Once that file existed, I ran:
 
