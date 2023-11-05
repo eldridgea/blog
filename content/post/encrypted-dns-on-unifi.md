@@ -45,6 +45,8 @@ Afterwards, it should look like this!
 
 ![Screenshot of Cloudflare Help Page](/img/1111-encrypted.png)
 
+For mobile devices such as my phone and laptop I use a combination of Firefox's encrypted DNS settings and the WARP tool so that those devices always send DNS traffic to my Cloudflare Gateway account. THis means they usually skip my UDR's system at home, but they're getting the same filtering and logging regardless of what network they're on. 
+
 You can also use this method to leverage other Cloudflare services such as Cloudflare Tunnels. I do that and will write that up at some point too.
 
 I have not tested this, but this method should also work fine with other providers, such as [NextDNS](https://nextdns.io/) other excellent DNS provider with their own vendor tool.
