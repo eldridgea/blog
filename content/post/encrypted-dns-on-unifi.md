@@ -1,8 +1,8 @@
 ---
 author: "Eldridge Alexander"
 categories: ["dns", "security", "doh", "dot", "unifi"]
-date: 2023-10-04T018:33:11Z
-excerpt: "Requiring proof of identity online hurts the marginalized"
+date: 2023-11-04T018:33:11Z
+excerpt: "Ensuring the entire network uses encrypted DNS"
 hero: "/img/ubiquiti-switch.jpg"
 tags: ["dns", "security", "doh", "dot", "unifi"]
 title: "Encrypted Cloudflare DNS on UniFi"
