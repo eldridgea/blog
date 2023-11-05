@@ -1,11 +1,8 @@
 ---
-author: "Eldridge Alexander"
-categories: ["dns", "security", "doh", "dot", "unifi"]
-date: 2023-11-04T018:33:11Z
-excerpt: "Ensuring the entire network uses encrypted DNS"
+title: Encrypted Cloudflare DNS on UniFi
+date: 2023-11-04
 hero: "/img/ubiquiti-switch.jpg"
-tags: ["dns", "security", "doh", "dot", "unifi"]
-title: "Encrypted Cloudflare DNS on UniFi"
+excerpt: Ensuring the entire network uses encrypted DNS.
 authors:
   - Eldridge Alexander
 ---
