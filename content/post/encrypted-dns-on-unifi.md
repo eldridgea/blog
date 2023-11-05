@@ -19,7 +19,7 @@ The UDR runs on a version of Debian -- Cloudflare generally pushes for DNS proxy
 
 [^2]: The Gateway product is essentially their [1.1.1.1](https://1.1.1.1/) service, but with additional controls such as logging and filtering, as well as dedicated endpoints for your deployment.
 
-But, I decided to go ahead -- you can download the [cloudflared binary](https://developers.cloudflare.com/cloudflare-one/connections/connect-networks/downloads/) and run it normally. So I enabled SSH on my UDR, and downloaded `cloudfalred` and put it in `/root`. The UDR also uses `systemd` to run services so I needed to make a configuration file so that it would run automatically.  
+But, I decided to go ahead -- you can download the [cloudflared binary](https://developers.cloudflare.com/cloudflare-one/connections/connect-networks/downloads/) and run it normally. So I enabled SSH on my UDR, and downloaded `cloudflared` and put it in `/root`. The UDR also uses `systemd` to run services so I needed to make a configuration file so that it would run automatically.  
 
 First, I needed my Cloudflare Gateway DoH endpoint. I'd already signed up for a free tier [Cloudflare account](https://www.cloudflare.com/plans/zero-trust-services/) account, and logged into the [Cloudflare One dashboard](https://one.dash.cloudflare.com/) and grabbed the URL for DNS over HTTPS. This URL is specific to my deployment, so it'll log and filter according to the rules I've set in my Gateway settings.
 
