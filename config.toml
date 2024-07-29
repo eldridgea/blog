@@ -1,6 +1,6 @@
-baseurl         = "/"
+baseurl = "/"
 theme = "novela"
-languageCode    = "en-US"
+languageCode = "en-US"
 paginate = 12
 title = "Eldridge's Blog"
 

@@ -1,4 +1,5 @@
-If there's an issue building, go into the themes/hugo-casper-two directory and run 
-`git submodule update --init`
+## blog.eldrid.ge ##
 
-For tracking - you'll need to add the tracjer JS into the partials folder inside layout.
+Source for [https://blog.eldrid.ge](https://blog.eldrid.ge).
+
+Generated with [Hugo](https://gohugo.io/), built and hosted using [Cloudflare Pages](https://pages.cloudflare.com/).
