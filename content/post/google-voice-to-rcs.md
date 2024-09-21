@@ -1,8 +1,8 @@
 ---
-title: Moving Google
+title: Leaving Google Voice But Taking My Messages With Me
 date: 2024-09-21
 hero: "/img/google-messages.jpg"
-excerpt: Leaving Google Voice to use RCS and making sure my messaging history comes with me
+excerpt: Leaving Google Voice for RCS and making sure my messaging history comes with me without polluting my new inbox
 authors:
   - Eldridge Alexander
 ---
