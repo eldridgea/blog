@@ -4,7 +4,7 @@ categories: ["raspberrypi", "homeassistant", "homeautomation"]
 date: 2020-09-03
 excerpt: "Building and automating a Raspberry Pi sound machine using Home Assistant and a soundbar without having the TV turn on."
 draft: false
-hero: "/img/pi0.png"
+hero: "/cdn-cgi/image/format=auto/img/pi0.png"
 slug: "raspberry-pi-soundbar-soundmachine"
 tags: ["raspberrypi", "homeassistant", "homeautomation"]
 title: "Raspberry Pi Soundbar Soundmachine"

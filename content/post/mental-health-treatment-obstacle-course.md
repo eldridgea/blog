@@ -3,7 +3,7 @@ author: "Eldridge Alexander"
 date: 2022-07-15T02:03:11Z
 excerpt: "The only resonable way to navigate mental health treatment is to not have mental illness."
 draft: false
-hero: "/img/brain.jpg"
+hero: "/cdn-cgi/image/format=auto/img/brain.jpg"
 slug: "mental-health-treatment-obstacle-course"
 title: "Mental Health Treatment Obstacle Course"
 

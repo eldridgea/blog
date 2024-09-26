@@ -3,7 +3,7 @@ author: "Eldridge Alexander"
 date: 2015-08-24T04:22:47Z
 excerpt: "A script I wrote to automatically detect and convert video files to a travel optimized format."
 draft: false
-hero: "/img/6978815038_6d41a935f9_k.jpg"
+hero: "/cdn-cgi/image/format=auto/img/6978815038_6d41a935f9_k.jpg"
 slug: "project-transmute"
 title: "Project Transmute"
 

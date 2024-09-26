@@ -4,7 +4,7 @@ categories: ["security", "chrome", "firefox", "opera", "safari", "edge", "broswe
 date: 2015-05-19T20:34:28Z
 excerpt: "An examination of how I selected my preferred browser"
 draft: false
-hero: "/img/13792583873_832a262252_k.jpg"
+hero: "/cdn-cgi/image/format=auto/img/13792583873_832a262252_k.jpg"
 slug: "my-perfect-browser"
 tags: ["security", "chrome", "firefox", "opera", "safari", "edge", "broswer", "web"]
 title: "My Perfect Browser"

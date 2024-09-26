@@ -3,7 +3,7 @@ author: "Eldridge Alexander"
 date: 2017-08-10T01:58:41Z
 excerpt: "I use FreeIPA heavily to manage my lab at home however their client wasn't available on Raspbian, so I documented the stpes it took to get it working on my Pi."
 draft: false
-hero: "/img/RaspberryPi.jpg"
+hero: "/cdn-cgi/image/format=auto/img/RaspberryPi.jpg"
 slug: "freeipa-and-raspbian"
 title: "FreeIPA and Raspbian"
 

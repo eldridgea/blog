@@ -4,7 +4,7 @@ categories: ["security", "proxy", "reverse proxy"]
 date: 2014-12-23T21:23:44Z
 excerpt: "Golden Gate aims to be a transparent reverse proxy that sits on the border of a network."
 draft: false
-hero: "/img/800px-Golden_Gate_Bridge_Yang_Ming_Line.jpg"
+hero: "/cdn-cgi/image/format=auto/img/800px-Golden_Gate_Bridge_Yang_Ming_Line.jpg"
 slug: "goldengate"
 tags: ["security", "proxy", "reverse proxy"]
 title: "Project Golden Gate"

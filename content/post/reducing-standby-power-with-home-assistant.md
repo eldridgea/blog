@@ -3,7 +3,7 @@ author: "Eldridge Alexander"
 date: 2020-01-27T12:03:11Z
 excerpt: "Using the Presence Detection features of Home Assistant to improve my home's power efficiency."
 draft: false
-hero: "/img/kasa-plug.jpg"
+hero: "/cdn-cgi/image/format=auto/img/kasa-plug.jpg"
 slug: "reducing-standby-power-with-home-assistant"
 title: "Reducing Standby Power with Home Assistant"
 authors:
@@ -20,11 +20,11 @@ Because it integrates with my networking gear I can associate a smartphone with 
 
 I purchased two [Kasa smart plugs](https://amzn.to/2tYGSLI) and ran my TVs and sound systems through them. In Home Assistant I created two [scenes](https://www.home-assistant.io/docs/scene/editor/) - one where everything is powered off and one where the Kasa switches are powered on.
 
-![Scenes Screnshot](/img/scene-switch-on.png)
+![Scenes Screnshot](/cdn-cgi/image/format=auto/img/scene-switch-on.png)
 
 I then added two [Automations](https://www.home-assistant.io/docs/automation/editor/) one for when I leave and one for when I arrive. I had some issues getting the recommended Zone automation to work but was able to achieve what I wanted using States for the person identity. The one when I leave turns off every light and Kasa plug in my home. When I arrive it turns on only the Kasa plugs as my lights are generally motion triggered. 
 
-![Automation Screenshot](/img/automation-trigger.png)
+![Automation Screenshot](/cdn-cgi/image/format=auto/img/automation-trigger.png)
 
 This can be adapted with conditions to accommodate multiple people. For example every time a person goes “Away” it will trigger the automation but then check the conditions. This was when a person leaves it will trigger the rule but not take any action if the conditions (e.g. everyone else has to be set to Away too) aren’t met. 
 

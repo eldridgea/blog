@@ -3,7 +3,7 @@ author: "Eldridge Alexander"
 date: 2021-04-19
 excerpt: "This quote has been stuck in my head ever since public companies pulled out of Georgia at an astonishing rate in response to their new restrictive voter laws."
 draft: false
-hero: "/img/capitol.jpg"
+hero: "/cdn-cgi/image/format=auto/img/capitol.jpg"
 slug: "the-machine-lurched"
 title: "The Machine Lurched"
 authors:

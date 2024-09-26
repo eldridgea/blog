@@ -1,7 +1,7 @@
 ---
 title: Recursive Directory Ebook Converter
 date: 2024-01-03
-hero: "/img/ebook.jpg"
+hero: "/cdn-cgi/image/format=auto/img/ebook.jpg"
 excerpt: Convert entire ebook library in one go
 authors:
   - Eldridge Alexander

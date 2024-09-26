@@ -3,7 +3,7 @@ author: "Eldridge Alexander"
 categories: ["identity", "policy"]
 date: 2022-08-12T02:03:11Z
 excerpt: "Requiring proof of identity online hurts the marginalized"
-hero: "/img/photo-id-required.jpg"
+hero: "/cdn-cgi/image/format=auto/img/photo-id-required.jpg"
 tags: ["identity", "policy"]
 title: "Online Identity is Complicated"
 authors:

@@ -3,7 +3,7 @@ author: "Eldridge Alexander"
 date: 2019-09-23T12:03:11Z
 excerpt: "An app to write Markdown and have it published and hosted via Cloudflare Workers."
 draft: false
-hero: "/img/workers-illustration.png"
+hero: "/cdn-cgi/image/format=auto/img/workers-illustration.png"
 slug: "workdown"
 title: "Workdown"
 authors:

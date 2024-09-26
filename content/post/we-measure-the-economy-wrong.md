@@ -4,7 +4,7 @@ categories: ["economy", "policy"]
 date: 2018-11-27T22:57:01Z
 excerpt: "An overview of common economic measurements and how they can be improved."
 draft: false
-hero: "/img/dollar_bill.jpg"
+hero: "/cdn-cgi/image/format=auto/img/dollar_bill.jpg"
 slug: "we-measure-the-economy-wrong"
 tags: ["economy", "policy"]
 title: "We Measure The Economy Wrong"

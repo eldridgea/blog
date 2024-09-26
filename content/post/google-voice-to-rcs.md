@@ -1,7 +1,7 @@
 ---
 title: Leaving Google Voice But Taking My Messages With Me
 date: 2024-09-21
-hero: "/cdn-cgi/image/format=auto/img/google-messages.jpg"
+hero: "/cdn-cgi/image/format=auto/cdn-cgi/image/format=auto/img/google-messages.jpg"
 excerpt: Leaving Google Voice for RCS and making sure my messaging history comes with me without polluting my new inbox
 authors:
   - Eldridge Alexander
@@ -81,5 +81,5 @@ In the case of Mint Mobile (and most large carriers) eSIM was an option. So once
 
 Mostly that data transfer with standard formats should be more available. But hopefully this will be useful to someone at some point. Why all the trouble?
 
-![Because I can](/img/i-do-it-because-i-can-jack-donaghy.gif)
+![Because I can](/cdn-cgi/image/format=auto/img/i-do-it-because-i-can-jack-donaghy.gif)
 

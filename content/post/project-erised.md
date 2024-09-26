@@ -4,7 +4,7 @@ categories: ["android", "dns"]
 date: 2019-01-07T20:39:01Z
 excerpt: "System-wide ad and tracker blocking on Android"
 draft: false
-hero: "/img/androids.jpg"
+hero: "/cdn-cgi/image/format=auto/img/androids.jpg"
 slug: "project-erised"
 tags: ["android", "dns"]
 title: "Project Erised"

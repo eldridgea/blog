@@ -3,7 +3,7 @@ author: "Eldridge Alexander"
 date: 2020-03-27T12:03:11Z
 excerpt: "Easily proxy traditional DNS requests to a DoT server ensuring no eavesdropping or MITM manipulation of DNS requests."
 draft: false
-hero: "/img/dig-command.png"
+hero: "/cdn-cgi/image/format=auto/img/dig-command.png"
 slug: "dnsonward"
 title: "Dnsonward"
 authors:

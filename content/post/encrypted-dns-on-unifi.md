@@ -1,7 +1,7 @@
 ---
 title: Encrypted Cloudflare DNS on UniFi
 date: 2023-11-04
-hero: "/img/ubiquiti-switch.jpg"
+hero: "/cdn-cgi/image/format=auto/img/ubiquiti-switch.jpg"
 excerpt: Ensuring the entire network uses encrypted DNS.
 authors:
   - Eldridge Alexander
@@ -23,7 +23,7 @@ But, I decided to go ahead -- you can download the [cloudflared binary](https://
 
 First, I needed my Cloudflare Gateway DoH endpoint. I'd already signed up for a free tier [Cloudflare account](https://www.cloudflare.com/plans/zero-trust-services/) account, and logged into the [Cloudflare One dashboard](https://one.dash.cloudflare.com/) and grabbed the URL for DNS over HTTPS. This URL is specific to my deployment, so it'll log and filter according to the rules I've set in my Gateway settings.
 
-![Cloudflare Dashboard Screenshot](/img/cloudflare-gateway-screenshot.png)
+![Cloudflare Dashboard Screenshot](/cdn-cgi/image/format=auto/img/cloudflare-gateway-screenshot.png)
 
 Once I had that, on the UDR I created the file `/etc/systemd/system/cloudflare-dns-proxy.service` and added the relevant [configuration details](https://gist.github.com/eldridgea/972a894453536a0c0e219b9e3fdcbd96).
 
@@ -35,15 +35,15 @@ Once that file existed, I ran:
 
 This will add the service, set it to run at boot, and go ahead and turn it on. The service will launch a DNS server running on `127.0.0.53`. That'll be a local service that the UDR can access internally. From there I set that as the "upstream" DNS provider in the UDR's Internet settings.
 
-![UniFi Dashboard Screenshot](/img/udr-cf-dns-screenshot.png)
+![UniFi Dashboard Screenshot](/cdn-cgi/image/format=auto/img/udr-cf-dns-screenshot.png)
 
 Once that's done and the settings are saved and changes applied, the network should be encrypting all DNS traffic to Cloudflare! To verify, Cloudflare has [a DNS test page](https://1.1.1.1/help), and so before you're using Cloudflare it may look like this.
 
-![Screenshot of Cloudflare Help Page](/img/1111-not-encrypted.png)
+![Screenshot of Cloudflare Help Page](/cdn-cgi/image/format=auto/img/1111-not-encrypted.png)
 
 Afterwards, it should look like this! 
 
-![Screenshot of Cloudflare Help Page](/img/1111-encrypted.png)
+![Screenshot of Cloudflare Help Page](/cdn-cgi/image/format=auto/img/1111-encrypted.png)
 
 For mobile devices such as my phone and laptop I use a combination of Firefox's encrypted DNS settings and the WARP tool so that those devices always send DNS traffic to my Cloudflare Gateway account. THis means they usually skip my UDR's system at home, but they're getting the same filtering and logging regardless of what network they're on. 
 

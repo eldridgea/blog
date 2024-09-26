@@ -4,7 +4,7 @@ categories: ["webauthn", "passwords"]
 date: 2018-11-05T20:39:01Z
 excerpt: "Some minor nitpicking around Webauthn and how it has the ability to replace passwords."
 draft: false
-hero: "/img/10597406823_e1e624c732_z-1.jpg"
+hero: "/cdn-cgi/image/format=auto/img/10597406823_e1e624c732_z-1.jpg"
 slug: "in-defense-of-webauthn"
 tags: ["webauthn", "passwords"]
 title: "In Defense of Webauthn"

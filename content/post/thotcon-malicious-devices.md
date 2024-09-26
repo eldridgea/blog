@@ -3,7 +3,7 @@ author: "Eldridge Alexander"
 date: 2019-05-04T12:00:11Z
 excerpt: "A recap of my talk at THOTCON on malicious IoT devices and 5G Networks."
 draft: false
-hero: "/img/thotcon.jpg"
+hero: "/cdn-cgi/image/format=auto/img/thotcon.jpg"
 slug: "thotcon-malicious-devices"
 title: "THOTCON Malicious Devices"
 

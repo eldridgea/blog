@@ -3,7 +3,7 @@ author: "Eldridge Alexander"
 date: 2022-07-06T02:03:11Z
 excerpt: "Examining the interplay between free speech, the first amendment, and antitrust."
 draft: false
-hero: "/img/constitution.jpg"
+hero: "/cdn-cgi/image/format=auto/img/constitution.jpg"
 slug: "free-speech-and-antitrust"
 title: "Free Speech and Antitrust"
 
