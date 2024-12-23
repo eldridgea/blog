@@ -17,10 +17,3 @@ author = "authors"
 
 [permalinks]
   post = '/:year/:month/:day/:title/'
-
-
-[markup]
-  [markup.goldmark]
-    [markup.goldmark.parser]
-      [markup.goldmark.parser.attribute]
-        block = true
