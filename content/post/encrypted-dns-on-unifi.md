@@ -7,7 +7,7 @@ authors:
   - Eldridge Alexander
 ---
 
-> **Update 2024-12-22**: This is no longer needed as this functionality is built in as a feature called DNS Shield. Most big DNS providers are available by default including Cloudflare. However it’s not the most intuitive to configure if you’re using a custom server like Cloudflare Gateway as a part of your Zero Trust account. You’ll need the DNS Stamp, which you can calculate using a [DNSCrypt tool](https://dnscrypt.info/stamps/). I found some info on [this forum page](https://community.ui.com/questions/FYI-DNS-Shield-with-Custom-DoH/760515f9-e751-42da-a8e7-6e7634ba094a) to help getting this setup. So I now use this and still get my DNS advantages but fully native.
+***Update 2024-12-22: This is no longer needed as this functionality is built in as a feature called DNS Shield. Most big DNS providers are available by default including Cloudflare. However it’s not the most intuitive to configure if you’re using a custom server like Cloudflare Gateway as a part of your Zero Trust account. You’ll need the DNS Stamp, which you can calculate using a [DNSCrypt tool](https://dnscrypt.info/stamps/). I found some info on [this forum page](https://community.ui.com/questions/FYI-DNS-Shield-with-Custom-DoH/760515f9-e751-42da-a8e7-6e7634ba094a) to help getting this setup. So I now use this and still get my DNS advantages but fully native.***
 
 I wanted to ensure all my home network traffic was using [encrypted](https://en.wikipedia.org/wiki/DNS_over_HTTPS) [DNS](https://en.wikipedia.org/wiki/DNS_over_TLS) to a DNS provider I control, one with filtering and logging capabilities. I talked about the advantages and disadvantages of encrypted DNS [a few years ago at Black Hat](https://www.youtube.com/watch?v=XCnE2o2pfxs).
 
