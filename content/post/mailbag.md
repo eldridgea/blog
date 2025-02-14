@@ -14,7 +14,7 @@ If you have `ffmpeg`, `python3`, and `python3-venv` installed, this script shoul
 
 
 ## Auto translation
-I have also been posting to RedNote where it's common to use Capcut to auto subtitle in English and auto-translate to create Mandarin subtitles. I have a hacky version of this script that offloads the translation part to a server I have at home with a GPU. he translation models should work on a CPU without being unbearably slow so I'm hoping to add that as a feature here too.
+I have also been posting to RedNote where it's common to use Capcut to auto subtitle in English and auto-translate to create Mandarin subtitles. I have a hacky version of this script that offloads the translation part to a server I have at home with a GPU. The translation models should work on a CPU without being unbearably slow so I'm hoping to add that as a feature here too.
 
 
 `Photo Credit: https://flickr.com/photos/8187511@N08/16164617516/`
