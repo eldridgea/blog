@@ -1,5 +1,5 @@
 ---
-title: Auto burned in subtitles for Videos
+title: Auto Burned in Subtitles for Videos
 date: 2025-02-13
 hero: "/cdn-cgi/image/format=auto/img/mailbag.jpg"
 excerpt: Automating some pieces of make TikTok or other videos
