@@ -6,6 +6,8 @@ excerpt: Getting more control over my ebook and reading setup
 authors:
   - Eldridge Alexander
 ---
+I now have open source ebook hosting and reading apps, including from an eink reader and phone, a library full of DRM-free ebooks, and self-hosted progress sync.
+
 I tend to use open-source and avoid [DRM](https://en.wikipedia.org/wiki/Digital_rights_management) where I can, however, I hadn't been doing a good job of that with ebooks and ereaders. I had gotten sucked into the Amazon and Kindle ecosystems. I was looking at getting a new ereader so I figured it was time to revisit my setup. My Kindle (which cost extra for the allegedly ad-free version) was starting to get a lot of updates that didn't add much functionality but certainly offered me more opportunities to buy things from Amazon. Not the end of the world but definitely annoying.
 
 I wanted to move to a non-DRM, non-proprietary system as much as I could. I also wanted to keep as much of the comforts of the Kindle ecosystem as I could and have a modern ereader. So this got my approximate requirements to:
