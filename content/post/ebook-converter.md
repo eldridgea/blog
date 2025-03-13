@@ -12,3 +12,5 @@ I've moved from using [Calibre-web](https://github.com/janeczku/calibre-web) to 
 The script generally expects each book to have its own directory, if not it's prone to error. 
 
 [Code is on GitHub](https://github.com/eldridgea/recursive-ebook-convert).
+
+`Photo Credit: https://www.flickr.com/photos/teclasorg/5679910760`
