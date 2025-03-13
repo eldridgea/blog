@@ -2,7 +2,7 @@
 title: Self-Hosted Ebook Management
 date: 2025-03-12
 hero: "/cdn-cgi/image/format=auto/img/ebook.jpg"
-excerpt: Getting more control over my ebook and reading setup. 
+excerpt: Getting more control over my ebook and reading setup
 authors:
   - Eldridge Alexander
 ---
