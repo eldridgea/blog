@@ -54,7 +54,7 @@ They offer a public server and the information shared with it is minimal (seems 
 
 Since I was hosting things myself, I wanted to avoid opening up the services to the Internet broadly if I could avoid it. I was already using Cloudflare services to remotely access things so I used more of the same here. 
 
-I exposed the services to the Internet using [Cloudflare Tunnels](https://developers.cloudflare.com/cloudflare-one/connections/connect-networks/). I added both services to Cloudflare Access and added an [Access policy](https://developers.cloudflare.com/cloudflare-one/policies/access/) to allow traffic from Gateway (which in this case means any device using [Cloudflare WARP](https://one.one.one.one/) or the [Cloudflare One Agent](https://developers.cloudflare.com/cloudflare-one/connections/connect-devices/warp/download-warp/cloudflare-one-agent-migration/) signed into my Cloudflare domain)
+I exposed the services to the Internet using [Cloudflare Tunnels](https://developers.cloudflare.com/cloudflare-one/connections/connect-networks/). I added both services to Cloudflare Access and added an [Access policy](https://developers.cloudflare.com/cloudflare-one/policies/access/) to allow traffic from Gateway (which in this case means any device using [Cloudflare WARP](https://one.one.one.one/) or the [Cloudflare One Agent](https://developers.cloudflare.com/cloudflare-one/connections/connect-devices/warp/download-warp/cloudflare-one-agent-migration/) signed into my Cloudflare domain).
 
 Since the Color 7 was a Play certified device, I was able to install WARP with no issue. Once that was done I was able to add Calibre-Web Automated to my KOReader app via OPDS and configure the progress sync as well. 
 
@@ -71,11 +71,11 @@ Since the Color 7 was a Play certified device, I was able to install WARP with n
 
 I'm pleased with this setup at present, but if I allocate more time to improving it, top of mind for me would be:
 
-* Being able to sync progress, or at least read/unread status with a media tracker like [Storygraph](https://www.thestorygraph.com/) or [Goodreads](https://www.goodreads.com/). Goodreads would be more Amazon in my life, but read/unread status is more of a nice-to-have for me so if the service started being user-hostile it wouldn't bother me to the degree that [my books being remotely deleted might](https://www.npr.org/2009/07/24/106989048/amazons-1984-deletion-from-kindle-examined). 
+* Being able to sync progress, or at least read/unread status with a media tracker like [Storygraph](https://www.thestorygraph.com/) or [Goodreads](https://www.goodreads.com/). Goodreads would be more Amazon in my life, but read/unread status is more of a nice-to-have for me. So if the service started being user-hostile it wouldn't bother me to the degree that [my books being remotely deleted might](https://www.npr.org/2009/07/24/106989048/amazons-1984-deletion-from-kindle-examined). 
 
 * Progress sync to non-koreader apps
 
-* Being able to push books to the Go Color 7 from the Calibre-Web Automated, similar to Amazon's [Sent to Kindle](https://www.amazon.com/gp/sendtokindle/email) feature. 
+* Being able to push books to the Go Color 7 from the Calibre-Web Automated, similar to Amazon's [Send to Kindle](https://www.amazon.com/gp/sendtokindle/email) feature. 
 
 
 `Photo Credit: https://www.flickr.com/photos/teclasorg/5679910760`
