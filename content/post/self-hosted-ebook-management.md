@@ -30,7 +30,7 @@ I accomplished this to my satisfaction (mostly) with a combination of the [BOOX 
 
 I went with the [Go Color 7](https://shop.boox.com/products/gocolor7) -- I use one of the larger BOOX tablets for note taking sometimes and generally like their hardware. Color eink with good battery and some of their models (including the Go Color 7) are Play certified so can install apps from the Google Play store, including KOReader. 
 
-While the both BOOX and Android with Play Services are a little closer to the proprietary side of the proprietary/open-source spectrum than I'd like, a Linux base is good and my ebook collection would not be locked in so this was fine for me. 
+While both BOOX and Android with Play Services are a little closer to the proprietary side of the proprietary/open-source spectrum than I'd like, a Linux base is good and my ebook collection would not be locked in so this was fine for me. 
 
 ## Calibre-Web Automated
 
