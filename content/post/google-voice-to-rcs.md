@@ -69,7 +69,7 @@ For this part:
 1. After the page loads it should archive all messages on the page, reload the page when done, and repeat indefinetly
 1. When the messages are all archived either uninstall this script or uninstall Grasemoneky completely
 
-Then to un-archive start a new message with the person.
+Then to un-archive any particular conversations send a new message to that person. 
 
 ## Porting Number out of Voice
 
