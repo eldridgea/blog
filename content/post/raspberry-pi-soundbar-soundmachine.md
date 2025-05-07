@@ -27,7 +27,7 @@ dtparam=audio=on
 
 I added a soundfile of whitenoise called output.mp3 to the Pi, I installed sox for music playback, and importantly cec-utils so I can control devices over HDMI. If you’re unfamiliar with CEC it’s a nifty component of modern HDMI where devices connected to each other via HDMI can send each other some signals (e.g. power on/off, volume, mute, etc).
 
-Following [this helpful guide](https://www.linuxuprising.com/2019/07/raspberry-pi-power-on-off-tv-connected.html) I determined that my soundbar’s identity was “5”. So that let me know what commands I needed to use:
+Following [this helpful guide](https://www.linuxuprising.com/2019/07/raspberry-pi-power-on-off-tv-connected.html) ([PDF Archive](files/cec-guide.pdf))I determined that my soundbar’s identity was “5”. So that let me know what commands I needed to use:
 
 ```
 echo 'on 5' | cec-client -s -d 1            # Turn the soundbar on
@@ -55,7 +55,7 @@ The barebones Flask app script created a handful of api endpoints:
 
 `/attempt_play` calls the bash script for status first to see if HDMI devices are already on, and only continues to call “play” if all devices are off. This is in anticipation of wanting to autostart whitenoise around my normal bedtime but not override if I’m watching something on the TV.
 
-I used [gunicorn and systemd](https://edmondchuc.com/deploying-python-flask-with-gunicorn-nginx-and-systemd/) here to make sure that the Flask app starts on every reboot using port 4000.
+I used [gunicorn and systemd](https://edmondchuc.com/deploying-python-flask-with-gunicorn-nginx-and-systemd/) ([Internet Archive link](https://web.archive.org/web/20211202145221/https://www.edmondchuc.com/deploying-python-flask-with-gunicorn-nginx-and-systemd/)) here to make sure that the Flask app starts on every reboot using port 4000.
 
 Once this is done I can now start and stop my soundmachine by having something hit the `/play` api endpoint. I decided to use my already existing Home Assistant for this. Home Assistant is a really cool home automation project that allows integrating all sorts of things including REST endpoints.
 
