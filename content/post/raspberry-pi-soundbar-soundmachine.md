@@ -27,7 +27,7 @@ dtparam=audio=on
 
 I added a soundfile of whitenoise called output.mp3 to the Pi, I installed sox for music playback, and importantly cec-utils so I can control devices over HDMI. If you’re unfamiliar with CEC it’s a nifty component of modern HDMI where devices connected to each other via HDMI can send each other some signals (e.g. power on/off, volume, mute, etc).
 
-Following [this helpful guide](https://www.linuxuprising.com/2019/07/raspberry-pi-power-on-off-tv-connected.html) ([PDF Archive](/files/cec-guide.pdf))I determined that my soundbar’s identity was “5”. So that let me know what commands I needed to use:
+Following [this helpful guide](https://www.linuxuprising.com/2019/07/raspberry-pi-power-on-off-tv-connected.html) ([PDF Archive](/files/cec-guide.pdf)) I determined that my soundbar’s identity was “5”. So that let me know what commands I needed to use:
 
 ```
 echo 'on 5' | cec-client -s -d 1            # Turn the soundbar on
