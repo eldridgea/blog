@@ -22,10 +22,10 @@ I purchased two [Kasa smart plugs](https://amzn.to/2tYGSLI) and ran my TVs and s
 
 ![Scenes Screnshot](/cdn-cgi/image/format=auto/img/scene-switch-on.png)
 
-I then added two [Automations](https://www.home-assistant.io/docs/automation/editor/) one for when I leave and one for when I arrive. I had some issues getting the recommended Zone automation to work but was able to achieve what I wanted using States for the person identity. The one when I leave turns off every light and Kasa plug in my home. When I arrive it turns on only the Kasa plugs as my lights are generally motion triggered. 
+I then added two [Automations](https://www.home-assistant.io/docs/automation/editor/), one for when I leave and one for when I arrive. I had some issues getting the recommended Zone automation to work but was able to achieve what I wanted using States for the person identity. The one when I leave turns off every light and Kasa plug in my home. When I arrive it turns on only the Kasa plugs as my lights are generally motion triggered. 
 
 ![Automation Screenshot](/cdn-cgi/image/format=auto/img/automation-trigger.png)
 
-This can be adapted with conditions to accommodate multiple people. For example every time a person goes “Away” it will trigger the automation but then check the conditions. This was when a person leaves it will trigger the rule but not take any action if the conditions (e.g. everyone else has to be set to Away too) aren’t met. 
+This can be adapted with conditions to accommodate multiple people. For example every time a person goes “Away” it will trigger the automation but then check the conditions. This way when a person leaves it will trigger the rule but not take any action if the conditions (e.g. everyone else has to be set to Away too) aren’t met. 
 
 I’m going to monitor this over this month. The obvious tradeoff is I am now using standby power for the Kasa plugs *and* the TV & soundbar when I’m home. I think that the savings will outweigh the costs, but it remains to be seen in my power bill. If I’m wrong then at least I’ll be triggering the lights-off and thermostat rules.
