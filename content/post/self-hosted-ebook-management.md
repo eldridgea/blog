@@ -6,7 +6,7 @@ excerpt: Getting more control over my ebook and reading setup
 authors:
   - Eldridge Alexander
 ---
-I now have open source ebook hosting and reading apps, including from an eink reader and phone, a library full of DRM-free ebooks, and self-hosted progress sync.
+I now have open source ebook hosting, open source reading apps for my eink reader and phone, a library full of DRM-free ebooks, and self-hosted progress sync.
 
 I tend to use open-source and avoid [DRM](https://en.wikipedia.org/wiki/Digital_rights_management) where I can, however, I hadn't been doing a good job of that with ebooks and ereaders. I had gotten sucked into the Amazon and Kindle ecosystems. I was looking at getting a new ereader so I figured it was time to revisit my setup. My Kindle (which cost extra for the allegedly ad-free version) was starting to get a lot of updates that didn't add much functionality but certainly offered me more opportunities to buy things from Amazon. Not the end of the world but definitely annoying.
 
@@ -28,9 +28,11 @@ I accomplished this to my satisfaction (mostly) with a combination of the [BOOX 
 
 ### BOOX Go Color 7
 
-I went with the [Go Color 7](https://shop.boox.com/products/gocolor7) -- I use one of the larger BOOX tablets for note taking sometimes and generally like their hardware. Color eink with good battery and some of their models (including the Go Color 7) are Play certified so can install apps from the Google Play store, including KOReader. 
+I went with the [Go Color 7](https://shop.boox.com/products/gocolor7) -- I use one of the larger BOOX tablets for note taking sometimes and generally like their hardware. Color eink with good battery and some of their models (including the Go Color 7) are Play certified so can install apps from the Google Play store, including KOReader.
 
-While both BOOX and Android with Play Services are a little closer to the proprietary side of the proprietary/open-source spectrum than I'd like, a Linux base is good and my ebook collection would not be locked in so this was fine for me. 
+While both BOOX and Android with Play Services are a little closer to the proprietary side of the proprietary/open-source spectrum than I'd like, a Linux base is good and my ebook collection would not be locked in so this was fine for me.[^1]
+
+[^1]: I discovered after purchasing the device and writing this that there are potentially some issues with BOOX abiding by the GPL. They do not appear to provide the code of the Linux kernel on their devices to their customers. I don't love supporting companies that violate the GPL, however this still seems to be the _most_ open solution I found which seemed like it would be pleasant in normal usage. And a primary goal was avoiding ecosystem lock in, and this does not affect that. So I'm continuing with the device for now.
 
 ## Calibre-Web Automated
 
