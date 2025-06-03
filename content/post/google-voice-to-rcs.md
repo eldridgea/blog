@@ -64,7 +64,7 @@ For this part:
 1. Install the [Grasemoneky extension](https://addons.mozilla.org/en-US/firefox/addon/greasemonkey)
 1. Click the Greasemonkey icon in the toolbar > `New User Script`
 1. Delete anything in there and paste the below [archiveAllGoogleMessages.js](https://gist.github.com/eldridgea/629b19962b6f8eff0a299c8b6e4f3e35#file-archiveallgooglemessages-js) contents
-1. Click the save icon or `Ctrl + S
+1. Click the save icon or `Ctrl + S`
 1. Open the [Google Messages web interface](https://messages.google.com/) in Firefox
 1. After the page loads it should archive all messages on the page, reload the page when done, and repeat indefinetly
 1. When the messages are all archived either uninstall this script or uninstall Grasemoneky completely
