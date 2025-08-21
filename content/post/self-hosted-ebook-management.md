@@ -52,7 +52,7 @@ A few months after I finished this setup Calibe-Web Automated added [built-in fu
 
 Similarly to the Koreader Sync Server sync server I was using previously, this unfortunately does not update progress in the web interface, but given that I only read via the KOReader app this is fine. The user experience is essentially identical once the plugin is installed on the clients, but this meant that I was able to run one less container and have one less set of credentials. I've been using this for a while now and will be sticking with it. 
 
-~~## Koreader Sync Server~~
+## ~~Koreader Sync Server~~
 
 ~~[Koreader Sync Server](https://github.com/koreader/koreader-sync-server) is a service to sync progress between readers. (And even has the ability to sync to an *earlier* point in the book and handle rereading fairly well. Something Amazon apparently still can't crack).~~
 
