@@ -24,7 +24,7 @@ I wanted to move to a non-DRM, non-proprietary system as much as I could. I also
 
 # Software and Hardware Selection
 
-I accomplished this to my satisfaction (mostly) with a combination of the [BOOX Go Color 7](https://shop.boox.com/products/gocolor7), [Calibre-Web Automated](https://github.com/crocodilestick/Calibre-Web-Automated), [KOReader](https://koreader.rocks/), and [Koreader Sync Server](https://github.com/koreader/koreader-sync-server).
+I accomplished this to my satisfaction (mostly) with a combination of the [BOOX Go Color 7](https://shop.boox.com/products/gocolor7), [Calibre-Web Automated](https://github.com/crocodilestick/Calibre-Web-Automated), [KOReader](https://koreader.rocks/), ~~and [Koreader Sync Server](https://github.com/koreader/koreader-sync-server)~~.
 
 ### BOOX Go Color 7
 
@@ -46,11 +46,17 @@ I had been inconsistent and haphazard about managing my ebook files since I most
 
 Since it was intended for eink screens the UI can be a bit clunky on LCD screens like my phone and laptop, but given that I'm mostly only using the UI for a moment to get into a book, that's fine for me. 
 
-## Koreader Sync Server
+## Calibre-Web Automated KOReader Syncing
+**Update August 2025**
+A few months after I finished this setup Calibe-Web Automated added [built-in functionality to sync KOReader clients](https://github.com/crocodilestick/Calibre-Web-Automated?tab=readme-ov-file#koreader-syncing-kosync-). This required installing a plugin on each KOReader app and disabling the native Progress Sync. Once that was done I was able to log in to that plugin using the server address and user accounts of Calibre-Web Automated.
 
-[Koreader Sync Server](https://github.com/koreader/koreader-sync-server) is a service to sync progress between readers. (And even has the ability to sync to an *earlier* point in the book and handle rereading fairly well. Something Amazon apparently still can't crack).
+Similarly to the Koreader Sync Server sync server I was using previously, this unfortunately does not update progress in the web interface, but given that I only read via the KOReader app this is fine. The user experience is essentially identical once the plugin is installed on the clients, but this meant that I was able to run one less container and have one less set of credentials. I've been using this for a while now and will be sticking with it. 
 
-They offer a public server and the information shared with it is minimal (seems to be username, file hashes of ebooks, and the location for each one). So not a huge privacy concern but to make it even more private and also reduce external dependencies I decided to host this too. 
+~~## Koreader Sync Server~~
+
+~~[Koreader Sync Server](https://github.com/koreader/koreader-sync-server) is a service to sync progress between readers. (And even has the ability to sync to an *earlier* point in the book and handle rereading fairly well. Something Amazon apparently still can't crack).~~
+
+~~They offer a public server and the information shared with it is minimal (seems to be username, file hashes of ebooks, and the location for each one). So not a huge privacy concern but to make it even more private and also reduce external dependencies I decided to host this too.~~
 
 # Connection and Access
 
