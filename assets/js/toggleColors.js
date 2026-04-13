@@ -7,17 +7,11 @@ let moonMask = document.getElementById("moonMask");
 
 initAnimation();
 
-if (window.matchMedia && window.matchMedia('(prefers-color-scheme: dark)').matches) {
-    makeDark();
-    localStorage.setItem("isLight", 'false');
-}
-
-window.matchMedia('(prefers-color-scheme: dark)').addEventListener('change', e => {
-    toggleColors();
-});
-
 function initAnimation(){
-    if (localStorage.getItem("isLight") === 'true'){
+    const stored = localStorage.getItem("isLight");
+    const isLight = stored === 'true' ||
+                    (stored === null && window.matchMedia && !window.matchMedia('(prefers-color-scheme: dark)').matches);
+    if (isLight){
         moonMask.style.top = "-8px";
         moonMask.style.right = "-5px";
         moonOrSun.style.transform = "scale(1)"
@@ -93,21 +87,21 @@ function makeDark(){
 }
 
 function makeLight(){
-    bodyElement.style.setProperty('--primary', "");
-    bodyElement.style.setProperty('--secondary', "");
-    bodyElement.style.setProperty('--grey', "");
-    bodyElement.style.setProperty('--background-color', "");
-    bodyElement.style.setProperty('--accent', "");
-    bodyElement.style.setProperty('--hover', "");
-    bodyElement.style.setProperty('--gradient', "");
-    bodyElement.style.setProperty('--articleText', "");
-    bodyElement.style.setProperty('--track', "");
-    bodyElement.style.setProperty('--progress', "");
-    bodyElement.style.setProperty('--card', "");
-    bodyElement.style.setProperty('--error', "");
-    bodyElement.style.setProperty('--success', "");
-    bodyElement.style.setProperty('--errorBackground', "");
-    bodyElement.style.setProperty('--horizontalRule', "");
-    bodyElement.style.setProperty('--inputBackground', "");
+    bodyElement.style.setProperty('--primary', "#000");
+    bodyElement.style.setProperty('--secondary', "#73737D");
+    bodyElement.style.setProperty('--grey', "#73737D");
+    bodyElement.style.setProperty('--background-color', "#fafafa");
+    bodyElement.style.setProperty('--accent', "#6166DC");
+    bodyElement.style.setProperty('--hover', "rgba(0, 0, 0, 0.07)");
+    bodyElement.style.setProperty('--gradient', "linear-gradient(180deg, rgba(217, 219, 224, 0) 0%, #D9DBE0 100%)");
+    bodyElement.style.setProperty('--articleText', "#08080B");
+    bodyElement.style.setProperty('--track', "rgba(8, 8, 11, 0.3)");
+    bodyElement.style.setProperty('--progress', "#000");
+    bodyElement.style.setProperty('--card', "#fff");
+    bodyElement.style.setProperty('--error', "#EE565B");
+    bodyElement.style.setProperty('--success', "#46B17B");
+    bodyElement.style.setProperty('--errorBackground', "rgba(238, 86, 91, 0.1)");
+    bodyElement.style.setProperty('--horizontalRule', "rgba(8, 8, 11, 0.15)");
+    bodyElement.style.setProperty('--inputBackground', "rgba(0, 0, 0, 0.05)");
     bodyElement.style.setProperty('--tooltip', "lightgrey");
 }
