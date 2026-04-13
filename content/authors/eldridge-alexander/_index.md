@@ -11,4 +11,8 @@ social:
     url: https://twitter.com/magiceldridge
   - title: linkedin
     url: https://www.linkedin.com/in/eldridgea/
+  - title: mastodon
+    url: https://infosec.exchange/@eldridge
+  - title: tiktok
+    url: https://www.tiktok.com/@magiceldridge
 ---

@@ -9,6 +9,8 @@ title = "Eldridge's Blog"
     twitter = "https://twitter.com/magiceldridge"
     github = "https://github.com/eldridgea"
     linkedin = "https://www.linkedin.com/in/eldridgea/"
+    mastodon = "https://infosec.exchange/@eldridge"
+    tiktok = "https://www.tiktok.com/@magiceldridge"
 
   [params.author]
     name = "Eldridge Alexander"
