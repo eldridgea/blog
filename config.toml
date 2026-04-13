@@ -1,4 +1,4 @@
-baseurl = "https://code.naphos.com/proxy/1919/"
+baseurl = "/"
 theme = "novela"
 languageCode = "en-US"
 paginate = 12
