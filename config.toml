@@ -4,14 +4,13 @@ languageCode = "en-US"
 paginate = 12
 title = "Eldridge's Blog"
 
-[params]
-  [params.social]
-    twitter = "https://twitter.com/magiceldridge"
-    github = "https://github.com/eldridgea"
-    linkedin = "https://www.linkedin.com/in/eldridgea/"
+[social]
+twitter= "https://twitter.com/magiceldridge"
+github= "https://github.com/eldridgea"
+linkedin= "https://www.linkedin.com/in/eldridgea/"
 
-  [params.author]
-    name = "Eldridge Alexander"
+[author]
+	name = "Eldridge Alexander"
 
 [taxonomies]
 author = "authors"
