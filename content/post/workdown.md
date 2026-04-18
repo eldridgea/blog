@@ -21,4 +21,6 @@ It also supports custom HTML headers, footers, and CSS if you want to add it fon
 
 Any questions feel free to [tweet me](https://twitter.com/magiceldridge) or open a [GitHub Issue](https://github.com/eldridgea/workdown/issues)
 
+
+<bold>bold text</bold>
 <blockquote class="imgur-embed-pub" lang="en" data-id="a/UXouVgZ" data-context="false" ><a href="//imgur.com/a/UXouVgZ"></a></blockquote><script async src="//s.imgur.com/min/embed.js" charset="utf-8"></script>

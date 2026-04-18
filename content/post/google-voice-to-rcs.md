@@ -34,13 +34,19 @@ For this there was thankfully most of the work already done by others on GitHub,
 
 You should be able to do the following to process a conversion.
 
-1. `git clone https://github.com/eldridgea/gvoice-sms-takeout-xml.git`
-1. Copy your `Calls` directory and `Phones.vcf` file into `gvoice-sms-takeout-xml`
-1. `cd gvoice-sms-takeout-xml.git`
-1. `python3 -m venv env`
-1. `source env/bin/activate`
-1. `pip install -r requirements.txt`
-1. `python sms.py`
+```bash
+git clone https://github.com/eldridgea/gvoice-sms-takeout-xml.git
+```
+
+Copy your `Calls` directory and `Phones.vcf` file into `gvoice-sms-takeout-xml`
+
+```bash
+cd gvoice-sms-takeout-xml.git`
+python3 -m venv env`
+source env/bin/activate`
+pip install -r requirements.txt`
+python sms.py`
+```
 
 This may take some time, but should output the file `gvoice-all.xml` which is an archive of your SMS and MMS history from Google Voice (excepting videos).
 

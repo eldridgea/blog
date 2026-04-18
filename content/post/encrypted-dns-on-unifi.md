@@ -31,9 +31,11 @@ Once I had that, on the UDR I created the file `/etc/systemd/system/cloudflare-d
 
 Once that file existed, I ran:
 
-1. `systemctl daemon-reload`
-1. `systemctl enable cloudflare-dns-proxy.service`
-1. `systemctl start cloudflare-dns-proxy.service`
+```bash
+systemctl daemon-reload
+systemctl enable cloudflare-dns-proxy.service
+systemctl start cloudflare-dns-proxy.service
+```
 
 This will add the service, set it to run at boot, and go ahead and turn it on. The service will launch a DNS server running on `127.0.0.53`. That'll be a local service that the UDR can access internally. From there I set that as the "upstream" DNS provider in the UDR's Internet settings.
 

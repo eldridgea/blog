@@ -19,5 +19,3 @@ If you'd like to see it, the stream is [available on YouTube](https://www.youtub
 
 
 {{< youtube fceGFd0sr2w >}}
-
-<!--<iframe width="560" height="315" src="https://www.youtube.com/embed/fceGFd0sr2w" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>-->

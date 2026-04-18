@@ -18,24 +18,22 @@ I have a TV in my bedroom with a soundbar, and I like to sleep with whitenoise o
 
 I first got a [Raspberry Pi 0W](https://www.raspberrypi.org/products/raspberry-pi-zero-w/) which is the Raspberry Pi 0 that includes WiFi onboard. I then installed [Raspberry Pi OS](https://www.raspberrypi.org/downloads/raspberry-pi-os/) (previously known as Raspbian). 
 
-To make sure that audio over HDMI with no video out worked I added the following to /boot/config
+To make sure that audio over HDMI with no video out worked I added the following to `/boot/config`
 
-
-`hdmi_drive=2`  
-`dtparam=audio=on`  
-
+```editorconfig
+hdmi_drive=2 
+dtparam=audio=on
+```
 
 I added a soundfile of whitenoise called output.mp3 to the Pi, I installed sox for music playback, and importantly cec-utils so I can control devices over HDMI. If you’re unfamiliar with CEC it’s a nifty component of modern HDMI where devices connected to each other via HDMI can send each other some signals (e.g. power on/off, volume, mute, etc).
 
 Following [this helpful guide](https://www.linuxuprising.com/2019/07/raspberry-pi-power-on-off-tv-connected.html) ([PDF Archive](/files/cec-guide.pdf)) I determined that my soundbar’s identity was “5”. So that let me know what commands I needed to use:
 
-
-`echo 'on 5' | cec-client -s -d 1            # Turn the soundbar on`  
-
-`echo 'as' | cec-client -s -d 1               # Change the input to the Raspberry Pi`  
-
-`echo 'standby 5' | cec-client -s -d 1  # Turn the soundbar to “standby”`  
-
+```bash
+echo 'on 5' | cec-client -s -d 1            # Turn the soundbar on
+echo 'as' | cec-client -s -d 1               # Change the input to the Raspberry Pi
+echo 'standby 5' | cec-client -s -d 1  # Turn the soundbar to “standby”
+```
 
 Unfortunately there was no easy way to do volume control but I found [CEC-O-Matic](https://www.cec-o-matic.com/) which allowed me to find the commands that are equivalent to "volume down" and "volume up" from a remote (`tx 15:44:42` and `tx 15:44:41` respectively). While I couldn't find a way to directly set my volume to "level 5" I worked around this by making a text file named [`on_with_vol_to_5.txt`](https://gist.github.com/eldridgea/23fd3763a507d9c7ba1cf9508c3d0e85) that contained the commands above with a *lot* of volume down commands and then five volume up commands. (Some volume down lines removed for brevity) 
 
@@ -61,18 +59,19 @@ I used [gunicorn and systemd](https://edmondchuc.com/deploying-python-flask-with
 
 Once this is done I can now start and stop my soundmachine by having something hit the `/play` api endpoint. I decided to use my already existing Home Assistant for this. Home Assistant is a really cool home automation project that allows integrating all sorts of things including REST endpoints.
 
-I edited the confguration.yaml file to add the endpoints to Home Assistant. (The address for my Pi’s Flask app is 192.168.2.29:4000)
+I edited the `confguration.yaml` file to add the endpoints to Home Assistant. (The address for my Pi’s Flask app is 192.168.2.29:4000)
 
-
-`rest_command:`  
-&nbsp;&nbsp;&nbsp;&nbsp;`start_sound_machine:`
-&nbsp;&nbsp;&nbsp;&nbsp;`url: "http://192.168.2.29:4000/play"`  
-&nbsp;&nbsp;&nbsp;&nbsp;`method: get`  
-&nbsp;&nbsp;&nbsp;&nbsp;`payload: ""`  
-&nbsp;&nbsp;&nbsp;&nbsp;`stop_sound_machine:`  
-&nbsp;&nbsp;&nbsp;&nbsp;`url: "http://192.168.2.29:4000/stop"`  
-&nbsp;&nbsp;&nbsp;&nbsp;`method: get`  
-&nbsp;&nbsp;&nbsp;&nbsp;`payload: ""`  
+```yaml
+rest_command:  
+    start_sound_machine:
+    url: "http://192.168.2.29:4000/play"  
+    method: get  
+    payload: ""  
+    stop_sound_machine:  
+    url: "http://192.168.2.29:4000/stop"  
+    method: get  
+    payload: ""  
+```
 
 This creates two new entities in Home Assistant called “script.start_sound_machine” and “script.stop_sound_machine”. I can and have added them as buttons to my dashboard and in automations! Still just open an app on my phone and hit “Play” but I get it from the soundbar, doesn’t use power from my phone, and I can have Home Assistant start it automatically, and also stop it before my normal wakeup time! 
 

@@ -23,6 +23,7 @@ The *auth_basic* lines protect the site with a basic http username/password requ
 
 The *proxy_pass* line will proxy the external request to *server_name* to the server listed in *proxy_pass*.
 
+```nginx
     server {
         listen         80;
         return 301 https://$host$request_uri;
@@ -45,3 +46,4 @@ The *proxy_pass* line will proxy the external request to *server_name* to the se
             proxy_buffering off;
         } 
     }
+```

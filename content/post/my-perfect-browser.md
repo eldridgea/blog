@@ -75,14 +75,14 @@ I rotate between a lot of them because none of the realistic options I've found 
 
 So, Chromium meets my security requirements, but it's unrealistic for a few reasons:
 
-###### It has no way to download a compliled binary for the stable track
+###### It has no way to download a compiled binary for the stable track
 If you want to use Chromium, you have to build it yourself, or download a binary someone else built. I don't generally trust 3rd-party compiled binaries, and I don't want to have to build a binary each new release. If you're only running Linux distros that have Chromium in their repositories, it's a pretty great choice, but I have Macs and Android too much in my daily workflow.
 
 ###### No Automatic Updates
-This isn't really a deal-breaker but it does pose a problem, espeically when you have to build each version yourself.
+This isn't really a deal-breaker but it does pose a problem, especially when you have to build each version yourself.
 
 ###### Made by Google
-(This is vereing a bit from security practices into mild paranoia.) If possible, I prefer my browser to come from a non-profit -- or failing that, somewhere that has proven their primary devotion is the open web with little or no "distractions".
+(This is veering a bit from security practices into mild paranoia.) If possible, I prefer my browser to come from a non-profit -- or failing that, somewhere that has proven their primary devotion is the open web with little or no "distractions".
 
 
 ###### Long Story Short

@@ -13,15 +13,19 @@ authors:
 
 In addition to my [Golden Gate proxy](https://blog.eldridgealexander.com/2014/12/23/goldengate/) providing security for web requests, I needed it to assist in securing SSH requests as well. SSH is already as secure as I need it, but I wanted to avoid exposing my servers directly to the Internet. 
 
-For my internal services I added this to the ~/.ssh/config file on my laptop (replace USERNAME and PROXY_IP as appropriate):
+For my internal services I added this to the `~/.ssh/config` file on my laptop (replace USERNAME and PROXY_IP as appropriate):
 
-`Host *.naphos.com`  
-&nbsp;&nbsp;&nbsp;&nbsp;`User USERNAME`  
-&nbsp;&nbsp;&nbsp;&nbsp;`ProxyJump USERNAME@PROXY_IP`  
+```editorconfig
+Host *.naphos.com
+User USERNAME
+ProxyJump USERNAME@PROXY_IP
+```
 
 `ProxyJump` is a relatively new SSH option, so if you find that it doesn't work for you, you can use the `ProxyCommand` option:
         
-`ProxyCommand ssh -q -x USERNAME@PROXY_IP -W %h:%p`
+```bash
+ProxyCommand ssh -q -x USERNAME@PROXY_IP -W %h:%p
+```
         
 This makes any SSH or SFTP request from my laptop to *internal.naphos.com* initiate a connection to *PROXY_IP*, and then automatically pass the request on to *internal.naphos.com*.
  

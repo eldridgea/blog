@@ -21,36 +21,39 @@ My original [nginx config file](https://blog.eldridgealexander.com/2015/03/22/go
 
 The relevant nginx configuration line needed is  
 
-`location /.well-known {`  
-&nbsp;&nbsp;&nbsp;&nbsp;`root /usr/share/nginx/certs/sb.naphos.com/;`  
-&nbsp;&nbsp;&nbsp;&nbsp;`}`
+```nginx
+location /.well-known {  
+    root /usr/share/nginx/certs/sb.naphos.com/;  
+}
+```
 
 Navigating to https://sb.naphos.com/.well-known serves up the directory "/usr/share/nginx/certs/sb.naphos.com/" from the reverse proxy VM instead of proxying it. This allows Certbot to work. All other URLs are proxied.
 
 
 I have listed my updated nginx config file below. It contains that change as well as shifting to supporting only HTTPs and IPv6.
 
-
-`server {`  
-&nbsp;&nbsp;&nbsp;&nbsp;`listen [::]:443 ssl;`  
+```nginx
+server {  
+    listen [::]:443 ssl;  
 		
-&nbsp;&nbsp;&nbsp;&nbsp;`server_name sb.naphos.com;`  
-&nbsp;&nbsp;&nbsp;&nbsp;`ssl_certificate /etc/nginx/ssl/sb.crt;`  
-&nbsp;&nbsp;&nbsp;&nbsp;`ssl_certificate_key /etc/nginx/ssl/sb.key;`  
+    server_name sb.naphos.com;  
+    ssl_certificate /etc/nginx/ssl/sb.crt;  
+    ssl_certificate_key /etc/nginx/ssl/sb.key;  
 
-&nbsp;&nbsp;&nbsp;&nbsp;`location /.well-known {`  
-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;`root /usr/share/nginx/certs/sb.naphos.com/;`  
-&nbsp;&nbsp;&nbsp;&nbsp;`}`
+    location /.well-known {  
+        root /usr/share/nginx/certs/sb.naphos.com/;  
+    }
 
-&nbsp;&nbsp;&nbsp;&nbsp;`location / {`  
-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;`auth_basic "Restricted";`  
-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;`auth_basic_user_file /etc/nginx/.htpasswd;`  
-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;`proxy_pass https://media.naphos.com:8081;`  
-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;`proxy_set_header X-Forwarded-For $proxy_add_x_forwarded_for;`  
-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;`proxy_set_header Host $http_host;`  
-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;`proxy_set_header X-Forwarded-Proto $scheme;`  
-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;`proxy_buffering off;`  
-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;`proxy_ssl_session_reuse off;`  
-&nbsp;&nbsp;&nbsp;&nbsp;`}`  
-`}`  
+    location / {  
+        auth_basic "Restricted";  
+        auth_basic_user_file /etc/nginx/.htpasswd;  
+        proxy_pass https://media.naphos.com:8081;  
+        proxy_set_header X-Forwarded-For $proxy_add_x_forwarded_for;  
+        proxy_set_header Host $http_host;  
+        proxy_set_header X-Forwarded-Proto $scheme;  
+        proxy_buffering off;  
+        proxy_ssl_session_reuse off;  
+    }  
+}  
+```
 

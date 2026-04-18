@@ -21,6 +21,8 @@ I built and open sourced [Dnsonward](https://github.com/eldridgea/dnsonward). It
 ## Quickstart
 
 If you want to give it a try you can spin up it up with Docker:
-`docker run -e SERVICE="cloudflare" -p 53:53 -p 53:53/udp eldridgea/dnsonward`
+```bash
+docker run -e SERVICE="cloudflare" -p 53:53 -p 53:53/udp eldridgea/dnsonward
+```
 
 You can replace `cloudflare` with either `google` or `quad9`. You can also pass environment variables to have it point at any DoT server, those details are in the [README](https://github.com/eldridgea/dnsonward).
