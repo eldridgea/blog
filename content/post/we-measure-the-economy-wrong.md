@@ -12,6 +12,7 @@ title: "We Measure The Economy Wrong"
 authors:
   - Eldridge Alexander
 ---
+*EDIT 2026-04-18: Updated dead links to point to archived versions of the pages on the Wayback Machine where available*
 
 We measure the economy wrong.
 
@@ -19,7 +20,7 @@ Well, maybe not wrong, but the way we measure the economy is increasingly irrele
 
 If it's reported that "the economy" is getting worse, you'll probably notice the effects in your personal life. If it's reported that "the economy" is getting better, you may not be as directly affected.
 
-Let's look at how we measure the economy today. Keep in mind, the economy isn't a _thing_ in and of itself. It's a model of many different things, the modern version having been created by[ Adam Smith in his book The Wealth of Nations](https://evonomics.com/who-created-the-economy/) in 1776.
+Let's look at how we measure the economy today. Keep in mind, the economy isn't a _thing_ in and of itself. It's a model of many different things, the modern version having been created by [Adam Smith in his book The Wealth of Nations](https://evonomics.com/who-created-the-economy/) in 1776.
 
 There are a [variety of ways to measure this model](https://en.wikipedia.org/wiki/Economy#Economic_measures), or at least some parts of it. Some of the more common ones include:
 
@@ -49,7 +50,7 @@ With that in mind, let's talk about some common economic measurements, examine i
 
 ### What it measures
 
-There are a few types of GDP measurement, but all attempt to answer the [same question](https://stats.oecd.org/glossary/detail.asp?ID=1163): "what is the total dollar value of all final goods and services produced in the country this year". Final goods and services being ones delivered to the final consumer. (So lumber sold to a construction company to build houses that will be sold isn't included in the GDP, but lumber sold to a homeowner for them to use in their own house is.)
+There are a few types of GDP measurement, but all attempt to answer the [same question](https://web.archive.org/web/20190127215316/https://stats.oecd.org/glossary/detail.asp?ID=1163): "what is the total dollar value of all final goods and services produced in the country this year". Final goods and services being ones delivered to the final consumer. (So lumber sold to a construction company to build houses that will be sold isn't included in the GDP, but lumber sold to a homeowner for them to use in their own house is.)
 
 There are [three general methods of measuring GDP](https://web.archive.org/web/20090302084957/http://www.hm-treasury.gov.uk/data_gdp_backgd.htm) - production, income, and expenditure. Production attempts to answer this by calculating what is produced, income attempts to answer the question by calculating what sellers _received_ in income, and the expenditure method attempts to answer by calculating what consumers _spent_. 
 
@@ -83,7 +84,7 @@ Interests rates can affect the average citizen directly but not as often, or wit
 
 An interest rate change immediately affects those on ARMs (adjustable rate mortgages). However [the amount of mortgage holders using ARMs was is less than 7% this March, and that was the highest rate since 2014](https://static.elliemae.com/pdf/origination-insight-reports/Ellie_Mae_OIR_MARCH2018.pdf).
 
-Not only that, but currently [more Americans are renting than at any point in the last 50 years](http://www.pewresearch.org/fact-tank/2017/07/19/more-u-s-households-are-renting-than-at-any-point-in-50-years/). With most Americans not taking on mortgage debt, the interest rate isn't directly affecting them. While the interest rate affects real estate investors that need to pass on the costs to their renters, that rate only affects the investors that are purchasing at that point in time, or the small minority using AMRs. [Renters are paying the passed-on interest rate from the time the owner took a loan to purchase the property, not the present one](http://www.dynamicfundinginc.com/interest-rates/).
+Not only that, but currently [more Americans are renting than at any point in the last 50 years](https://www.pewresearch.org/short-reads/2017/07/19/more-u-s-households-are-renting-than-at-any-point-in-50-years/). With most Americans not taking on mortgage debt, the interest rate isn't directly affecting them. While the interest rate affects real estate investors that need to pass on the costs to their renters, that rate only affects the investors that are purchasing at that point in time, or the small minority using AMRs. [Renters are paying the passed-on interest rate from the time the owner took a loan to purchase the property, not the present one](https://web.archive.org/web/20170803145119/http://www.dynamicfundinginc.com/interest-rates/).
 
 While this rate is relevant to some average citizens, it's not many. In fact, the National Association of Realtors reports that [in 2017 approximately 6.12 million homes were sold](https://www.nar.realtor/research-and-statistics/quick-real-estate-statistics), and the US Census Bureau reports [over 117 million households were in the US in 2016](https://www.census.gov/quickfacts/fact/table/US/PST045217). So the interest rate affected slightly more than 5% of households in the US.
 
@@ -95,7 +96,7 @@ This statistic is relevant to those wanting to borrow money, but it is a proxy s
 
 ### What they measure
 
-The most typical method to measure the stock market is indexes. The most common ones are the Dow Jones, a traditionally used index that measures [30 large US companies](https://us.spindices.com/indices/equity/dow-jones-industrial-average), and the S&P 500, a somewhat more diversified index [of 500 companies](https://us.spindices.com/indices/equity/sp-500-value).
+The most typical method to measure the stock market is indexes. The most common ones are the Dow Jones, a traditionally used index that measures [30 large US companies](https://web.archive.org/web/20181127190630/https://us.spindices.com/indices/equity/dow-jones-industrial-average/), and the S&P 500, a somewhat more diversified index [of 500 companies](https://web.archive.org/web/20181009185552/https://us.spindices.com/indices/equity/sp-500-value).
 
 
 ### Why it's ineffective

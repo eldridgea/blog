@@ -6,7 +6,7 @@ excerpt: The villain AI is here, but it's not what we thought it would be.
 authors:
   - Eldridge Alexander
 ---
-
+*EDIT 2026-04-18: Updated dead links to point to archived versions of the pages on the Wayback Machine where available*
 
 Every few months or years it seems like there’s at least a few news cycles devoted to how Artificial Intelligence is an existential threat to humanity.
 
@@ -53,6 +53,6 @@ Any company or app generating a feed via algorithm, such as Twitter, Facebook, Y
 
 [^3]: This would require substantial changes to Section 230 in the US. I get more into the weeds on that in my [free speech piece](/2022/07/06/free-speech-and-antitrust/). 
 
-Certain levels of AI driven products should be age gated the same as alcohol, nicotine, and R rated movies. As a country we tend to allow people to make their own decisions about the content and substances they consume. But due to the developing bodies and brains of under-21s we restrict things that are perfectly allowable once you turn 21 (or 18). When certain AI-driven products are highly correlated with, for example, [increased eating disorders and depression in teenage girls](https://abc13.com/instagram-causes-eating-disorders-depression-in-young-girls-new-l/12074932/), that product and those like it should be age gated to prevent this outsized harm.
+Certain levels of AI driven products should be age gated the same as alcohol, nicotine, and R rated movies. As a country we tend to allow people to make their own decisions about the content and substances they consume. But due to the developing bodies and brains of under-21s we restrict things that are perfectly allowable once you turn 21 (or 18). When certain AI-driven products are highly correlated with, for example, [increased eating disorders and depression in teenage girls](https://web.archive.org/web/20240722145305/https://abc13.com/instagram-causes-eating-disorders-depression-in-young-girls-new-l/12074932/), that product and those like it should be age gated to prevent this outsized harm.
 
-AI is promising, but young and poorly understood. And the fears around it driven by celebrities and media are far removed from the actual problems AI is already causing. While we wait worriedly for our phones to one day tell us “[I’m afraid I can’t do that Dave](https://www.youtube.com/watch?v=Mme2Aya_6Bc),” we hand over huge swaths of society to the much less sapient, but much more dangerous, ML algorithms we already have.
+AI is promising, but young and poorly understood. And the fears around it driven by celebrities and media are far removed from the actual problems AI is already causing. While we wait worriedly for our phones to one day tell us “[I’m afraid I can’t do that Dave](https://youtu.be/Wy4EfdnMZ5g?si=aEJe9Dp4Zf6jl8ia&t=18),” we hand over huge swaths of society to the much less sapient, but much more dangerous, ML algorithms we already have.

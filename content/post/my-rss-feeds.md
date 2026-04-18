@@ -13,7 +13,7 @@ authors:
 
 *Update: I have now switched from TT-RSS to [Feedly](https://feedly.com)*
 
-I've had people ask to get all my RSS Feeds. I have a bunch that I check in [Tiny Tiny RSS](http://tt-rss.org/). I've exported an OPML file that can be imported into Tiny Tiny RSS, or other readers.
+I've had people ask to get all my RSS Feeds. I have a bunch that I check in [Tiny Tiny RSS](https://tt-rss.org/). I've exported an OPML file that can be imported into Tiny Tiny RSS, or other readers.
 
 You can grab it [here](/files/feedly.opml).
 

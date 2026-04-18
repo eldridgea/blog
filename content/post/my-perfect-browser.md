@@ -25,7 +25,7 @@ I rotate between a lot of them because none of the realistic options I've found 
 ###### Preferred:
 * Automatic updates
 * Cross platform (Windows, Mac, Linux, Android)
-* [U2F support](https://www.yubico.com/applications/fido/)
+* [U2F support](https://www.yubico.com/authentication-standards/fido-u2f-standard/)
 * [LastPass](https://lastpass.com/) support
 
 <table border="1">

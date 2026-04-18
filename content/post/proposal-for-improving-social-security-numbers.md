@@ -52,14 +52,14 @@ From this point forward, companies such as Equifax  could still collect and stor
 
 Example:
 
-![Diagram 1](https://docs.google.com/drawings/d/e/2PACX-1vRU5G-KaxWaAsQhGNcAYwhZctMBHvRxtUblBB0hL2vRaJSNQYBmVGQcpJFrORC1WrRM7qdVAVO-Njai/pub?w=960&amp;h=720)
+![Diagram 1](/img/ssn_proposal_1.jpg)
 
 
-![Diagram 2](https://docs.google.com/drawings/d/e/2PACX-1vRlbPNKLojsCJC7YsTuwDdXPEROO2ac7uQU86wmbMu0MaCWjEHnCcYBoBOcIsI_ft938f654xC3hMYB/pub?w=960&amp;h=720)
+![Diagram 2](/img/ssn_proposal_2.jpg)
 
 
 
-![Diagram 3](https://docs.google.com/drawings/d/e/2PACX-1vSJiClP0AQgegTnmWcLc4pr5QiBX4ptMvCSoaw8cJuAd9Xee50DnJJquu7oBpng8YObXP_HLP6xKSI5/pub?w=960&amp;h=720)
+![Diagram 3](/img/ssn_proposal_3.jpg)
 
 
 
