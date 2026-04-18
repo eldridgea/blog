@@ -34,7 +34,7 @@ Currently, Social Security Numbers (SSNs) are used effectively as both a usernam
 
 * Your password is shared across all services
 * Your password can never be rotated
-* Your password is [not random](https://www.ssa.gov/employer/stateweb.htm).
+* Your password is [not random](https://web.archive.org/web/20171009090454/https://www.ssa.gov/employer/stateweb.htm).
 
 ### Proposal
 
