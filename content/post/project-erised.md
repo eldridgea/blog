@@ -26,6 +26,7 @@ So the only DNS requests that will get legit responses are ones not on PiHole's 
 
 Once configured, a DNS request will look like this:
 
+```na
     ---------
     |Your   |
     |Device |
@@ -48,14 +49,14 @@ Once configured, a DNS request will look like this:
     |       |
     |pihole |
     |       |
-    ---------   
+    ---------
         |
         |
         |
         |
     ---------------
     |             |
-    |cloudflared |
+    |cloudflared  |
     |             |
     ---------------
         |
@@ -67,5 +68,6 @@ Once configured, a DNS request will look like this:
     |Cloudflare's     |
     | 1.1.1.1 service |
     -------------------
+```
 
 `Photo Credit: https://www.flickr.com/photos/rbulmahn/6180104944`

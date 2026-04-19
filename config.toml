@@ -22,6 +22,7 @@ author = "authors"
 [permalinks]
   post = '/:year/:month/:day/:title/'
 
+
 [privacy]
   [privacy.youTube]
     disable = false

@@ -1,0 +1,10 @@
+<div style="text-align: center;">
+  <video autoplay loop muted playsinline
+    {{ if .Get "controls" }}controls{{ end }}
+    {{ if .Get "width" }}width="{{ .Get "width" }}"{{ end }}
+    {{ if .Get "class" }}class="{{ .Get "class" }}"{{ end }}
+  >
+    <source src="{{ .Get "src" }}" type="video/mp4">
+    Your browser does not support the video tag.
+  </video>
+</div>

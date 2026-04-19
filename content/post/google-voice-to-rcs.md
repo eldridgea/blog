@@ -32,20 +32,20 @@ Before exporting Voice data from Takeout, you should delete all Contacts in [Goo
 
 For this there was thankfully most of the work already done by others on GitHub, I started with a script most recently tweaked by [SLAB-8002](https://github.com/SLAB-8002), and modified it to auto-remove problematic or irrelevant files such as Missed Call records or texts from short code numbers (mostly spam and OTPs). My tweaked version is [available GitHub](https://github.com/eldridgea/gvoice-sms-takeout-xml).
 
-You should be able to do the following to process a conversion.
+You should be able to do the following to process a conversion. First clone the git repo:
 
 ```bash
 git clone https://github.com/eldridgea/gvoice-sms-takeout-xml.git
 ```
 
-Copy your `Calls` directory and `Phones.vcf` file into `gvoice-sms-takeout-xml`
+Then copy your `Calls` directory and `Phones.vcf` file into `gvoice-sms-takeout-xml`. Then do the following:
 
 ```bash
-cd gvoice-sms-takeout-xml.git`
-python3 -m venv env`
-source env/bin/activate`
-pip install -r requirements.txt`
-python sms.py`
+cd gvoice-sms-takeout-xml.git
+python3 -m venv env
+source env/bin/activate
+pip install -r requirements.txt
+python sms.py
 ```
 
 This may take some time, but should output the file `gvoice-all.xml` which is an archive of your SMS and MMS history from Google Voice (excepting videos).

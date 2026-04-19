@@ -21,10 +21,10 @@ The main security measure I take on my individual devices is to use full disk en
 
 * On Macs I enable FileVault
 * On Windows I use BitLocker
-* On iOS I enable TouchID/password which encrpyts the device
+* On iOS I enable TouchID/password which encrypts the device
 * On Android I use the **Encrypt Phone** feature
 
-I also install only necessary software, and do regular wipe and resintalls of the OS. I also keep as little personal information as possible on client devices (although this is pretty difficult to do and still have a useful smartphone).
+I also install only necessary software, and do regular wipe and reinstalls of the OS. I also keep as little personal information as possible on client devices (although this is pretty difficult to do and still have a useful smartphone).
 
 
 `Photo Credit: https://www.flickr.com/photos/kevinshine/10597406823`
