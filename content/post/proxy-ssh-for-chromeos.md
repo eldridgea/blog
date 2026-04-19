@@ -23,74 +23,77 @@ Now I can access servers that are behind my firewall only if I can both authenti
 
 My config.xml:
 
-
-    <?xml version="1.0" encoding="UTF-8" ?>
-    <config>
-        <webservice>
-            <hostname>localhost</hostname>
-            <webport>9090</webport>
-        </webservice>
-        <application>
-            <authentication>false</authentication>
-            <relay-url>ssh.MYDOMAIN.com:9091</relay-url>
-            <max-sessions>100</max-sessions>
-            <tcp-session-timeout>1200</tcp-session-timeout>
-            <auth-session-timeout>600</auth-session-timeout>
-            <blacklist>
-            </blacklist>
-        </application>
-        <accesslist>
-            <user>
-                <id>MYNAME</id>
-                <network>192.168.0.0/16</network>
-                <host>127.0.0.1</host>
-            </user>
-        </accesslist>
-    </config>
+```xml
+<?xml version="1.0" encoding="UTF-8" ?>
+<config>
+    <webservice>
+        <hostname>localhost</hostname>
+        <webport>9090</webport>
+    </webservice>
+    <application>
+        <authentication>false</authentication>
+        <relay-url>ssh.MYDOMAIN.com:9091</relay-url>
+        <max-sessions>100</max-sessions>
+        <tcp-session-timeout>1200</tcp-session-timeout>
+        <auth-session-timeout>600</auth-session-timeout>
+        <blacklist>
+        </blacklist>
+    </application>
+    <accesslist>
+        <user>
+            <id>MYNAME</id>
+            <network>192.168.0.0/16</network>
+            <host>127.0.0.1</host>
+        </user>
+    </accesslist>
+</config>
+```
 
 For my nginx config file I took the sample and added the ssl portions as well as the auth_basic portions.
 
 My nginx config file:
 
-    server {
-            listen 9091 ssl;
+```nginx
+server {
+        listen 9091 ssl;
 
 
-            server_name ssh.naphos.com;
-            ssl_certificate /PATH/TO/fullchain.pem;
-            ssl_certificate_key /PATH/TO/privkey.pem;
+        server_name ssh.naphos.com;
+        ssl_certificate /PATH/TO/fullchain.pem;
+        ssl_certificate_key /PATH/TO/privkey.pem;
 
 
 
-            location /cookie {
-                auth_basic "Restricted";
-                auth_basic_user_file /etc/nginx/.htpasswd;
-                proxy_pass http://localhost:9090/cookie;
-                include proxy_params;
-            }
+        location /cookie {
+            auth_basic "Restricted";
+            auth_basic_user_file /etc/nginx/.htpasswd;
+            proxy_pass http://localhost:9090/cookie;
+            include proxy_params;
+        }
 
-            location /proxy {
-                proxy_pass http://localhost:9090/proxy;
-                include proxy_params;
-            }
+        location /proxy {
+            proxy_pass http://localhost:9090/proxy;
+            include proxy_params;
+        }
 
-            location /read {
-                proxy_pass http://localhost:9090/read;
-                include proxy_params;
-            }
+        location /read {
+            proxy_pass http://localhost:9090/read;
+            include proxy_params;
+        }
 
-            location /write {
-                proxy_pass http://localhost:9090/write;
-                include proxy_params;
-            }
+        location /write {
+            proxy_pass http://localhost:9090/write;
+            include proxy_params;
+        }
 
-            location /connect {
-                proxy_pass http://localhost:9090/connect;
-                proxy_http_version 1.1;
-                proxy_set_header Upgrade $http_upgrade;
-                proxy_set_header Connection "upgrade";
-                proxy_read_timeout 10m;
-                include proxy_params;
-            }
+        location /connect {
+            proxy_pass http://localhost:9090/connect;
+            proxy_http_version 1.1;
+            proxy_set_header Upgrade $http_upgrade;
+            proxy_set_header Connection "upgrade";
+            proxy_read_timeout 10m;
+            include proxy_params;
+        }
+```
 
 `Photo Credit: https://www.flickr.com/photos/slgc/6042224090`

@@ -21,29 +21,32 @@ I wanted this access to be emergency only. I figured the best way to approach th
 
 I added a password for root on each of these systems (I usually never have one). I normally restrict my SSH port(s) to only allow incoming traffic from my proxy servers. In this case, I opened up SSH ports for traffic coming from my local network (192.168.1.0/24). However I also wanted to ensure that any of my user account traffic (eldridgea@) was required to go through my proxy servers. After making the firewall changes, I added this to sshd_config:
 
+```editorconfig
+Match Address 192.168.1.*,127.0.0.1 User root
+        PermitRootLogin yes
+        PasswordAuthentication yes
 
-    Match Address 192.168.1.*,127.0.0.1 User root
-          PermitRootLogin yes
-          PasswordAuthentication yes
-
-    AllowUsers eldridgea@192.168.1.139
-    AllowUsers eldridgea@192.168.1.119
-    AllowUsers eldridgea@127.0.0.1
-    AllowUsers root@192.168.1.0/24
+AllowUsers eldridgea@192.168.1.139
+AllowUsers eldridgea@192.168.1.119
+AllowUsers eldridgea@127.0.0.1
+AllowUsers root@192.168.1.0/24
+```
 
 This "Match" section ensures that "PermitRootLogin" and "PasswordAuthentication" works only works on my local network and only for root. Root login is banned from elsewhere. The AllowUsers lines similarly allow root from my local network, but my personal user account is proxied.
 
 For notifications I used [sSMTP](https://wiki.debian.org/sSMTP) to send notifications using my Outlook account that I have for this purpose. 
 
 I set /etc/ssmtp/ssmtp.conf to my Outlook settings:
-     
-    root=me@outlook.com
 
-    mailhub=smtp-mail.outlook.com:587
-    AuthUser=me@outlook.com
-    AuthPass=MY_PASSWORD
-    UseTLS=YES
-    UseSTARTTLS=YES
+```editorconfig
+root=me@outlook.com
+
+mailhub=smtp-mail.outlook.com:587
+AuthUser=me@outlook.com
+AuthPass=MY_PASSWORD
+UseTLS=YES
+UseSTARTTLS=YES
+```
 
 Then in in /root/.bashrc I wanted to call a script that emails me on any login. Fortunately there were a couple good ones available on github. I used [this one](https://gist.github.com/tommybutler/6953743#file-iloggedin-sh).
 

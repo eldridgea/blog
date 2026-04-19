@@ -24,26 +24,26 @@ The *auth_basic* lines protect the site with a basic http username/password requ
 The *proxy_pass* line will proxy the external request to *server_name* to the server listed in *proxy_pass*.
 
 ```nginx
-    server {
-        listen         80;
-        return 301 https://$host$request_uri;
-    }
+server {
+    listen         80;
+    return 301 https://$host$request_uri;
+}
 
-    server {
-        listen 443 ssl;
-                
-        server_name sb.naphos.com;
-        ssl_certificate /etc/nginx/ssl/sb.crt;
-        ssl_certificate_key /etc/nginx/ssl/sb.key;
+server {
+    listen 443 ssl;
+            
+    server_name sb.naphos.com;
+    ssl_certificate /etc/nginx/ssl/sb.crt;
+    ssl_certificate_key /etc/nginx/ssl/sb.key;
 
-         location / {
-            auth_basic "Restricted";
-            auth_basic_user_file /etc/nginx/.htpasswd;
-            proxy_pass http://plex.naphos.com:8081;
-            proxy_set_header X-Forwarded-For $proxy_add_x_forwarded_for;
-            proxy_set_header Host $http_host;    
-            proxy_set_header X-Forwarded-Proto $scheme;
-            proxy_buffering off;
-        } 
-    }
+        location / {
+        auth_basic "Restricted";
+        auth_basic_user_file /etc/nginx/.htpasswd;
+        proxy_pass http://plex.naphos.com:8081;
+        proxy_set_header X-Forwarded-For $proxy_add_x_forwarded_for;
+        proxy_set_header Host $http_host;    
+        proxy_set_header X-Forwarded-Proto $scheme;
+        proxy_buffering off;
+    } 
+}
 ```
