@@ -3,7 +3,7 @@ author: "Eldridge Alexander"
 date: 2015-03-29T04:35:09Z
 excerpt: "The SSH config files I used to get clients using my bastion host seamlessly."
 draft: false
-hero: "/cdn-cgi/image/format=auto/img/800px-Golden_Gate_Bridge_Yang_Ming_Line.jpg"
+hero: "https://blog.eldrid.ge/cdn-cgi/image/format=auto/img/800px-Golden_Gate_Bridge_Yang_Ming_Line.jpg"
 slug: "golden-gate-ssh-config-files"
 title: "Golden Gate SSH Config Files"
 

@@ -3,7 +3,7 @@ author: "Eldridge Alexander"
 date: 2015-02-09T23:35:02Z
 excerpt: "A file with all of my RSS feeds listed."
 draft: false
-hero: "/cdn-cgi/image/format=auto/img/rss.jpg"
+hero: "https://blog.eldrid.ge/cdn-cgi/image/format=auto/img/rss.jpg"
 slug: "my-rss-feeds"
 title: "My RSS Feeds"
 

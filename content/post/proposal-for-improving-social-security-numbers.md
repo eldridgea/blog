@@ -3,7 +3,7 @@ author: "Eldridge Alexander"
 date: 2017-10-10T02:00:00Z
 excerpt: "In the wake of the Equifax breach, a proposal for how the US can transition to a new Federal identification system with security as a main component."
 draft: false
-hero: "/cdn-cgi/image/format=auto/img/proposal.jpg"
+hero: "https://blog.eldrid.ge/cdn-cgi/image/format=auto/img/proposal.jpg"
 slug: "proposal-for-improving-social-security-numbers"
 title: "Proposal For Improving Social Security Numbers"
 

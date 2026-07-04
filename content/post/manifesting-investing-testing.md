@@ -3,7 +3,7 @@ author: "Eldridge Alexander"
 date: 2022-06-29T02:03:11Z
 excerpt: "Using paper trading to test my (almost definitely wrong) market theses."
 draft: false
-hero: "/cdn-cgi/image/format=auto/img/stockmarket.jpg"
+hero: "https://blog.eldrid.ge/cdn-cgi/image/format=auto/img/stockmarket.jpg"
 slug: "manifesting-investing-testing"
 title: "Manifesting Investing Testing"
 
