@@ -1,7 +1,7 @@
 ---
 title: My Reminder System
 date: 2025-03-12
-hero: "/img/string_around_finger.jpg"
+hero: "/img/postits.jpg"
 excerpt: A reminder system that worked for me using Home Assistant, Nextcloud, and CalDAV.
 authors:
   - Eldridge Alexander
