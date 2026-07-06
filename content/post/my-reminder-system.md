@@ -8,21 +8,19 @@ authors:
   - Eldridge Alexander
 ---
 
-I set reminders on my phone very often for a variety of tasks -- checking the laundry, cook timers, banking things, work tasks, etc. It's a pretty critical part of my daily life. Most "big" or recurring tasks I put in my calendar or don't otherwise have trouble with, but smaller tasks that come up day-to-day are hard for me to remember without something like this. So reminders failing to actually remind me is pretty impactful to me, and so it was very inconvenient when Google's reminder system just stopped sending reminders for several days in a row. This to me happened *multiple* times. 
+I set reminders on my phone very often for a variety of tasks -- checking the laundry, cook timers, banking things, work tasks, etc. It's a pretty critical part of my daily life. Most "big" or recurring tasks I put in my calendar or don't otherwise have trouble with, but smaller tasks that come up day-to-day are hard for me to remember without something like this. So reminders failing to actually remind me is pretty impactful to me, and so it was very inconvenient when Google's reminder system just stopped sending reminders for several days in a row. This happened to me happened *multiple* times. 
 
-I never conclusively determined the cause of this as it did not seem to affect everyone, but there was enough online chatter about it when I checked to convince me that it wasn't something I had done. It seemed to be related to a bad Google Play Services update[^1]. Google generally does phased rollouts so this was likely something rolled out to *x%* of devices and then corrected before rolling out to all devices. However Google never acknowledged this issue publicly anywhere I could find. This was during Google's [Google Now](https://en.wikipedia.org/wiki/Google_Now) phase, where Now was the voice assistant, reminder system, and a few other things. So if you used the voice assistant to set a reminder, your reminder went into the bowels of Google Now here you were hopefully notified as expected. There was no trivial way to see a list of reminders, so when they quit alerting me I didn't even know what I was missing. 
+I never conclusively determined the cause of this as it did not seem to affect everyone, but there was enough online chatter about it when I checked to convince me that it wasn't something I had done. It seemed to be related to a bad Google Play Services update[^1]. Google generally does phased rollouts so this was likely something rolled out to *x%* of devices and then corrected before rolling out to all devices. However Google never acknowledged this issue publicly anywhere I could find. This was during Google's [Google Now](https://en.wikipedia.org/wiki/Google_Now) phase, where Now was the voice assistant, reminder system, and a few other things. So if you used the voice assistant to set a reminder, your reminder went into the bowels of Google Now where you were hopefully notified as expected. There was no trivial way to see a list of reminders, so when they quit alerting me I didn't even know what I was missing. 
 
-When this failed for me the second time I started looking into alternatives that worked for me, the biggest priority being able to set the reminders as easily as possible, preferably via a voice assistant. If I was starting fresh today I might have gone down a different path, but currently I have a solution I like mostly using a combination of software I was already using for other things: [Nextcloud](https://nextcloud.com/), [Home Assistant](https://www.home-assistant.io//) (including its [voice assistant](https://www.home-assistant.io/voice_control/)), [Tasks.org](https://tasks.org/), and a small Python script to glue it all together.
+When this failed for me the second time I started looking into alternatives that worked for me, the biggest priority being able to set the reminders as easily as possible, preferably via a voice assistant. If I was starting fresh today I might have gone down a different path, but currently I have a solution I like mostly using a combination of software I was already using for other things: [Nextcloud](https://nextcloud.com/), [Home Assistant](https://www.home-assistant.io/) (including its [voice assistant](https://www.home-assistant.io/voice_control/)), [Tasks.org](https://tasks.org/), and a small Python script to glue it all together.
 
 The workflow for setting reminders usually goes:
 
 ![Sequence diagram](/img/reminders-diagram-sequence.png)
 
-I currently use some [Home Assistant Voice Preview](https://www.home-assistant.io/voice-pe/) devices around my apartment as well as use it as the default assistant app on my phone. This allows setting custom sentences which can be handled by various automations. In my case any sentence starting with "remind me" is passed to a small python script. 
+I currently use some [Home Assistant Voice Preview](https://www.home-assistant.io/voice-pe/) devices around my apartment to access the voice assistant as well as use it as the default assistant app on my phone. This allows setting custom sentences which can be handled by various automations. In my case for any sentence starting with "remind me", the text of that sentence is passed via webhook to my `reminders.py` script which run in a [local Windmill instance](https://www.windmill.dev/).
 
-The script separates the reminder from the time and date it shoudl eb set for, and then converts the natural language to a standard [ISO 8601](https://en.wikipedia.org/wiki/ISO_8601) format. Both the reminder text and the datetime string are returned to Home Assistant.
-
-Home Assistant then sets a Todo using the builtin Home Assistant functionality, with a due date of that ISO 8601 string. The todo list it is configured to use a CalDAV account on my Nextcloud server which is where my calendars and contacts are stored. Once there is is synced down to my phone's Tasks.org app via [DAVx⁵](https://www.davx5.com/). I use my own [ntfy](https://ntfy.sh/) instance along with [UnifiedPush](https://unifiedpush.org/users/distributors/ntfy/) to ensure the reminders are synced to my phone near instantly so reminders I don't have to wait for scheduled sync.
+The script separates the reminder from the time and date it should be set for, and then converts the natural language to a standard [ISO 8601](https://en.wikipedia.org/wiki/ISO_8601) format. Both the reminder text and the datetime string are returned to Home Assistant.
 
 {{< details summary="reminder.py" >}}
 
@@ -111,12 +109,8 @@ def main(reminder: str, timezone: str = "US/Eastern"):
 ```
 {{< /details >}}
 
+Home Assistant then sets a Todo using the [builtin Home Assistant functionality](https://www.home-assistant.io/integrations/todo), with a due date of that ISO 8601 string. The todo list it is configured to use a [CalDAV account](https://www.home-assistant.io/integrations/caldav/) on my Nextcloud server which is where my calendars and contacts are stored. Once there is is synced down to my phone's Tasks.org app via [DAVx⁵](https://www.davx5.com/). I use my own [ntfy](https://ntfy.sh/) instance along with [UnifiedPush](https://unifiedpush.org/users/distributors/ntfy/) to ensure the reminders are synced to my phone near instantly so reminders I don't have to wait for scheduled sync.
+
 [^1]: Essentially all Android devices which have the Play Store also have [Google Play Services](https://developers.google.com/android/guides/overview). This provides a lot of the functionality of modern Android and can be updated independently of the Android OS. And it is in fact updated on every phone Android phone approximately every six weeks, invisibly to the user unless you check the version number in your app settings. This means Google can silently deploy, update, or in this case break Android features at will. 
-
-
-
-
-
-
 
 `Photo Credit: https://www.piqsels.com/en/public-domain-photo-olrqv`
