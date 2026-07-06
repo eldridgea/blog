@@ -1,6 +1,6 @@
 ---
 title: My Reminder System
-date: 2027-07-06
+date: 2026-07-06
 hero: "https://blog.eldrid.ge/cdn-cgi/image/format=auto/img/postits.jpg"
 excerpt: A reminder system that worked for me using Home Assistant, Nextcloud, and CalDAV.
 authors:
