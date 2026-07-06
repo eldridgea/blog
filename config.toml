@@ -1,4 +1,4 @@
-baseurl = "./proxy/1313"
+baseurl = "/"
 theme = "novela"
 languageCode = "en-US"
 paginate = 12
