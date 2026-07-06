@@ -8,4 +8,6 @@ Cloudflare's Rocketloader must be disabled for some dark mode stuff to work.
 
 ## Demo Server From Code Server ##
 
-hugo server --appendPort=false
+1. Run `hugo server` FIRST
+1. In `config.toml`, change `baseurl` from `/` to `./proxy/1313`
+1. https://code.naphos.com/proxy/1313/

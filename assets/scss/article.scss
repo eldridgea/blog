@@ -453,6 +453,45 @@
     padding: 50px 0 35px;
 }
 
+/* Hugo's built-in {{< details >}} shortcode renders raw <details>/<summary>
+   tags with no classes, so they fall back to the browser's UA stylesheet
+   (default font/color, list-item marker, no max-width) instead of matching
+   the article's centered text column. */
+.post-content details{
+    margin: 0 auto 35px;
+    max-width: 680px;
+    width: 100%;
+    -webkit-transition: var(--color-mode-transition);
+    -o-transition: var(--color-mode-transition);
+    transition: var(--color-mode-transition);
+
+    @media screen and (max-width: $desktop){
+        max-width: 1000px;
+    }
+
+    @media screen and (max-width: $tablet){
+        max-width: 486px;
+        margin: 0 auto 25px;
+    }
+
+    @media screen and (max-width: $phablet){
+        padding: 0 20px;
+    }
+}
+
+.post-content summary{
+    cursor: pointer;
+    font-size: 22px;
+    font-weight: 700;
+    color: var(--articleText);
+    font-family: var(--sanserif);
+    margin-bottom: 10px;
+
+    @media screen and (max-width: $phablet){
+        font-size: 19px;
+    }
+}
+
 /**************************************ARTICLE NEXT**************************************/
 
 .footer-next-heading{
