@@ -1,0 +1,9 @@
+sequenceDiagram
+    participant Home Assistant
+    participant Windmill
+    participant Nextcloud
+    participant Tasks.org mobile app
+    Home Assistant->>Windmill: natural language reminder
+    Windmill->>Home Assistant: normalized reminder text & datetime stamp
+    Home Assistant->>Nextcloud: CalDAV
+    Nextcloud->>Tasks.org mobile app: Davx5/UnifiedPush

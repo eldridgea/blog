@@ -4,7 +4,7 @@ categories: ["chromeos", "chromebook", "ssh", "linuxadmin"]
 date: 2016-02-28T04:41:09Z
 excerpt: "What it took to get an SSH bastion host working with ChromeOS clients."
 draft: false
-hero: "/cdn-cgi/image/format=auto/img/6042224090_00eff900ff_b.jpg"
+hero: "https://blog.eldrid.ge/cdn-cgi/image/format=auto/img/6042224090_00eff900ff_b.jpg"
 slug: "proxy-ssh-for-chromeos"
 tags: ["chromeos", "chromebook", "ssh", "linuxadmin"]
 title: "SSH Relay for ChromeOS"

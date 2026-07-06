@@ -3,7 +3,7 @@ author: "Eldridge Alexander"
 date: 2021-04-17
 excerpt: "A weekly post where I try to guess stuff and keep myself honest"
 draft: false
-hero: "/cdn-cgi/image/format=auto/img/crystal-ball.jpg"
+hero: "https://blog.eldrid.ge/cdn-cgi/image/format=auto/img/crystal-ball.jpg"
 slug: "this-weeks-predictions"
 title: "This Week's Predictions"
 authors:

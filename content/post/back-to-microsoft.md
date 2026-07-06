@@ -3,7 +3,7 @@ author: "Eldridge Alexander"
 date: 2020-01-13T12:03:11Z
 excerpt: "Using Windows again so I can use Linux effectively."
 draft: false
-hero: "/cdn-cgi/image/format=auto/img/microsoft-surface.jpg"
+hero: "https://blog.eldrid.ge/cdn-cgi/image/format=auto/img/microsoft-surface.jpg"
 slug: "back-to-microsoft"
 title: "Back to Microsoft"
 authors:
