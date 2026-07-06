@@ -25,6 +25,13 @@ The script separates the reminder from the time and date it shoudl eb set for, a
 
 Home Assistant then sets a Todo using the builtin Home Assistant functionality, with a due date of that ISO 8601 string. The todo list it is configured to use a CalDAV account on my Nextcloud server which is where my calendars and contacts are stored. Once there is is synced down to my phone's Tasks.org app via [DAVx⁵](https://www.davx5.com/). I use my own [ntfy](https://ntfy.sh/) instance along with [UnifiedPush](https://unifiedpush.org/users/distributors/ntfy/) to ensure the reminders are synced to my phone near instantly so reminders I don't have to wait for scheduled sync.
 
+```goat
+graph TD;
+  A[Start] --> B{Decision};
+  B -- Yes --> C[Great];
+  B -- No --> D[Try Again];
+```
+
 
 ### reminder.py
 
