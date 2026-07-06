@@ -1,8 +1,7 @@
 ---
 title: My Reminder System
-date: 2025-03-12
-hero: "/img/postits.jpg"
-# change to # hero: "https://blog.eldrid.ge/cdn-cgi/image/format=auto/img/postits.jpg"
+date: 2027-07-06
+hero: "https://blog.eldrid.ge/cdn-cgi/image/format=auto/img/postits.jpg"
 excerpt: A reminder system that worked for me using Home Assistant, Nextcloud, and CalDAV.
 authors:
   - Eldridge Alexander
