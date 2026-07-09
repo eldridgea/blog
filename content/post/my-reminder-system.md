@@ -85,8 +85,8 @@ def convert(reminder, tz="US/Eastern"):
     reminder = normalize_time(reminder)
     cal = parsedatetime.Calendar()
     tz_info = timezone(tz)
-    datetime_obj, _ = cal.parseDT(datetimeString=reminder, tzinfo=tz_info)
     now = datetime.now(tz=tz_info)
+    datetime_obj, _ = cal.parseDT(datetimeString=reminder, tzinfo=tz_info, sourceTime=now)
     if datetime_obj < now:
         datetime_obj += timedelta(days=1)
     print(datetime_obj)
