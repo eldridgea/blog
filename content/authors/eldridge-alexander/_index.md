@@ -2,6 +2,8 @@
 title: Eldridge Alexander
 bio: |
   Information Security engineer, writer, and trainer. Formerly employed at Duo Labs, Cloudflare and Google. Technologist, magician, designer, musician, videographer, blogger, and avid sweet tea drinker.
+
+  I have not and will not use generative AI (e.g. LLMs) to write or edit anything on this blog. 
 avatar: /img/eldridge_alexander.jpg
 featured: false
 social:
